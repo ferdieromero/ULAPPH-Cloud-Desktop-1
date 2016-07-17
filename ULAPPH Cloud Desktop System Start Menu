@@ -1,6 +1,6 @@
 
         <li class="here">
-         <a href="#page">Simula</a>                                                                                                                                  
+         <a href="#page">Start</a>                                                                                                                                  
          <ul class="sublist">
             <li>
                 <input type="text" id="newJSWM" value="http://" onkeypress="return searchKeyPress(event);" autocomplete="on" autofocus="autofocus"/>
