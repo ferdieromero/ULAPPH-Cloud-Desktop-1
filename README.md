@@ -8,3 +8,10 @@ Go to Admin Setup, edit your System Top List Menu to include the line below on t
     #GET_REMOTE_DATA: https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/ULAPPH%20Cloud%20Desktop%20System%20Start%20Menu
 
 This will make sure your Start Menu gets the latest from Github.
+
+# To create a generic autocomplete list for site guests or when Start Menu cannot be fetched, point GITURL_AUTOCOMP_LIST
+to an autocomplete list in Github.
+
+    GITURL_AUTOCOMP_LIST    https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/AUTOCOMPLETE/general
+
+If you want to refer to a different link, inform the administrator so we can update your installation.
