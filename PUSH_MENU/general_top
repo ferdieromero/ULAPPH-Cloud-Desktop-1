@@ -2,3 +2,9 @@
 <li class="c-menu__item"><a href="http://ulapph-corporation.appspot.com/slides?TYPE=SLIDE&DOC_ID=21&SID=TDSSLIDE-21" class="c-menu__link">Products & Services</a></li>
 <li class="c-menu__item"><a href="http://ulapph-corporation.appspot.com/slides?TYPE=SLIDE&DOC_ID=8&SID=TDSSLIDE-8" class="c-menu__link">Contact Us</a></li-->
 <li class="c-menu__item"><a href="http://ulapph-public-1.appspot.com/articles?TYPE=ARTICLE&DOC_ID=3&SID=TDSARTL-3" class="c-menu__link">Welcome to ULAPPH Cloud Desktop!</a></li>
+<li class="c-menu__item"><a href="/?q=login&LFUNC=guest&TARGET_URL=/login" class="c-menu__link">Guest</a></li>
+<li class="c-menu__item"><a href="/directory?DIR_FUNC=sites" class="c-menu__link">Sites</a></li>
+<li class="c-menu__item"><a href="/directory?DIR_FUNC=people" class="c-menu__link">People</a></li>
+<li class="c-menu__item"><a href="/social?SO_FUNC=show-trending" class="c-menu__link">Trending</a></li>
+<li class="c-menu__item"><a href="/social?SO_FUNC=show-whats-new" class="c-menu__link">What's New!</a></li>
+<li class="c-menu__item"><a href="/search" class="c-menu__link">Search</a></li>
