@@ -1,5 +1,5 @@
     <li class="c-menu__item"><a href="#" class="c-menu__link"><img src="/img/www.png" width=40 height=40 align="left">Home</a></li>
     <li class="c-menu__item"><a href="#" class="c-menu__link"><img src="/img/www.png" width=40 height=40 align="left">About</a></li>
-    <li class="c-menu__item"><a href="#" class="c-menu__link"><img src="/img/www.png" width=40 height=40 align="left">This is a long text for this item. This is a long text for this item. This is a long text for this item</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link"><img src="/img/www.png" width=40 height=40 align="left">Services</a></li>
     <li class="c-menu__item"><a href="#" class="c-menu__link"><img src="/img/www.png" width=40 height=40 align="left">Work</a></li>
     <li class="c-menu__item"><a href="#" class="c-menu__link"><img src="/img/www.png" width=40 height=40 align="left">Contact</a></li>
