@@ -7,7 +7,7 @@
 <li class="c-menu__item"><a href="/?q=login&LFUNC=guest&TARGET_URL=/login" class="c-menu__link">Guest</a></li>
 <li class="c-menu__item"><a href="/directory?DIR_FUNC=sites" class="c-menu__link">Sites</a></li>
 <li class="c-menu__item"><a href="/directory?DIR_FUNC=people" class="c-menu__link">People</a></li>
-<li class="c-menu__item"><a href="https://www.ulapph.com/chat" class="c-menu__link">Chat</a></li>
+<li class="c-menu__item"><a href="http://www.ulapph.com/chat" class="c-menu__link">Chat</a></li>
 <li class="c-menu__item"><a href="/social?SO_FUNC=show-trending" class="c-menu__link">Trending</a></li>
 <li class="c-menu__item"><a href="/social?SO_FUNC=show-whats-new" class="c-menu__link">What's New!</a></li>
 <li class="c-menu__item"><a href="/search" class="c-menu__link">Search</a></li>
