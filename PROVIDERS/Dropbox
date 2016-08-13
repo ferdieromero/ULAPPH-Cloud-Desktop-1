@@ -1,136 +1,50 @@
 <li>
 <a href="#page">Dropbox</a>
 <ul class="sublist">
-<li>
-	<input type="hidden" value="'/desktop0', 500, 300, 'right', 'top', {title: 'D0 - My Ulap', icon: '/img/jswm-desktop.png'}" size="60" id="D0-My Ulap" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D0-My Ulap').value + ');');">My Ulap(0)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=1', 500, 300, 'right', 'top', {title: 'D1 - Life', icon: '/img/jswm-desktop.png'}" size="60" id="D1-Life" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D1-Life').value + ');');">Life(1)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=2', 500, 300, 'right', 'top', {title: 'D2 - Education', icon: '/img/jswm-desktop.png'}" size="60" id="D2-Education" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D2-Education').value + ');');">Education(2)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=3', 500, 300, 'right', 'top', {title: 'D3 - Career', icon: '/img/jswm-desktop.png'}" size="60" id="D3-Career" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D3-Career').value + ');');">Career(3)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=4', 500, 300, 'right', 'top', {title: 'D4 - Personal', icon: '/img/jswm-desktop.png'}" size="60" id="D4-Personal" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D4-Personal').value + ');');">Personal(4)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=5', 500, 300, 'right', 'top', {title: 'D5 - Ancestry', icon: '/img/jswm-desktop.png'}" size="60" id="D5-Ancestry" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D5-Ancestry').value + ');');">Ancestry(5)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=6', 500, 300, 'right', 'top', {title: 'D6 - Awards', icon: '/img/jswm-desktop.png'}" size="60" id="D6-Awards" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D6-Awards').value + ');');">Awards(6)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=7', 500, 300, 'right', 'top', {title: 'D7 - Inventions', icon: '/img/jswm-desktop.png'}" size="60" id="D7-Inventions" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D7-Inventions').value + ');');">Inventions(7)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=8', 500, 300, 'right', 'top', {title: 'D8 - Research', icon: '/img/jswm-desktop.png'}" size="60" id="D8-Research" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D8-Research').value + ');');">Research(8)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=9', 500, 300, 'right', 'top', {title: 'D9 - Toastmasters', icon: '/img/jswm-desktop.png'}" size="60" id="D9-Toastmasters" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D9-Toastmasters').value + ');');">Toastmasters(9)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=10', 500, 300, 'right', 'top', {title: 'D10 - Teaching', icon: '/img/jswm-desktop.png'}" size="60" id="D10-Teaching" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D10-Teaching').value + ');');">Teaching(10)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=11', 500, 300, 'right', 'top', {title: 'D11 - Companies', icon: '/img/jswm-desktop.png'}" size="60" id="D11-Companies" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D11-Companies').value + ');');">Companies(11)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=12', 500, 300, 'right', 'top', {title: 'D12 - Travels', icon: '/img/jswm-desktop.png'}" size="60" id="D12-Travels" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D12-Travels').value + ');');">Travels(12)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=13', 500, 300, 'right', 'top', {title: 'D13 - Books', icon: '/img/jswm-desktop.png'}" size="60" id="D13-Books" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D13-Books').value + ');');">Books(13)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=14', 500, 300, 'right', 'top', {title: 'D14 - Government', icon: '/img/jswm-desktop.png'}" size="60" id="D14-Government" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D14-Government').value + ');');">Government(14)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=15', 500, 300, 'right', 'top', {title: 'D15 - Citizenship', icon: '/img/jswm-desktop.png'}" size="60" id="D15-Citizenship" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D15-Citizenship').value + ');');">Citizenship(15)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=16', 500, 300, 'right', 'top', {title: 'D16 - Certifications', icon: '/img/jswm-desktop.png'}" size="60" id="D16-Certifications" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D16-Certifications').value + ');');">Certifications(16)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=17', 500, 300, 'right', 'top', {title: 'D17 - Societies', icon: '/img/jswm-desktop.png'}" size="60" id="D17-Societies" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D17-Societies').value + ');');">Societies(17)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=18', 500, 300, 'right', 'top', {title: 'D18 - Mentors', icon: '/img/jswm-desktop.png'}" size="60" id="D18-Mentors" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D18-Mentors').value + ');');">Mentors(18)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=19', 500, 300, 'right', 'top', {title: 'D19 - Tips&Tricks', icon: '/img/jswm-desktop.png'}" size="60" id="D19-Tips&Tricks" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D19-Tips&Tricks').value + ');');">Tips&Tricks(19)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=20', 500, 300, 'right', 'top', {title: 'D20 - Legacy', icon: '/img/jswm-desktop.png'}" size="60" id="D20-Legacy" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D20-Legacy').value + ');');">Legacy(20)</a></li>
-<li class="divider"></li>
-</ul>
-</li>
-<li>
-<a href="#page">Dropbox2</a>
-<ul class="sublist">
-<li>
-	<input type="hidden" value="'/desktop0', 500, 300, 'right', 'top', {title: 'D0 - My Ulap', icon: '/img/jswm-desktop.png'}" size="60" id="D0-My Ulap" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D0-My Ulap').value + ');');">My Ulap(0)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=1', 500, 300, 'right', 'top', {title: 'D1 - Life', icon: '/img/jswm-desktop.png'}" size="60" id="D1-Life" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D1-Life').value + ');');">Life(1)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=2', 500, 300, 'right', 'top', {title: 'D2 - Education', icon: '/img/jswm-desktop.png'}" size="60" id="D2-Education" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D2-Education').value + ');');">Education(2)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=3', 500, 300, 'right', 'top', {title: 'D3 - Career', icon: '/img/jswm-desktop.png'}" size="60" id="D3-Career" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D3-Career').value + ');');">Career(3)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=4', 500, 300, 'right', 'top', {title: 'D4 - Personal', icon: '/img/jswm-desktop.png'}" size="60" id="D4-Personal" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D4-Personal').value + ');');">Personal(4)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=5', 500, 300, 'right', 'top', {title: 'D5 - Ancestry', icon: '/img/jswm-desktop.png'}" size="60" id="D5-Ancestry" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D5-Ancestry').value + ');');">Ancestry(5)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=6', 500, 300, 'right', 'top', {title: 'D6 - Awards', icon: '/img/jswm-desktop.png'}" size="60" id="D6-Awards" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D6-Awards').value + ');');">Awards(6)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=7', 500, 300, 'right', 'top', {title: 'D7 - Inventions', icon: '/img/jswm-desktop.png'}" size="60" id="D7-Inventions" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D7-Inventions').value + ');');">Inventions(7)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=8', 500, 300, 'right', 'top', {title: 'D8 - Research', icon: '/img/jswm-desktop.png'}" size="60" id="D8-Research" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D8-Research').value + ');');">Research(8)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=9', 500, 300, 'right', 'top', {title: 'D9 - Toastmasters', icon: '/img/jswm-desktop.png'}" size="60" id="D9-Toastmasters" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D9-Toastmasters').value + ');');">Toastmasters(9)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=10', 500, 300, 'right', 'top', {title: 'D10 - Teaching', icon: '/img/jswm-desktop.png'}" size="60" id="D10-Teaching" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D10-Teaching').value + ');');">Teaching(10)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=11', 500, 300, 'right', 'top', {title: 'D11 - Companies', icon: '/img/jswm-desktop.png'}" size="60" id="D11-Companies" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D11-Companies').value + ');');">Companies(11)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=12', 500, 300, 'right', 'top', {title: 'D12 - Travels', icon: '/img/jswm-desktop.png'}" size="60" id="D12-Travels" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D12-Travels').value + ');');">Travels(12)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=13', 500, 300, 'right', 'top', {title: 'D13 - Books', icon: '/img/jswm-desktop.png'}" size="60" id="D13-Books" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D13-Books').value + ');');">Books(13)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=14', 500, 300, 'right', 'top', {title: 'D14 - Government', icon: '/img/jswm-desktop.png'}" size="60" id="D14-Government" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D14-Government').value + ');');">Government(14)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=15', 500, 300, 'right', 'top', {title: 'D15 - Citizenship', icon: '/img/jswm-desktop.png'}" size="60" id="D15-Citizenship" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D15-Citizenship').value + ');');">Citizenship(15)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=16', 500, 300, 'right', 'top', {title: 'D16 - Certifications', icon: '/img/jswm-desktop.png'}" size="60" id="D16-Certifications" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D16-Certifications').value + ');');">Certifications(16)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=17', 500, 300, 'right', 'top', {title: 'D17 - Societies', icon: '/img/jswm-desktop.png'}" size="60" id="D17-Societies" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D17-Societies').value + ');');">Societies(17)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=18', 500, 300, 'right', 'top', {title: 'D18 - Mentors', icon: '/img/jswm-desktop.png'}" size="60" id="D18-Mentors" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D18-Mentors').value + ');');">Mentors(18)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=19', 500, 300, 'right', 'top', {title: 'D19 - Tips&Tricks', icon: '/img/jswm-desktop.png'}" size="60" id="D19-Tips&Tricks" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D19-Tips&Tricks').value + ');');">Tips&Tricks(19)</a></li>
-<li class="divider"></li>
-<li>
-	<input type="hidden" value="'/desktop?d=20', 500, 300, 'right', 'top', {title: 'D20 - Legacy', icon: '/img/jswm-desktop.png'}" size="60" id="D20-Legacy" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D20-Legacy').value + ');');">Legacy(20)</a></li>
-<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="window.open('http://outlook.com','_blank'); return false">Login</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/recents', 'Dropbox Recent' ); return false">Dropbox Recent</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/home', 'Dropbox Files' ); return false">Dropbox Files</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/team?_tk=left_nav_team', 'Dropbox Team' ); return false">Dropbox Team</a>
+	</li>
+	<li class="divider"></li>
+	
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/paper?_tk=left_nav_paper', 'Dropbox Paper' ); return false">Dropbox Paper</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://photos.dropbox.com/app/timeline', 'Dropbox Photos' ); return false">Dropbox Photos</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/share', 'Dropbox Sharing' ); return false">Dropbox Sharing</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/links', 'Dropbox Links' ); return false">Dropbox Links</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/events', 'Dropbox Events' ); return false">Dropbox Events</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/requests', 'File Requests' ); return false">File Requests</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('https://www.dropbox.com/deleted_files', 'Deleted Files' ); return false">Deleted Files</a>
+	</li>
+	<li class="divider"></li>
 </ul>
 </li>
