@@ -1,5 +1,5 @@
 <li>
-<a href="#page">Office</a>
+<a href="#page">Microsoft Office</a>
 <ul class="sublist">
 	<li>
 		<a href="#page" onclick="window.open('http://outlook.com','_blank'); return false">Login</a>
