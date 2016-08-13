@@ -1,5 +1,5 @@
 <li>
-<a href="#page">Google Office</a>
+<a href="#page">Office</a>
 <ul class="sublist">
 	<li>
 		<a href="#page" onclick="window.open('http://gmail.google.com','_blank'); return false">Login</a>
@@ -62,7 +62,7 @@
 </li>
 
 <li>
-<a href="#page">Google Applications</a>
+<a href="#page">Applications</a>
 <ul class="sublist">
 	<li>
 		<a href="#page" onclick="window.open('http://gmail.google.com','_blank'); return false">Login</a>
@@ -164,7 +164,7 @@
 </li>
 
 <li>
-<a href="#page">Google Developers</a>
+<a href="#page">Developers</a>
 <ul class="sublist">
 	<li>
 		<a href="#page" onclick="openWindow('http://console.cloud.google.com/cloudshell', 'Google Shell' ); return false">Google Shell</a>
