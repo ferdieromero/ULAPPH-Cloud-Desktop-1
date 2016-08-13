@@ -1,0 +1,172 @@
+            <li>Google Applications 1                                                                                                                                                    
+              <span class="arrow"></span>
+                <ul class="sublist-menu">
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com.ph/', 'GoogleSearch' ); return false">Google Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://scholar.google.com.ph/', 'GoogleScholar' ); return false">Google Scholar</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.youtube.com/', 'Youtube' ); return false">Google Youtube</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://books.google.com', 'Google Books' ); return false">Google Books</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://maps.google.com', 'Google Maps' ); return false">Google Maps</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://plus.google.com', 'Google Plus' ); return false">Google Plus</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://news.google.com', 'Google News' ); return false">Google News</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://play.google.com/store?hl=en', 'Google Play' ); return false">Google Play</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com/wallet/', 'Google Wallet' ); return false">Google Wallet</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com/shopping?hl=en', 'Google Shopping' ); return false">Google Shopping</a>
+    				</li>
+					<li class="divider"></li>    
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com/finance', 'Google Finance' ); return false">Google Finance</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://photos.google.com/', 'Google Photos' ); return false">Google Photos</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.panoramio.com/', 'Panoramio' ); return false">Panoramio</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.blogger.com/', 'Blogger' ); return false">Blogger</a>
+    				</li>
+					<li class="divider"></li>
+
+					
+                </ul>
+            </li>
+            
+            <li class="divider"></li>
+            
+            <li>Google Applications 2                                                                                                                                                     
+              <span class="arrow"></span>
+                <ul class="sublist-menu">
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com.ph/earth/', 'Google Earth' ); return false">Google Earth</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com.ph/maps/streetview/', 'Google StreetView' ); return false">Google StreetView</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com.ph/trends', 'Google Trends' ); return false">Google Trends</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://sites.google.com/?pli=1', 'Google Sites' ); return false">Google Sites</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://translate.google.com.ph/', 'Google Translate' ); return false">Google Translate</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://groups.google.com', 'Google Groups' ); return false">Google Groups</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://hangouts.google.com', 'Google Hangouts' ); return false">Google Hangouts</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com/sky/', 'Google Sky' ); return false">Google Sky</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com.ph/intl/en/about/products/', 'All Google Products' ); return false">All Google Products</a>
+    				</li>
+					<li class="divider"></li>
+					
+					
+                </ul>
+            </li>
+            
+            <li class="divider"></li>
+            
+            <li>Google Office                                                                                                                                                     
+              <span class="arrow"></span>
+                <ul class="sublist-menu">
+    				<li>
+    					<a href="#page" onclick="openWindow('http://mail.google.com/mail/u/0/x/', 'Gmail Mobile' ); return false">Google Gmail(M)</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="window.open('https://gmail.google.com/','_blank'); return false">Google Gmail(F) </a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://keep.google.com', 'Google Keep' ); return false">Google Keep</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick=""window.open('http://calendar.google.com/', 'Calendar' ); return false">Google Calendar(F)</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://contacts.google.com', 'Google Contacts' ); return false">Google Contacts</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://drive.google.com/?authuser=0#my-drive', 'GoogleDrive' ); return false">Google Drive</a>
+    				</li>
+					<li class="divider"></li> 
+    				<li>
+    					<a href="#page" onclick="openWindow('http://docs.google.com/document/u/0/', 'Google Docs' ); return false">Google Docs</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://docs.google.com/presentation/u/0/', 'Google Slides' ); return false">Google Slides</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://docs.google.com/drawings', 'Google Drawings' ); return false">Google Drawings</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					<a href="#page" onclick="openWindow('http://docs.google.com/spreadsheets/u/0/', 'Google Sheets' ); return false">Google Sheets</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://docs.google.com/forms/', 'Google Forms' ); return false">Google Forms</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://www.google.com/cloudprint', 'Google Print' ); return false">Google Print</a>
+    				</li>
+					<li class="divider"></li>  
+    				<li>
+    					<a href="#page" onclick="openWindow('http://opo.ulapph.com/slides?TYPE=SLIDE&DOC_ID=180&SID=TDSSLIDE-180', 'Everything Google...' ); return false">Everything Google...</a>
+    				</li>
+					<li class="divider"></li>
+					
+                </ul>
+            </li>
+            
+            <li class="divider"></li>
