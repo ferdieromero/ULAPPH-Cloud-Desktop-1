@@ -1,5 +1,5 @@
 <li>
-<a href="#page">Microsoft</a>
+<a href="#page">Office</a>
 <ul class="sublist">
 	<li>
 		<a href="#page" onclick="window.open('http://outlook.com','_blank'); return false">Login</a>
@@ -36,6 +36,20 @@
 	<li class="divider"></li>
 	<li>
 		<a href="#page" onclick="openWindow('http://www.onenote.com/notebooks', 'Microsoft notebooks' ); return false">One Note</a>
+	</li>
+	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="openWindow('http://docs.com/en-us?entrypointid=1', 'Microsoft docs' ); return false">Docs.com</a>
+	</li>
+	<li class="divider"></li>
+</ul>
+</li>
+
+<li>
+<a href="#page">Applications</a>
+<ul class="sublist">
+	<li>
+		<a href="#page" onclick="window.open('http://outlook.com','_blank'); return false">Login</a>
 	</li>
 	<li class="divider"></li>
 	<li>
