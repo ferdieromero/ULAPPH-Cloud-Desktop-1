@@ -67,7 +67,7 @@
 </ul>
 </li>
 <li>
-<a href="#page">Desktops</a>
+<a href="#page">Google2</a>
 <ul class="sublist">
 <li>
 	<input type="hidden" value="'/desktop0', 500, 300, 'right', 'top', {title: 'D0 - My Ulap', icon: '/img/jswm-desktop.png'}" size="60" id="D0-My Ulap" />	<a href="#page" onclick="eval('windowManager.openURI(' + $('D0-My Ulap').value + ');');">My Ulap(0)</a></li>
