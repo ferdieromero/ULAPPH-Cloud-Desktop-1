@@ -2,7 +2,7 @@
 <a href="#page">Dropbox</a>
 <ul class="sublist">
 	<li>
-		<a href="#page" onclick="window.open('ttps://photos.dropbox.com/app/timeline','_blank'); return false">Login</a>
+		<a href="#page" onclick="window.open('https://photos.dropbox.com/app/timeline','_blank'); return false">Login</a>
 	</li>
 	<li class="divider"></li>
 	<li>
