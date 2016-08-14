@@ -7,6 +7,6 @@
 <li class="c-menu__item"><a href="/directory?DIR_FUNC=sites" class="c-menu__link">Sites</a></li>
 <li class="c-menu__item"><a href="/directory?DIR_FUNC=people" class="c-menu__link">People</a></li>
 <li class="c-menu__item"><a href="/search" class="c-menu__link">Search</a></li>
-<li class="c-menu__item"><a href="http://www.ulapph.com/chat" class="c-menu__link">Support</a></li>
+<li class="c-menu__item"><a href="http://www.ulapph.com/chat?CHAT_FUNC=newChatRoom&INVITE=ulapph@gmail.com" class="c-menu__link">Support</a></li>
 <li class="c-menu__item"><a href="https://ulapph.slack.com/" class="c-menu__link">Slack</a></li>
 <li class="c-menu__item"><a href="http://ulapph-public-1.appspot.com/articles?TYPE=ARTICLE&DOC_ID=3&SID=TDSARTL-3" class="c-menu__link">Powered by ULAPPH Cloud Desktop</a></li>
