@@ -18,7 +18,7 @@
 	</li>
 	<li class="divider"></li>  
 	<li>
-		<a href="#page" onclick=""window.open('http://calendar.google.com/', 'Calendar' ); return false">Google Calendar(F)</a>
+		<a href="#page" onclick="window.open('http://calendar.google.com/', 'Calendar' ); return false">Google Calendar(F)</a>
 	</li>
 	<li class="divider"></li>
 	<li>
