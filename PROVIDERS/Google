@@ -57,6 +57,10 @@
 		<a href="#page" onclick="openWindow('http://opo.ulapph.com/slides?TYPE=SLIDE&DOC_ID=180&SID=TDSSLIDE-180', 'Everything Google...' ); return false">Everything Google...</a>
 	</li>
 	<li class="divider"></li>
+	<li>
+		<a href="#page" onclick="window.open('https://myaccount.google.com/','_blank'); return false">Manage Account</a>
+	</li>
+	<li class="divider"></li>
 					
 </ul>
 </li>
@@ -209,6 +213,6 @@
 	<li>
 		<a href="#page" onclick="openWindow('http://console.cloud.google.com/storage/browser', 'Cloud Storage' ); return false">Cloud Storage</a>
 	</li>
-	<li class="divider"></li>				
+	<li class="divider"></li>
 </ul>
 </li>
