@@ -3,7 +3,7 @@
          <a href="#page">Start</a>                                                                                                                                  
          <ul class="sublist">
             <li>
-                <input type="text" id="newJSWM" value="http://" onkeypress="return searchKeyPress(event);" autocomplete="on" autofocus="autofocus"/>
+                <input type="text" id="newJSWM" value="https://" onkeypress="return searchKeyPress(event);" autocomplete="on" autofocus="autofocus"/>
             </li>
             <li>
                 <input type="button" value="New Window" id="btnSearch" onclick="newJSWMWindow();" />
@@ -70,6 +70,11 @@
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myURLs').value + ');');">My URL Fetcher</a>
     				</li>
     				<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_SHORTCUTS&UID=', 500, 300, 'right', 'top', {title: 'My Shortcuts', icon: '/img/jswm-web.png'}" size="60" id="myShorts" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('myShorts').value + ');');">My Shortcuts</a>
+    				</li>
+    				<li class="divider"></li>
                 </ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
             </li>
             <li class="divider"></li>
@@ -78,7 +83,7 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'http://hereistoday.com/', 500, 300, 'right', 'top', {title: 'Here is Today', icon: '/img/jswm-web.png'}" size="60" id="heretoday" />
+    					 <input type="hidden" value="'https://hereistoday.com/', 500, 300, 'right', 'top', {title: 'Here is Today', icon: '/img/jswm-web.png'}" size="60" id="heretoday" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('heretoday').value + ');');">Here is Today</a>
     				</li>
 					<li class="divider"></li>
@@ -146,111 +151,111 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
 				<li>
-					<a href="#page" onclick="openWindow('http://funhtml5games.com/', 'HTML5 Games' ); return false">HTML5 Games</a>
+					<a href="#page" onclick="openWindow('https://funhtml5games.com/', 'HTML5 Games' ); return false">HTML5 Games</a>
 				</li>
 				<li class="divider"></li>                 
 				<li>
-					<a href="#page" onclick="openWindow('http://mario5.florian-rappl.de/', 'Super Mario' ); return false">Super Mario</a>
+					<a href="#page" onclick="openWindow('https://mario5.florian-rappl.de/', 'Super Mario' ); return false">Super Mario</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.flightarcade.com/', 'Flight Simulator' ); return false">Flight Simulator</a>
+					<a href="#page" onclick="openWindow('https://www.flightarcade.com/', 'Flight Simulator' ); return false">Flight Simulator</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://ondras.github.io/custom-tetris/', 'Tetris' ); return false">Tetris</a>
+					<a href="#page" onclick="openWindow('https://ondras.github.io/custom-tetris/', 'Tetris' ); return false">Tetris</a>
 				</li>
 				<li class="divider"></li>  
 				<li>
-					<a href="#page" onclick="openWindow('http://gabrielecirulli.github.io/2048/', '2048' ); return false">2048</a>
+					<a href="#page" onclick="openWindow('https://gabrielecirulli.github.io/2048/', '2048' ); return false">2048</a>
 				</li>
 				<li class="divider"></li>                 
 				<li>
-					<a href="#page" onclick="openWindow('http://hexgl.bkcore.com/play/', 'HexGL Racing' ); return false">HexGL Racing</a>
+					<a href="#page" onclick="openWindow('https://hexgl.bkcore.com/play/', 'HexGL Racing' ); return false">HexGL Racing</a>
 				</li>
 				<li class="divider"></li>                 
 				<li>
-					<a href="#page" onclick="openWindow('http://realtime-cube.appspot.com', 'Rubix Cube' ); return false">Rubix Cube</a>
+					<a href="#page" onclick="openWindow('https://realtime-cube.appspot.com', 'Rubix Cube' ); return false">Rubix Cube</a>
 				</li>
 				<li class="divider"></li>                
 				<li>
-					<a href="#page" onclick="openWindow('http://ellisonleao.github.io/clumsy-bird/', 'clumsybird' ); return false">Clumsy Bird</a>
+					<a href="#page" onclick="openWindow('https://ellisonleao.github.io/clumsy-bird/', 'clumsybird' ); return false">Clumsy Bird</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://ludo.abiosoft.net/', 'Ludo Game' ); return false">Ludo Game</a>
+					<a href="#page" onclick="openWindow('https://ludo.abiosoft.net/', 'Ludo Game' ); return false">Ludo Game</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://dataarts.github.io/drivechess', 'Drive Chess' ); return false">Drive Chess</a>
+					<a href="#page" onclick="openWindow('https://dataarts.github.io/drivechess', 'Drive Chess' ); return false">Drive Chess</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://blockly-games.appspot.com/', 'Blockly' ); return false">Blockly</a>
+					<a href="#page" onclick="openWindow('https://blockly-games.appspot.com/', 'Blockly' ); return false">Blockly</a>
 				</li>
 					<li class="divider"></li> 
 				<li>
-					<a href="#page" onclick="openWindow('http://www.miniclip.com/games/motherload/en/', 'Motherload' ); return false">Motherload</a>
+					<a href="#page" onclick="openWindow('https://www.miniclip.com/games/motherload/en/', 'Motherload' ); return false">Motherload</a>
 				</li>
 					<li class="divider"></li> 
 				<li>
-					<a href="#page" onclick="openWindow('http://adarkroom.doublespeakgames.com/', 'Dark Room' ); return false">Dark Room</a>
+					<a href="#page" onclick="openWindow('https://adarkroom.doublespeakgames.com/', 'Dark Room' ); return false">Dark Room</a>
 				</li>
 					<li class="divider"></li>  
 				<li>
-					<a href="#page" onclick="openWindow('http://dukope.com/play.php?g=uns', 'Unsolicited' ); return false">Unsolicited</a>
+					<a href="#page" onclick="openWindow('https://dukope.com/play.php?g=uns', 'Unsolicited' ); return false">Unsolicited</a>
 				</li>
 					<li class="divider"></li>  
 				<li>
-					<a href="#page" onclick="openWindow('http://wizardofwor.krissz.hu/', 'Wizard of Wor' ); return false">Wizard of Wor</a>
+					<a href="#page" onclick="openWindow('https://wizardofwor.krissz.hu/', 'Wizard of Wor' ); return false">Wizard of Wor</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.kongregate.com/games/sushistory/10-bullets', '10 Bullets' ); return false">10 Bullets</a>
+					<a href="#page" onclick="openWindow('https://www.kongregate.com/games/sushistory/10-bullets', '10 Bullets' ); return false">10 Bullets</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.playalterego.com/', 'Alter Ego' ); return false">Alter Ego</a>
+					<a href="#page" onclick="openWindow('https://www.playalterego.com/', 'Alter Ego' ); return false">Alter Ego</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://orteil.dashnet.org/cookieclicker/', 'Cookie Clicker' ); return false">Cookie Clicker</a>
+					<a href="#page" onclick="openWindow('https://orteil.dashnet.org/cookieclicker/', 'Cookie Clicker' ); return false">Cookie Clicker</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.nitrome.com/games/wormfood/#.UmDq-JT0YqQ', 'Wormfood' ); return false">Wormfood</a>
+					<a href="#page" onclick="openWindow('https://www.nitrome.com/games/wormfood/#.UmDq-JT0YqQ', 'Wormfood' ); return false">Wormfood</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://godswillbewatching.clay.io/', 'Gods Will Be Watching' ); return false">Gods Will Be Watching</a>
+					<a href="#page" onclick="openWindow('https://godswillbewatching.clay.io/', 'Gods Will Be Watching' ); return false">Gods Will Be Watching</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://games.adultswim.com/hrmageddon-puzzle-online-game.html', 'HRMageddon' ); return false">HRMageddon</a>
+					<a href="#page" onclick="openWindow('https://games.adultswim.com/hrmageddon-puzzle-online-game.html', 'HRMageddon' ); return false">HRMageddon</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.kongregate.com/games/mike_id/doom-1', 'Doom' ); return false">Doom</a>
+					<a href="#page" onclick="openWindow('https://www.kongregate.com/games/mike_id/doom-1', 'Doom' ); return false">Doom</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.kongregate.com/games/DarkRealmStudios/pandemic-2', 'Pandemic' ); return false">Pandemic</a>
+					<a href="#page" onclick="openWindow('https://www.kongregate.com/games/DarkRealmStudios/pandemic-2', 'Pandemic' ); return false">Pandemic</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.kongregate.com/games/dampgnat/wonderputt', 'Wonderputt' ); return false">Wonderputt</a>
+					<a href="#page" onclick="openWindow('https://www.kongregate.com/games/dampgnat/wonderputt', 'Wonderputt' ); return false">Wonderputt</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://armorgames.com/play/1128/', 'Desktop Tower Defense' ); return false">Desktop Tower Defense</a>
+					<a href="#page" onclick="openWindow('https://armorgames.com/play/1128/', 'Desktop Tower Defense' ); return false">Desktop Tower Defense</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://www.cuttherope.net/', 'Cut The Rope' ); return false">Cut The Rope</a>
+					<a href="#page" onclick="openWindow('https://www.cuttherope.net/', 'Cut The Rope' ); return false">Cut The Rope</a>
 				</li>
 					<li class="divider"></li>
 				<li>
-					<a href="#page" onclick="openWindow('http://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=48&SID=TDSSLIDE-48', 'All Browser Games...' ); return false">All Browser Games</a>
+					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=48&SID=TDSSLIDE-48', 'All Browser Games...' ); return false">All Browser Games</a>
 				</li>
 					<li class="divider"></li>
 
@@ -283,12 +288,12 @@
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'http://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'right', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren1" />
+					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'right', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren1" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('utren1').value + ');');">ULAPPH Trending</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'http://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'right', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew1" />
+					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'right', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew1" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('unew1').value + ');');">ULAPPH WhatsNew</a>
 				</li>
 				<li class="divider"></li>
@@ -313,8 +318,18 @@
 				</li>
 				<li class="divider"></li>
 				<li>
+					<input type="hidden" value="'/infodb?DB_FUNC=SLIDES&CATEGORY=desktop0&VIEW=RECENT', 500, 300, 'right', 'top', {title: 'Slides - Recent', icon: '/img/jswm-web.png'}" size="60" id="slidesR" />
+					<a href="#page" onclick="eval('windowManager.openURI(' + $('slidesR').value + ');');">Slides - Recent</a>
+				</li>
+				<li class="divider"></li>
+				<li>
 					<input type="hidden" value="'/articles', 500, 300, 'right', 'top', {title: 'Articles', icon: '/img/jswm-web.png'}" size="60" id="articles" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('articles').value + ');');">Articles</a>
+				</li>
+				<li class="divider"></li>
+				<li>
+					<input type="hidden" value="'/infodb?DB_FUNC=ARTICLES&CATEGORY=desktop0&VIEW=RECENT', 500, 300, 'right', 'top', {title: 'Articles - Recent', icon: '/img/jswm-web.png'}" size="60" id="articlesR" />
+					<a href="#page" onclick="eval('windowManager.openURI(' + $('articlesR').value + ');');">Articles - Recent</a>
 				</li>
 				<li class="divider"></li>
 				<li>
@@ -322,6 +337,12 @@
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('media').value + ');');">Media</a>
 				</li>
 				<li class="divider"></li>
+				<li>
+					<input type="hidden" value="'/infodb?DB_FUNC=MEDIA&CATEGORY=ALL_RECENT', 500, 300, 'right', 'top', {title: 'Media - Recent', icon: '/img/jswm-web.png'}" size="60" id="mediaR" />
+					<a href="#page" onclick="eval('windowManager.openURI(' + $('mediaR').value + ');');">Media - Recent</a>
+				</li>
+				<li class="divider"></li>
+
 				<li>
 					 <input type="hidden" value="'/stream', 500, 300, 'right', 'top', {title: 'Stream', icon: '/img/jswm-web.png'}" size="60" id="stream" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('stream').value + ');');">Stream</a>
@@ -446,7 +467,7 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://deepumohan.com/projects/word-count/', 500, 300, 'right', 'top', {title: 'Word Counter', icon: '/img/jswm-web.png'}" size="60" id="wctr" />
+    					 <input type="hidden" value="'https://deepumohan.com/projects/word-count/', 500, 300, 'right', 'top', {title: 'Word Counter', icon: '/img/jswm-web.png'}" size="60" id="wctr" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wctr').value + ');');">Word Counter</a>
     				</li>
 					<li class="divider"></li>
@@ -484,72 +505,72 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop1', 500, 300, 'right', 'top', {title: 'Games', icon: '/img/jswm-web.png'}" size="60" id="Games" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop1', 500, 300, 'right', 'top', {title: 'Games', icon: '/img/jswm-web.png'}" size="60" id="Games" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Games').value + ');');">Games</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop2', 500, 300, 'right', 'top', {title: 'Movies', icon: '/img/jswm-web.png'}" size="60" id="Movies" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop2', 500, 300, 'right', 'top', {title: 'Movies', icon: '/img/jswm-web.png'}" size="60" id="Movies" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Movies').value + ');');">Movies</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop3', 500, 300, 'right', 'top', {title: 'Funny', icon: '/img/jswm-web.png'}" size="60" id="Funny" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop3', 500, 300, 'right', 'top', {title: 'Funny', icon: '/img/jswm-web.png'}" size="60" id="Funny" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Funny').value + ');');">Funny</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop5', 500, 300, 'right', 'top', {title: 'Banks', icon: '/img/jswm-web.png'}" size="60" id="Banks" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop5', 500, 300, 'right', 'top', {title: 'Banks', icon: '/img/jswm-web.png'}" size="60" id="Banks" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Banks').value + ');');">Banks</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop10', 500, 300, 'right', 'top', {title: 'Learn', icon: '/img/jswm-web.png'}" size="60" id="Learn" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop10', 500, 300, 'right', 'top', {title: 'Learn', icon: '/img/jswm-web.png'}" size="60" id="Learn" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Learn').value + ');');">Learn</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop11', 500, 300, 'right', 'top', {title: 'Health', icon: '/img/jswm-web.png'}" size="60" id="Health" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop11', 500, 300, 'right', 'top', {title: 'Health', icon: '/img/jswm-web.png'}" size="60" id="Health" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Health').value + ');');">Health</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop12', 500, 300, 'right', 'top', {title: 'Fitness', icon: '/img/jswm-web.png'}" size="60" id="Fitness" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop12', 500, 300, 'right', 'top', {title: 'Fitness', icon: '/img/jswm-web.png'}" size="60" id="Fitness" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Fitness').value + ');');">Fitness</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop14', 500, 300, 'right', 'top', {title: 'Jobs', icon: '/img/jswm-web.png'}" size="60" id="Jobs" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop14', 500, 300, 'right', 'top', {title: 'Jobs', icon: '/img/jswm-web.png'}" size="60" id="Jobs" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Jobs').value + ');');">Jobs</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop17', 500, 300, 'right', 'top', {title: 'Travel', icon: '/img/jswm-web.png'}" size="60" id="Travel" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop17', 500, 300, 'right', 'top', {title: 'Travel', icon: '/img/jswm-web.png'}" size="60" id="Travel" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Travel').value + ');');">Travel</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop19', 500, 300, 'right', 'top', {title: 'Sports', icon: '/img/jswm-web.png'}" size="60" id="Sports" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop19', 500, 300, 'right', 'top', {title: 'Sports', icon: '/img/jswm-web.png'}" size="60" id="Sports" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Sports').value + ');');">Sports</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop15', 500, 300, 'right', 'top', {title: 'Business', icon: '/img/jswm-web.png'}" size="60" id="Business" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop15', 500, 300, 'right', 'top', {title: 'Business', icon: '/img/jswm-web.png'}" size="60" id="Business" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Business').value + ');');">Business</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop201', 500, 300, 'right', 'top', {title: 'DIY', icon: '/img/jswm-web.png'}" size="60" id="DIY" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop201', 500, 300, 'right', 'top', {title: 'DIY', icon: '/img/jswm-web.png'}" size="60" id="DIY" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('DIY').value + ');');">DIY</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/contents?q=desktop301', 500, 300, 'right', 'top', {title: 'Food', icon: '/img/jswm-web.png'}" size="60" id="Food" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop301', 500, 300, 'right', 'top', {title: 'Food', icon: '/img/jswm-web.png'}" size="60" id="Food" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Food').value + ');');">Food</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=1&SID=TDSSLIDE-1', 500, 300, 'right', 'top', {title: 'More...', icon: '/img/jswm-web.png'}" size="60" id="More" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=1&SID=TDSSLIDE-1', 500, 300, 'right', 'top', {title: 'More...', icon: '/img/jswm-web.png'}" size="60" id="More" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('More').value + ');');">More...</a>
     				</li>
 					<li class="divider"></li>
@@ -578,22 +599,22 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://html5-demos.appspot.com/static/getusermedia/photobooth.html', 500, 300, 'right', 'bottom', {title: 'Live Photobooth', icon: '/img/jswm-web.png'}" size="60" id="lph" />
+    					 <input type="hidden" value="'https://html5-demos.appspot.com/static/getusermedia/photobooth.html', 500, 300, 'right', 'bottom', {title: 'Live Photobooth', icon: '/img/jswm-web.png'}" size="60" id="lph" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('lph').value + ');');">Live Photobooth</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://webcamtoy.com/', 500, 300, 'right', 'bottom', {title: 'Webcam Toy', icon: '/img/jswm-web.png'}" size="60" id="wct" />
+    					 <input type="hidden" value="'https://webcamtoy.com/', 500, 300, 'right', 'bottom', {title: 'Webcam Toy', icon: '/img/jswm-web.png'}" size="60" id="wct" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wct').value + ');');">Webcam Toy</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.soundstep.com/blog/experiments/jsdetection/', 500, 300, 'right', 'bottom', {title: 'Magic Xylophone', icon: '/img/jswm-web.png'}" size="60" id="mxy" />
+    					 <input type="hidden" value="'https://www.soundstep.com/blog/experiments/jsdetection/', 500, 300, 'right', 'bottom', {title: 'Magic Xylophone', icon: '/img/jswm-web.png'}" size="60" id="mxy" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('mxy').value + ');');">Magic Xylophone</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://time.is', 500, 300, 'right', 'bottom', {title: 'Time.is', icon: '/img/jswm-web.png'}" size="60" id="wotime" />
+    					 <input type="hidden" value="'https://time.is', 500, 300, 'right', 'bottom', {title: 'Time.is', icon: '/img/jswm-web.png'}" size="60" id="wotime" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wotime').value + ');');">Time.is</a>
     				</li>
 					<li class="divider"></li>
@@ -603,12 +624,12 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://oras.pagasa.dost.gov.ph/widget.shtml', 250, 100, 'right', 'bottom', {title: 'Philippine Time', icon: '/img/jswm-web.png'}" size="60" id="phtime" />
+    					 <input type="hidden" value="'https://oras.pagasa.dost.gov.ph/widget.shtml', 250, 100, 'right', 'bottom', {title: 'Philippine Time', icon: '/img/jswm-web.png'}" size="60" id="phtime" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('phtime').value + ');');">Philippine Time</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.thetimenow.com/clock/utc/coordinated_universal_time?t=n&embed=1&text=15&textdate=15&format=24&digitalclock=36&analogclock=60&letter_spacing=-2&bordersize=1&bordercolor=BCE2F7&bgcolor=EBF8FF&colorloc=000000&colordigital=2C8EBF&colordate=000000&styleloc=normal&styledigital=normal&styledate=normal&right=0', 250, 100, 'right', 'bottom', {title: 'UTC Time', icon: '/img/jswm-web.png'}" size="60" id="utctime" />
+    					 <input type="hidden" value="'https://www.thetimenow.com/clock/utc/coordinated_universal_time?t=n&embed=1&text=15&textdate=15&format=24&digitalclock=36&analogclock=60&letter_spacing=-2&bordersize=1&bordercolor=BCE2F7&bgcolor=EBF8FF&colorloc=000000&colordigital=2C8EBF&colordate=000000&styleloc=normal&styledigital=normal&styledate=normal&right=0', 250, 100, 'right', 'bottom', {title: 'UTC Time', icon: '/img/jswm-web.png'}" size="60" id="utctime" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('utctime').value + ');');">UTC Time</a>
     				</li>
 					<li class="divider"></li>
@@ -623,17 +644,22 @@
     				</li>
     				<li class="divider"></li>
     				<li>
+    				    <input type="hidden" value="'/tools?FUNC=WIDGET&t=RandomGenerator', 500, 300, 'right', 'top', {title: 'Random Generator', icon: '/img/jswm-web.png'}" size="60" id="rgen" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('rgen').value + ');');">Random Generator</a>
+    				</li>
+    				<li class="divider"></li>
+    				<li>
     					 <input type="hidden" value="'/bible?BIB_FUNC=biblegateway', 500, 300, 'right', 'top', {title: 'Bible Audio', icon: '/img/jswm-web.png'}" size="60" id="openURI17" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI17').value + ');');">Bible Audio</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://randombibleizer.spiffy.tech/', 500, 300, 'right', 'top', {title: 'Bible Random', icon: '/img/jswm-web.png'}" size="60" id="brand" />
+    					 <input type="hidden" value="'https://randombibleizer.spiffy.tech/', 500, 300, 'right', 'top', {title: 'Bible Random', icon: '/img/jswm-web.png'}" size="60" id="brand" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('brand').value + ');');">Bible Random</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.fromtexttospeech.com/', 500, 300, 'right', 'top', {title: 'Text2Speech-MP3', icon: '/img/jswm-web.png'}" size="60" id="ttsmp3" />
+    					 <input type="hidden" value="'https://www.fromtexttospeech.com/', 500, 300, 'right', 'top', {title: 'Text2Speech-MP3', icon: '/img/jswm-web.png'}" size="60" id="ttsmp3" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ttsmp3').value + ');');">Text2Speech-MP3</a>
     				</li>
 					<li class="divider"></li>
@@ -648,17 +674,17 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://dictionary.reference.com/', 500, 300, 'right', 'top', {title: 'Dictionary', icon: '/img/jswm-web.png'}" size="60" id="dictionary" />
+    					 <input type="hidden" value="'https://dictionary.reference.com/', 500, 300, 'right', 'top', {title: 'Dictionary', icon: '/img/jswm-web.png'}" size="60" id="dictionary" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('dictionary').value + ');');">Dictionary</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://en.m.wikipedia.org', 500, 300, 'right', 'top', {title: 'Wikipedia', icon: '/img/jswm-web.png'}" size="60" id="wikipedia" />
+    					 <input type="hidden" value="'https://en.m.wikipedia.org', 500, 300, 'right', 'top', {title: 'Wikipedia', icon: '/img/jswm-web.png'}" size="60" id="wikipedia" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wikipedia').value + ');');">Wikipedia</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://tools.pingdom.com/ping/', 500, 300, 'right', 'top', {title: 'Ping', icon: '/img/jswm-web.png'}" size="60" id="pingTool" />
+    					 <input type="hidden" value="'https://tools.pingdom.com/ping/', 500, 300, 'right', 'top', {title: 'Ping', icon: '/img/jswm-web.png'}" size="60" id="pingTool" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('pingTool').value + ');');">Ping</a>
     				</li>
 					<li class="divider"></li> 
@@ -668,27 +694,27 @@
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'http://www.timezoneconverter.com/cgi-bin/tzc.tzc', 500, 300, 'right', 'top', {title: 'Timezone', icon: '/img/jswm-web.png'}" size="60" id="timeZone" />
+    					 <input type="hidden" value="'https://www.timezoneconverter.com/cgi-bin/tzc.tzc', 500, 300, 'right', 'top', {title: 'Timezone', icon: '/img/jswm-web.png'}" size="60" id="timeZone" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('timeZone').value + ');');">Timezone Converter</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'http://scientific-calculator.appspot.com/', 500, 300, 'right', 'top', {title: 'Calculator', icon: '/img/jswm-web.png'}" size="60" id="calculator" />
+    					 <input type="hidden" value="'https://scientific-calculator.appspot.com/', 500, 300, 'right', 'top', {title: 'Calculator', icon: '/img/jswm-web.png'}" size="60" id="calculator" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('calculator').value + ');');">Calculator</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.towerhobbies.com/ucc.html', 500, 300, 'right', 'top', {title: 'Currency Converter', icon: '/img/jswm-web.png'}" size="60" id="currConv" />
+    					 <input type="hidden" value="'https://www.towerhobbies.com/ucc.html', 500, 300, 'right', 'top', {title: 'Currency Converter', icon: '/img/jswm-web.png'}" size="60" id="currConv" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('currConv').value + ');');">Currency Converter</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://onlineclock.net/radio/', 500, 300, 'right', 'top', {title: 'Radio Alarm Clock', icon: '/img/jswm-web.png'}" size="60" id="radioClock" />
+    					 <input type="hidden" value="'https://onlineclock.net/radio/', 500, 300, 'right', 'top', {title: 'Radio Alarm Clock', icon: '/img/jswm-web.png'}" size="60" id="radioClock" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('radioClock').value + ');');">Radio Alarm Clock</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://zxing.appspot.com/generator/', 500, 300, 'right', 'top', {title: 'QR Generator', icon: '/img/jswm-web.png'}" size="60" id="qrCode" />
+    					 <input type="hidden" value="'https://zxing.appspot.com/generator/', 500, 300, 'right', 'top', {title: 'QR Generator', icon: '/img/jswm-web.png'}" size="60" id="qrCode" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('qrCode').value + ');');">QR Generator</a>
     				</li>
 					<li class="divider"></li>
@@ -702,75 +728,154 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'/directory', 500, 300, 'right', 'top', {title: 'ULAPPH Directory', icon: '/img/jswm-uwm.png'}" size="60" id="udir" />
-    					<a href="#page" onclick="eval('windowManager.openURI(' + $('udir').value + ');');">ULAPPH Directory</a>
+    					 <input type="hidden" value="'/directory?DIR_FUNC=sites', 500, 300, 'right', 'top', {title: 'ULAPPH Sites Directory', icon: '/img/jswm-uwm.png'}" size="60" id="udir" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('udir').value + ');');">ULAPPH Sites Directory</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'right', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren" />
+    					 <input type="hidden" value="'/directory?DIR_FUNC=people', 500, 300, 'right', 'top', {title: 'ULAPPH People Directory', icon: '/img/jswm-uwm.png'}" size="60" id="udir2" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('udir2').value + ');');">ULAPPH People Directory</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'right', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('utren').value + ');');">ULAPPH Trending</a>
     				</li>
 					<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'http://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'right', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew2" />
+					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'right', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew2" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('unew2').value + ');');">ULAPPH WhatsNew</a>
 				</li>
 				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-corporation.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Corporation', icon: '/img/jswm-uwm.png'}" size="60" id="ucorp" />
+    					 <input type="hidden" value="'https://www.ulapph.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Corporation', icon: '/img/jswm-uwm.png'}" size="60" id="ucorp" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ucorp').value + ');');">ULAPPH Corporation</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Opo Content Server', icon: '/img/jswm-uwm.png'}" size="60" id="openURI16" />
-    					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI16').value + ');');">ULAPPH Opo</a>
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH OPO Content Server', icon: '/img/jswm-uwm.png'}" size="60" id="openURI16" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI16').value + ');');">ULAPPH OPO</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'http://ulapph-1.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH God Theme', icon: '/img/jswm-uwm.png'}" size="60" id="godtheme" />
+    					 <input type="hidden" value="'https://ulapph-1.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH God Theme', icon: '/img/jswm-uwm.png'}" size="60" id="godtheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('godtheme').value + ');');">ULAPPH God Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-2.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Universe Theme', icon: '/img/jswm-uwm.png'}" size="60" id="unitheme" />
+    					 <input type="hidden" value="'https://ulapph-2.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Universe Theme', icon: '/img/jswm-uwm.png'}" size="60" id="unitheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('unitheme').value + ');');">ULAPPH Universe Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-3.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Earth Theme', icon: '/img/jswm-uwm.png'}" size="60" id="earththeme" />
+    					 <input type="hidden" value="'https://ulapph-3.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Earth Theme', icon: '/img/jswm-uwm.png'}" size="60" id="earththeme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('earththeme').value + ');');">ULAPPH Earth Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-4.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Philippines Theme', icon: '/img/jswm-uwm.png'}" size="60" id="phtheme" />
+    					 <input type="hidden" value="'https://ulapph-4.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Philippines Theme', icon: '/img/jswm-uwm.png'}" size="60" id="phtheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('phtheme').value + ');');">ULAPPH Philippines Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-5.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Global Theme', icon: '/img/jswm-uwm.png'}" size="60" id="glotheme" />
+    					 <input type="hidden" value="'https://ulapph-5.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Global Theme', icon: '/img/jswm-uwm.png'}" size="60" id="glotheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('glotheme').value + ');');">ULAPPH Global Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-ves.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Virtual Education', icon: '/img/jswm-uwm.png'}" size="60" id="ves" />
+    					 <input type="hidden" value="'https://ulapph-ves.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Virtual Education', icon: '/img/jswm-uwm.png'}" size="60" id="ves" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ves').value + ');');">ULAPPH Virtual Education</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-infostream.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Infostream', icon: '/img/jswm-uwm.png'}" size="60" id="infostream" />
+    					 <input type="hidden" value="'https://ulapph-infostream.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Infostream', icon: '/img/jswm-uwm.png'}" size="60" id="infostream" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('infostream').value + ');');">ULAPPH Infostream</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ulapph-sites.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Sites', icon: '/img/jswm-uwm.png'}" size="60" id="usites" />
+    					 <input type="hidden" value="'https://ulapph-sites.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Sites', icon: '/img/jswm-uwm.png'}" size="60" id="usites" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('usites').value + ');');">ULAPPH Sites</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://golang-programming.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Golang', icon: '/img/jswm-uwm.png'}" size="60" id="ugolang" />
+    					 <input type="hidden" value="'https://golang-programming.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Golang', icon: '/img/jswm-uwm.png'}" size="60" id="ugolang" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ugolang').value + ');');">ULAPPH Golang</a>
     				</li>
 					<li class="divider"></li>
+                </ul>
+            </li>
+            
+            <li class="divider"></li>
+            
+            <li>ULAPPH Education                                                                                                                                                    
+              <span class="arrow"></span>
+                <ul class="sublist-menu">
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Kinder&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Kinder', 500, 300, 'right', 'top', {title: 'Kinder Search', icon: '/img/jswm-web.png'}" size="60" id="kinder" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('kinder').value + ');');">Kinder Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%201&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-1', 500, 300, 'right', 'top', {title: 'Grade 1 Search', icon: '/img/jswm-web.png'}" size="60" id="grade1" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade1').value + ');');">Grade 1 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%202&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-2', 500, 300, 'right', 'top', {title: 'Grade 2 Search', icon: '/img/jswm-web.png'}" size="60" id="grade2" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade2').value + ');');">Grade 2 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%203&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-3', 500, 300, 'right', 'top', {title: 'Grade 3 Search', icon: '/img/jswm-web.png'}" size="60" id="grade3" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade3').value + ');');">Grade 3 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%204&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-4', 500, 300, 'right', 'top', {title: 'Grade 4 Search', icon: '/img/jswm-web.png'}" size="60" id="grade4" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade4').value + ');');">Grade 4 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%205&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-5', 500, 300, 'right', 'top', {title: 'Grade 5 Search', icon: '/img/jswm-web.png'}" size="60" id="grade5" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade5').value + ');');">Grade 5 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%206&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-6', 500, 300, 'right', 'top', {title: 'Grade 6 Search', icon: '/img/jswm-web.png'}" size="60" id="grade6" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 6 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%207&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-7', 500, 300, 'right', 'top', {title: 'Grade 7 Search', icon: '/img/jswm-web.png'}" size="60" id="grade7" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 7 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%208&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-8', 500, 300, 'right', 'top', {title: 'Grade 8 Search', icon: '/img/jswm-web.png'}" size="60" id="grade8" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 8 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%209&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-9', 500, 300, 'right', 'top', {title: 'Grade 9 Search', icon: '/img/jswm-web.png'}" size="60" id="grade9" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 9 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2010&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-10', 500, 300, 'right', 'top', {title: 'Grade 10 Search', icon: '/img/jswm-web.png'}" size="60" id="grade10" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 10 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2011&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-11', 500, 300, 'right', 'top', {title: 'Grade 11 Search', icon: '/img/jswm-web.png'}" size="60" id="grade11" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 11 Search</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2012&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-12', 500, 300, 'right', 'top', {title: 'Grade 12 Search', icon: '/img/jswm-web.png'}" size="60" id="grade12" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 12 Search</a>
+    				</li>
+					<li class="divider"></li>
+
                 </ul>
             </li>
             
@@ -780,57 +885,57 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'http://www.rfc-editor.org/search/rfc_search.php', 500, 300, 'right', 'top', {title: 'RFC Search', icon: '/img/jswm-web.png'}" size="60" id="cal1" />
+    					 <input type="hidden" value="'https://www.rfc-editor.org/search/rfc_search.php', 500, 300, 'right', 'top', {title: 'RFC Search', icon: '/img/jswm-web.png'}" size="60" id="cal1" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal1').value + ');');">RFC Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://pilc.org.ph/cgi-bin/koha/opac-main.pl', 500, 300, 'right', 'top', {title: 'PILC Library', icon: '/img/jswm-web.png'}" size="60" id="cal2" />
+    					 <input type="hidden" value="'https://pilc.org.ph/cgi-bin/koha/opac-main.pl', 500, 300, 'right', 'top', {title: 'PILC Library', icon: '/img/jswm-web.png'}" size="60" id="cal2" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal2').value + ');');">PILC Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.mainlib.upd.edu.ph/', 500, 300, 'right', 'top', {title: 'UPD Library', icon: '/img/jswm-web.png'}" size="60" id="cal3" />
+    					 <input type="hidden" value="'https://www.mainlib.upd.edu.ph/', 500, 300, 'right', 'top', {title: 'UPD Library', icon: '/img/jswm-web.png'}" size="60" id="cal3" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal3').value + ');');">UPD Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.elib.gov.ph/', 500, 300, 'right', 'top', {title: 'Phil e-Lib', icon: '/img/jswm-web.png'}" size="60" id="cal4" />
+    					 <input type="hidden" value="'https://www.elib.gov.ph/', 500, 300, 'right', 'top', {title: 'Phil e-Lib', icon: '/img/jswm-web.png'}" size="60" id="cal4" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal4').value + ');');">Phil e-Lib</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.librarylink.org.ph/', 500, 300, 'right', 'top', {title: 'Library Link', icon: '/img/jswm-web.png'}" size="60" id="cal5" />
+    					 <input type="hidden" value="'https://www.librarylink.org.ph/', 500, 300, 'right', 'top', {title: 'Library Link', icon: '/img/jswm-web.png'}" size="60" id="cal5" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal5').value + ');');">Library Link</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.dlsu.edu.ph/library/free_databases.asp', 500, 300, 'right', 'top', {title: 'DLSU Library', icon: '/img/jswm-web.png'}" size="60" id="cal6" />
+    					 <input type="hidden" value="'https://www.dlsu.edu.ph/library/free_databases.asp', 500, 300, 'right', 'top', {title: 'DLSU Library', icon: '/img/jswm-web.png'}" size="60" id="cal6" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal6').value + ');');">DLSU Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.librarydir.org/', 500, 300, 'right', 'top', {title: 'Library Dir', icon: '/img/jswm-web.png'}" size="60" id="cal7" />
+    					 <input type="hidden" value="'https://www.librarydir.org/', 500, 300, 'right', 'top', {title: 'Library Dir', icon: '/img/jswm-web.png'}" size="60" id="cal7" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal7').value + ');');">Library Dir</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://library.uplb.edu.ph/', 500, 300, 'right', 'top', {title: 'UPLB Library', icon: '/img/jswm-web.png'}" size="60" id="cal8" />
+    					 <input type="hidden" value="'https://library.uplb.edu.ph/', 500, 300, 'right', 'top', {title: 'UPLB Library', icon: '/img/jswm-web.png'}" size="60" id="cal8" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal8').value + ');');">UPLB Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://library.upou.edu.ph/', 500, 300, 'right', 'top', {title: 'UPOU Library', icon: '/img/jswm-web.png'}" size="60" id="cal9" />
+    					 <input type="hidden" value="'https://library.upou.edu.ph/', 500, 300, 'right', 'top', {title: 'UPOU Library', icon: '/img/jswm-web.png'}" size="60" id="cal9" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal9').value + ');');">UPOU Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.tip.edu.ph/library', 500, 300, 'right', 'top', {title: 'TIP Library', icon: '/img/jswm-web.png'}" size="60" id="cal10" />
+    					 <input type="hidden" value="'https://www.tip.edu.ph/library', 500, 300, 'right', 'top', {title: 'TIP Library', icon: '/img/jswm-web.png'}" size="60" id="cal10" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal10').value + ');');">TIP Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ilib.upm.edu.ph/', 500, 300, 'right', 'top', {title: 'UPM Library', icon: '/img/jswm-web.png'}" size="60" id="cal12" />
+    					 <input type="hidden" value="'https://ilib.upm.edu.ph/', 500, 300, 'right', 'top', {title: 'UPM Library', icon: '/img/jswm-web.png'}" size="60" id="cal12" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal12').value + ');');">UPM Library</a>
     				</li>
 					<li class="divider"></li>
@@ -840,37 +945,37 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://rizal.library.ateneo.edu/', 500, 300, 'right', 'top', {title: 'Ateneo Libary', icon: '/img/jswm-web.png'}" size="60" id="cal14" />
+    					 <input type="hidden" value="'https://rizal.library.ateneo.edu/', 500, 300, 'right', 'top', {title: 'Ateneo Libary', icon: '/img/jswm-web.png'}" size="60" id="cal14" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal14').value + ');');">Ateneo Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.chanrobles.com/legal3nationalibrary.html', 500, 300, 'right', 'top', {title: 'Chan Robles', icon: '/img/jswm-web.png'}" size="60" id="cal11" />
+    					 <input type="hidden" value="'https://www.chanrobles.com/legal3nationalibrary.html', 500, 300, 'right', 'top', {title: 'Chan Robles', icon: '/img/jswm-web.png'}" size="60" id="cal11" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal11').value + ');');">Chan Robles</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://online.pbts.net.ph/', 500, 300, 'right', 'top', {title: 'PBTS Library', icon: '/img/jswm-web.png'}" size="60" id="cal15" />
+    					 <input type="hidden" value="'https://online.pbts.net.ph/', 500, 300, 'right', 'top', {title: 'PBTS Library', icon: '/img/jswm-web.png'}" size="60" id="cal15" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal15').value + ');');">PBTS Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://opac.filipinaslibrary.org.ph/', 500, 300, 'right', 'top', {title: 'Filipinas Library', icon: '/img/jswm-web.png'}" size="60" id="cal16" />
+    					 <input type="hidden" value="'https://opac.filipinaslibrary.org.ph/', 500, 300, 'right', 'top', {title: 'Filipinas Library', icon: '/img/jswm-web.png'}" size="60" id="cal16" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal16').value + ');');">Filipinas Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.library.usc.edu.ph/', 500, 300, 'right', 'top', {title: 'USC Library', icon: '/img/jswm-web.png'}" size="60" id="cal17" />
+    					 <input type="hidden" value="'https://www.library.usc.edu.ph/', 500, 300, 'right', 'top', {title: 'USC Library', icon: '/img/jswm-web.png'}" size="60" id="cal17" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal17').value + ');');">USC Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.lib-web.org/asia/philippines/', 500, 300, 'right', 'top', {title: 'LibWeb Phils', icon: '/img/jswm-web.png'}" size="60" id="cal18" />
+    					 <input type="hidden" value="'https://www.lib-web.org/asia/philippines/', 500, 300, 'right', 'top', {title: 'LibWeb Phils', icon: '/img/jswm-web.png'}" size="60" id="cal18" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal18').value + ');');">LibWeb Phils</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.adamson.edu.ph/?page=library', 500, 300, 'right', 'top', {title: 'ADU Library', icon: '/img/jswm-web.png'}" size="60" id="cal19" />
+    					 <input type="hidden" value="'https://www.adamson.edu.ph/?page=library', 500, 300, 'right', 'top', {title: 'ADU Library', icon: '/img/jswm-web.png'}" size="60" id="cal19" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal19').value + ');');">ADU Library</a>
     				</li>
 					<li class="divider"></li>
@@ -880,42 +985,42 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.dti.gov.ph/dti/index.php/resources/e-library', 500, 300, 'right', 'top', {title: 'DTI Library', icon: '/img/jswm-web.png'}" size="60" id="cal21" />
+    					 <input type="hidden" value="'https://www.dti.gov.ph/dti/index.php/resources/e-library', 500, 300, 'right', 'top', {title: 'DTI Library', icon: '/img/jswm-web.png'}" size="60" id="cal21" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal21').value + ');');">DTI Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://data.gov.ph/', 500, 300, 'right', 'top', {title: 'Data Phils', icon: '/img/jswm-web.png'}" size="60" id="cal22" />
+    					 <input type="hidden" value="'https://data.gov.ph/', 500, 300, 'right', 'top', {title: 'Data Phils', icon: '/img/jswm-web.png'}" size="60" id="cal22" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal22').value + ');');">Data Phils</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.dost.gov.ph/knowledge-resources/databases', 500, 300, 'right', 'top', {title: 'DOST Databases', icon: '/img/jswm-web.png'}" size="60" id="cal23" />
+    					 <input type="hidden" value="'https://www.dost.gov.ph/knowledge-resources/databases', 500, 300, 'right', 'top', {title: 'DOST Databases', icon: '/img/jswm-web.png'}" size="60" id="cal23" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal23').value + ');');">DOST Databases</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://library.xu.edu.ph/newwebpage/openaccessdatabases.htm', 500, 300, 'right', 'top', {title: 'XU Library', icon: '/img/jswm-web.png'}" size="60" id="cal24" />
+    					 <input type="hidden" value="'https://library.xu.edu.ph/newwebpage/openaccessdatabases.htm', 500, 300, 'right', 'top', {title: 'XU Library', icon: '/img/jswm-web.png'}" size="60" id="cal24" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal24').value + ');');">XU Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.ipophil.gov.ph/', 500, 300, 'right', 'top', {title: 'IPO Library', icon: '/img/jswm-web.png'}" size="60" id="cal25" />
+    					 <input type="hidden" value="'https://www.ipophil.gov.ph/', 500, 300, 'right', 'top', {title: 'IPO Library', icon: '/img/jswm-web.png'}" size="60" id="cal25" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal25').value + ');');">IPO Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'right', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
+    					 <input type="hidden" value="'https://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'right', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal26').value + ');');">NLP Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'right', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
+    					 <input type="hidden" value="'https://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'right', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal26').value + ');');">NLP Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.unc.edu.ph/?page_id=662', 500, 300, 'right', 'top', {title: 'UNC Library', icon: '/img/jswm-web.png'}" size="60" id="cal27" />
+    					 <input type="hidden" value="'https://www.unc.edu.ph/?page_id=662', 500, 300, 'right', 'top', {title: 'UNC Library', icon: '/img/jswm-web.png'}" size="60" id="cal27" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal27').value + ');');">UNC Library</a>
     				</li>
 					<li class="divider"></li>
@@ -931,92 +1036,92 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'http://ipaddress.com/', 500, 300, 'right', 'top', {title: 'IP Address', icon: '/img/jswm-web.png'}" size="60" id="myip" />
+    					 <input type="hidden" value="'https://ipaddress.com/', 500, 300, 'right', 'top', {title: 'IP Address', icon: '/img/jswm-web.png'}" size="60" id="myip" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myip').value + ');');">IP Address</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.subnetmask.info/', 500, 300, 'right', 'top', {title: 'Network Calculators', icon: '/img/jswm-web.png'}" size="60" id="ncalc" />
+    					 <input type="hidden" value="'https://www.subnetmask.info/', 500, 300, 'right', 'top', {title: 'Network Calculators', icon: '/img/jswm-web.png'}" size="60" id="ncalc" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ncalc').value + ');');">Network Calculators</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://html5demos.com/geo', 500, 300, 'right', 'top', {title: 'Geo Location', icon: '/img/jswm-web.png'}" size="60" id="findme" />
+    					 <input type="hidden" value="'https://html5demos.com/geo', 500, 300, 'right', 'top', {title: 'Geo Location', icon: '/img/jswm-web.png'}" size="60" id="findme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('findme').value + ');');">Geo Location</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://mxtoolbox.com/SuperTool.aspx', 500, 300, 'right', 'bottom', {title: 'Super Tool', icon: '/img/jswm-web.png'}" size="60" id="supt" />
+    					 <input type="hidden" value="'https://mxtoolbox.com/SuperTool.aspx', 500, 300, 'right', 'bottom', {title: 'Super Tool', icon: '/img/jswm-web.png'}" size="60" id="supt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('supt').value + ');');">Super Tool</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://centralops.net/co/Ping.aspx', 500, 300, 'right', 'bottom', {title: 'Ping', icon: '/img/jswm-web.png'}" size="60" id="pingt" />
+    					 <input type="hidden" value="'https://centralops.net/co/Ping.aspx', 500, 300, 'right', 'bottom', {title: 'Ping', icon: '/img/jswm-web.png'}" size="60" id="pingt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('pingt').value + ');');">Ping</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://centralops.net/co/Traceroute.aspx', 500, 300, 'right', 'bottom', {title: 'Traceroute', icon: '/img/jswm-web.png'}" size="60" id="tracet" />
+    					 <input type="hidden" value="'https://centralops.net/co/Traceroute.aspx', 500, 300, 'right', 'bottom', {title: 'Traceroute', icon: '/img/jswm-web.png'}" size="60" id="tracet" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('tracet').value + ');');">Traceroute</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.andlabs.org/tools/jsrecon.html', 500, 300, 'right', 'bottom', {title: 'JS Recon', icon: '/img/jswm-web.png'}" size="60" id="jsrecon" />
+    					 <input type="hidden" value="'https://www.andlabs.org/tools/jsrecon.html', 500, 300, 'right', 'bottom', {title: 'JS Recon', icon: '/img/jswm-web.png'}" size="60" id="jsrecon" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('jsrecon').value + ');');">JS Recon</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://centralops.net/co/NsLookup.aspx', 500, 300, 'right', 'bottom', {title: 'NS Lookup', icon: '/img/jswm-web.png'}" size="60" id="nslookup" />
+    					 <input type="hidden" value="'https://centralops.net/co/NsLookup.aspx', 500, 300, 'right', 'bottom', {title: 'NS Lookup', icon: '/img/jswm-web.png'}" size="60" id="nslookup" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('nslookup').value + ');');">NS Lookup</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://hexillion.com/asp/samples/AutoWhois.vbs.asp', 500, 300, 'right', 'top', {title: 'AutoWhois', icon: '/img/jswm-web.png'}" size="60" id="autowhois" />
+    					 <input type="hidden" value="'https://hexillion.com/asp/samples/AutoWhois.vbs.asp', 500, 300, 'right', 'top', {title: 'AutoWhois', icon: '/img/jswm-web.png'}" size="60" id="autowhois" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('autowhois').value + ');');">AutoWhois</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://ipgeolocation.nmonitoring.com/', 500, 300, 'right', 'top', {title: 'IP Geolocation', icon: '/img/jswm-web.png'}" size="60" id="ipgeo" />
+    					 <input type="hidden" value="'https://ipgeolocation.nmonitoring.com/', 500, 300, 'right', 'top', {title: 'IP Geolocation', icon: '/img/jswm-web.png'}" size="60" id="ipgeo" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ipgeo').value + ');');">IP Geolocation</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.nmonitoring.com/ip-to-domain-name.html', 500, 300, 'right', 'top', {title: 'IP to Domain Name', icon: '/img/jswm-web.png'}" size="60" id="ip2dom" />
+    					 <input type="hidden" value="'https://www.nmonitoring.com/ip-to-domain-name.html', 500, 300, 'right', 'top', {title: 'IP to Domain Name', icon: '/img/jswm-web.png'}" size="60" id="ip2dom" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ip2dom').value + ');');">IP to Domain Name</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.nmonitoring.com/show-mx-record.html', 500, 300, 'right', 'top', {title: 'Show MX Record', icon: '/img/jswm-web.png'}" size="60" id="showmxrecord" />
+    					 <input type="hidden" value="'https://www.nmonitoring.com/show-mx-record.html', 500, 300, 'right', 'top', {title: 'Show MX Record', icon: '/img/jswm-web.png'}" size="60" id="showmxrecord" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('showmxrecord').value + ');');">Show MX Record</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://dig-nslookup.nmonitoring.com/dns-dig-nslookup.html', 500, 300, 'right', 'top', {title: 'DNS Dig', icon: '/img/jswm-web.png'}" size="60" id="dnsdig" />
+    					 <input type="hidden" value="'https://dig-nslookup.nmonitoring.com/dns-dig-nslookup.html', 500, 300, 'right', 'top', {title: 'DNS Dig', icon: '/img/jswm-web.png'}" size="60" id="dnsdig" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('dnsdig').value + ');');">DNS Dig</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'http://www.speedtest.net/', 500, 300, 'right', 'top', {title: 'Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt" />
+    					 <input type="hidden" value="'https://www.speedtest.net/', 500, 300, 'right', 'top', {title: 'Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('speedt').value + ');');">Speed Test</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.att.com/speedtest/', 500, 300, 'right', 'top', {title: 'AT&T Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt2" />
+    					 <input type="hidden" value="'https://www.att.com/speedtest/', 500, 300, 'right', 'top', {title: 'AT&T Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt2" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('speedt2').value + ');');">AT&T Speed Test</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.nmonitoring.com/service-port-name.html', 500, 300, 'right', 'top', {title: 'Servic to Port', icon: '/img/jswm-web.png'}" size="60" id="servp" />
+    					 <input type="hidden" value="'https://www.nmonitoring.com/service-port-name.html', 500, 300, 'right', 'top', {title: 'Servic to Port', icon: '/img/jswm-web.png'}" size="60" id="servp" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('servp').value + ');');">Service to Port</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.kloth.net/services/srvinfo.php', 500, 300, 'right', 'top', {title: 'Server Info', icon: '/img/jswm-web.png'}" size="60" id="servi" />
+    					 <input type="hidden" value="'https://www.kloth.net/services/srvinfo.php', 500, 300, 'right', 'top', {title: 'Server Info', icon: '/img/jswm-web.png'}" size="60" id="servi" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('servi').value + ');');">Server Info</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://bgp.he.net/', 500, 300, 'right', 'top', {title: 'BGP Toolkit', icon: '/img/jswm-web.png'}" size="60" id="bgpt" />
+    					 <input type="hidden" value="'https://bgp.he.net/', 500, 300, 'right', 'top', {title: 'BGP Toolkit', icon: '/img/jswm-web.png'}" size="60" id="bgpt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('bgpt').value + ');');">BGP Toolkit</a>
     				</li>
 					<li class="divider"></li>
@@ -1026,7 +1131,7 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://opo.ulapph.com/slides?TYPE=SLIDE&DOC_ID=218&SID=TDSSLIDE-218&MUSIC_ID=0&GET_NEXT=', 500, 300, 'right', 'top', {title: 'All Networking Tools', icon: '/img/jswm-web.png'}" size="60" id="allntt" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=218&SID=TDSSLIDE-218&MUSIC_ID=0&GET_NEXT=', 500, 300, 'right', 'top', {title: 'All Networking Tools', icon: '/img/jswm-web.png'}" size="60" id="allntt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('allntt').value + ');');">View All Tools...</a>
     				</li>
 					<li class="divider"></li>
@@ -1050,11 +1155,11 @@
     				</li>
     				<li class="divider"></li>               
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com/android/devicemanager', 'Find my Android' ); return false">Find my Android</a>
+    					<a href="#page" onclick="openWindow('https://www.google.com/android/devicemanager', 'Find my Android' ); return false">Find my Android</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://myaccount.google.com/security?pli=1', 'Set Google Account' ); return false">Set Google Account</a>
+    					<a href="#page" onclick="openWindow('https://myaccount.google.com/security?pli=1', 'Set Google Account' ); return false">Set Google Account</a>
     				</li>
 					<li class="divider"></li>
     				<li>
@@ -1064,51 +1169,51 @@
 					<li class="divider"></li>
 					
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.dti.gov.ph/dti/index.php/resources/price-watch', 'DTI Price Watch' ); return false">DTI Price Watch</a>
+    					<a href="#page" onclick="openWindow('https://www.dti.gov.ph/dti/index.php/resources/price-watch', 'DTI Price Watch' ); return false">DTI Price Watch</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.stocksph.com/', 'Stocks Monitor' ); return false">Stocks Monitor</a>
+    					<a href="#page" onclick="openWindow('https://www.stocksph.com/', 'Stocks Monitor' ); return false">Stocks Monitor</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.doe.gov.ph/oil-price-monitoring', 'Oil Price Monitor' ); return false">Oil Price Monitor</a>
+    					<a href="#page" onclick="openWindow('https://www.doe.gov.ph/oil-price-monitoring', 'Oil Price Monitor' ); return false">Oil Price Monitor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://airquality-embdenr.com/', 'Air Quality Monitor' ); return false">Air Quality Monitor</a>
+    					<a href="#page" onclick="openWindow('https://airquality-embdenr.com/', 'Air Quality Monitor' ); return false">Air Quality Monitor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.gov.ph/emergency-hotlines/', 'Philippine Hotlines' ); return false">Philippine Hotlines</a>
+    					<a href="#page" onclick="openWindow('https://www.gov.ph/emergency-hotlines/', 'Philippine Hotlines' ); return false">Philippine Hotlines</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://quezoncity.gov.ph/index.php/qc-services/emergency-hotlines', 'QC Hotlines' ); return false">QC Hotlines</a>
+    					<a href="#page" onclick="openWindow('https://quezoncity.gov.ph/index.php/qc-services/emergency-hotlines', 'QC Hotlines' ); return false">QC Hotlines</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://mmda.nowplanet.tv/', 'Traffic Monitor' ); return false">Traffic Monitor</a>
+    					<a href="#page" onclick="openWindow('https://mmda.nowplanet.tv/', 'Traffic Monitor' ); return false">Traffic Monitor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.nababaha.com/', 'Flood Monitor' ); return false">Flood Monitor</a>
+    					<a href="#page" onclick="openWindow('https://www.nababaha.com/', 'Flood Monitor' ); return false">Flood Monitor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.ustream.tv/channel/iss-hdev-payload', 'ISS Earth Viewer' ); return false">ISS Earth Viewer</a>
+    					<a href="#page" onclick="openWindow('https://www.ustream.tv/channel/iss-hdev-payload', 'ISS Earth Viewer' ); return false">ISS Earth Viewer</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.earthcam.com/mapsearch/', 'Earth CAM' ); return false">Earth CAM</a>
+    					<a href="#page" onclick="openWindow('https://www.earthcam.com/mapsearch/', 'Earth CAM' ); return false">Earth CAM</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.mycam-asia.tv/', 'Asia Webcams' ); return false">Asia Webcams</a>
+    					<a href="#page" onclick="openWindow('https://www.mycam-asia.tv/', 'Asia Webcams' ); return false">Asia Webcams</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.insecam.org/en/bycountry/PH/?page=1', 'IP Cameras PH' ); return false">IP Cameras PH</a>
+    					<a href="#page" onclick="openWindow('https://www.insecam.org/en/bycountry/PH/?page=1', 'IP Cameras PH' ); return false">IP Cameras PH</a>
     				</li>
 					<li class="divider"></li>
 
@@ -1121,35 +1226,35 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					<a href="#page" onclick="openWindow('http://opo.ulapph.com/slides?TYPE=SLIDE&MODE=NORMAL&PARM=LOOP&SECS=8&DOC_ID=71&SID=TDSSLIDE-71&CATEGORY=desktop16', 'RadioPH' ); return false">Online Radio</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&MODE=NORMAL&PARM=LOOP&SECS=8&DOC_ID=71&SID=TDSSLIDE-71&CATEGORY=desktop16', 'RadioPH' ); return false">Online Radio</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.clickthecity.com/tv/main.php', 'TV Schedules PH' ); return false">TV Schedules PH</a>
+    					<a href="#page" onclick="openWindow('https://www.clickthecity.com/tv/main.php', 'TV Schedules PH' ); return false">TV Schedules PH</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://news.abs-cbn.com/dzmm', 'DZMM' ); return false">DZMM Teleradyo</a>
+    					<a href="#page" onclick="openWindow('https://news.abs-cbn.com/dzmm', 'DZMM' ); return false">DZMM Teleradyo</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.untvweb.com/live-stream/', 'UNTV' ); return false">UNTV Stream</a>
+    					<a href="#page" onclick="openWindow('https://www.untvweb.com/live-stream/', 'UNTV' ); return false">UNTV Stream</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.gmanetwork.com/news/video/livestream', 'GMA' ); return false">GMA Stream</a>
+    					<a href="#page" onclick="openWindow('https://www.gmanetwork.com/news/video/livestream', 'GMA' ); return false">GMA Stream</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://cnnphilippines.com/videos/', 'CNN Philippines' ); return false">CNN Philippines</a>
+    					<a href="#page" onclick="openWindow('https://cnnphilippines.com/videos/', 'CNN Philippines' ); return false">CNN Philippines</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://edition.cnn.com/specials/latest-news-videos', 'CNN International' ); return false">CNN International</a>
+    					<a href="#page" onclick="openWindow('https://edition.cnn.com/specials/latest-news-videos', 'CNN International' ); return false">CNN International</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://news5.com.ph/live/A12F20084A/live-aksyon-tv', 'TV5' ); return false">TV5 Stream</a>
+    					<a href="#page" onclick="openWindow('https://news5.com.ph/live/A12F20084A/live-aksyon-tv', 'TV5' ); return false">TV5 Stream</a>
     				</li>
 					<li class="divider"></li>
     				<li>
@@ -1157,39 +1262,39 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://english.cntv.cn/live/', 'CCTV China' ); return false">CCTV China</a>
+    					<a href="#page" onclick="openWindow('https://english.cntv.cn/live/', 'CCTV China' ); return false">CCTV China</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.ndtv.com/video/live/channel/ndtv24x7', 'NDTV India' ); return false">NDTV India</a>
+    					<a href="#page" onclick="openWindow('https://www.ndtv.com/video/live/channel/ndtv24x7', 'NDTV India' ); return false">NDTV India</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.iwantv.com.ph/', 'IwantTv' ); return false">I Want TV</a>
+    					<a href="#page" onclick="openWindow('https://www.iwantv.com.ph/', 'IwantTv' ); return false">I Want TV</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://5by5.tv/', '5by5' ); return false">5by5</a>
+    					<a href="#page" onclick="openWindow('https://5by5.tv/', '5by5' ); return false">5by5</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.bbc.co.uk/podcasts', 'BBC' ); return false">BBC Podcast</a>
+    					<a href="#page" onclick="openWindow('https://www.bbc.co.uk/podcasts', 'BBC' ); return false">BBC Podcast</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://edition.cnn.com/services/podcasting/', 'CNN' ); return false">CNN Podcast</a>
+    					<a href="#page" onclick="openWindow('https://edition.cnn.com/services/podcasting/', 'CNN' ); return false">CNN Podcast</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.cbc.ca/radio/podcasts/', 'CBC' ); return false">CBC Podcast</a>
+    					<a href="#page" onclick="openWindow('https://www.cbc.ca/radio/podcasts/', 'CBC' ); return false">CBC Podcast</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.npr.org/podcasts/', 'NPR' ); return false">NPR Podcast</a>
+    					<a href="#page" onclick="openWindow('https://www.npr.org/podcasts/', 'NPR' ); return false">NPR Podcast</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.accenture.com/us-en/podcasts/Pages/index.aspx', 'Accenture' ); return false">Accenture Podcast</a>
+    					<a href="#page" onclick="openWindow('https://www.accenture.com/us-en/podcasts/Pages/index.aspx', 'Accenture' ); return false">Accenture Podcast</a>
     				</li>
 					<li class="divider"></li>
     				<li>
@@ -1274,11 +1379,11 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					<a href="#page" onclick="openWindow('http://en.wikipedia.org/wiki/List_of_most_popular_websites', 'Top 100 Websites' ); return false">Top 100 Websites</a>
+    					<a href="#page" onclick="openWindow('https://en.wikipedia.org/wiki/List_of_most_popular_websites', 'Top 100 Websites' ); return false">Top 100 Websites</a>
     				</li>
 					<li class="divider"></li>
    				    <li>
-    					 <input type="hidden" value="'http://web.skype.com/', 500, 300, 'right', 'top', {title: 'Web Skype', icon: '/img/jswm-web.png'}" size="60" id="wskype" />
+    					 <input type="hidden" value="'https://web.skype.com/', 500, 300, 'right', 'top', {title: 'Web Skype', icon: '/img/jswm-web.png'}" size="60" id="wskype" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wskype').value + ');');">Web Skype</a>
     				</li>
 					<li class="divider"></li>
@@ -1288,230 +1393,57 @@
     				</li>
 					<li class="divider"></li>
    				    <li>
-    					 <input type="hidden" value="'http://www.driveplayer.com/', 500, 300, 'right', 'top', {title: 'Drive Music Player', icon: '/img/jswm-web.png'}" size="60" id="dmplayer" />
+    					 <input type="hidden" value="'https://www.driveplayer.com/', 500, 300, 'right', 'top', {title: 'Drive Music Player', icon: '/img/jswm-web.png'}" size="60" id="dmplayer" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('dmplayer').value + ');');">Drive Music Player</a>
     				</li>
 					<li class="divider"></li>
    				    <li>
-    					 <input type="hidden" value="'http://kiwiirc.com/client', 500, 300, 'right', 'top', {title: 'KiwiIRC', icon: '/img/jswm-web.png'}" size="60" id="KiwiIRC" />
+    					 <input type="hidden" value="'https://kiwiirc.com/client', 500, 300, 'right', 'top', {title: 'KiwiIRC', icon: '/img/jswm-web.png'}" size="60" id="KiwiIRC" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('KiwiIRC').value + ');');">KiwiIRC</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www120.lunapic.com/editor/', 'ImageEditor' ); return false">Image Editor</a>
+    					<a href="#page" onclick="openWindow('https://www120.lunapic.com/editor/', 'ImageEditor' ); return false">Image Editor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://aviary.com/', 'Photo Editor' ); return false">Photo Editor</a>
+    					<a href="#page" onclick="openWindow('https://aviary.com/', 'Photo Editor' ); return false">Photo Editor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://stackedit.io/editor', 'MarkdownEditor' ); return false">Markdown Editor</a>
+    					<a href="#page" onclick="openWindow('https://stackedit.io/editor', 'MarkdownEditor' ); return false">Markdown Editor</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.magicscroll.net/', 'MagicScroll' ); return false">Ebook Reader</a>
+    					<a href="#page" onclick="openWindow('https://www.magicscroll.net/', 'MagicScroll' ); return false">Ebook Reader</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://dotepub.com/creator/?lang=en', 'Epub Creator' ); return false">Epub Creator</a>
+    					<a href="#page" onclick="openWindow('https://dotepub.com/creator/?lang=en', 'Epub Creator' ); return false">Epub Creator</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://convert-video-online.com', 'Video Converter' ); return false">Video Converter</a>
+    					<a href="#page" onclick="openWindow('https://convert-video-online.com', 'Video Converter' ); return false">Video Converter</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.e-chat.co/browse', 'e-Chat' ); return false">e-Chat</a>
+    					<a href="#page" onclick="openWindow('https://www.e-chat.co/browse', 'e-Chat' ); return false">e-Chat</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.chat-avenue.com/', 'Chat Avenue' ); return false">Chat Avenue</a>
+    					<a href="#page" onclick="openWindow('https://www.chat-avenue.com/', 'Chat Avenue' ); return false">Chat Avenue</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://onlinechat.co.in/', 'Online Chat' ); return false">Online Chat</a>
+    					<a href="#page" onclick="openWindow('https://onlinechat.co.in/', 'Online Chat' ); return false">Online Chat</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://chatroulette.com/', 'Chat Roulette' ); return false">Chat Roulette</a>
-    				</li>
-					<li class="divider"></li>
-					
-					
-					
-                </ul>
-            </li>
-            
-            <li class="divider"></li>
-            
-            <li>Google Applications 1                                                                                                                                                    
-              <span class="arrow"></span>
-                <ul class="sublist-menu">
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com.ph/', 'GoogleSearch' ); return false">Google Search</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://scholar.google.com.ph/', 'GoogleScholar' ); return false">Google Scholar</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.youtube.com/', 'Youtube' ); return false">Google Youtube</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://books.google.com', 'Google Books' ); return false">Google Books</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://maps.google.com', 'Google Maps' ); return false">Google Maps</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://plus.google.com', 'Google Plus' ); return false">Google Plus</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://news.google.com', 'Google News' ); return false">Google News</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://play.google.com/store?hl=en', 'Google Play' ); return false">Google Play</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com/wallet/', 'Google Wallet' ); return false">Google Wallet</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com/shopping?hl=en', 'Google Shopping' ); return false">Google Shopping</a>
-    				</li>
-					<li class="divider"></li>    
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com/finance', 'Google Finance' ); return false">Google Finance</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://photos.google.com/', 'Google Photos' ); return false">Google Photos</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.panoramio.com/', 'Panoramio' ); return false">Panoramio</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.blogger.com/', 'Blogger' ); return false">Blogger</a>
-    				</li>
-					<li class="divider"></li>
-
-					
-                </ul>
-            </li>
-            
-            <li class="divider"></li>
-            
-            <li>Google Applications 2                                                                                                                                                     
-              <span class="arrow"></span>
-                <ul class="sublist-menu">
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com.ph/earth/', 'Google Earth' ); return false">Google Earth</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com.ph/maps/streetview/', 'Google StreetView' ); return false">Google StreetView</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com.ph/trends', 'Google Trends' ); return false">Google Trends</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://sites.google.com/?pli=1', 'Google Sites' ); return false">Google Sites</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://translate.google.com.ph/', 'Google Translate' ); return false">Google Translate</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://groups.google.com', 'Google Groups' ); return false">Google Groups</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://hangouts.google.com', 'Google Hangouts' ); return false">Google Hangouts</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com/sky/', 'Google Sky' ); return false">Google Sky</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com.ph/intl/en/about/products/', 'All Google Products' ); return false">All Google Products</a>
+    					<a href="#page" onclick="openWindow('https://chatroulette.com/', 'Chat Roulette' ); return false">Chat Roulette</a>
     				</li>
 					<li class="divider"></li>
 					
 					
-                </ul>
-            </li>
-            
-            <li class="divider"></li>
-            
-            <li>Google Office                                                                                                                                                     
-              <span class="arrow"></span>
-                <ul class="sublist-menu">
-    				<li>
-    					<a href="#page" onclick="openWindow('http://mail.google.com/mail/u/0/x/', 'Gmail Mobile' ); return false">Google Gmail(M)</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="window.open('https://gmail.google.com/','_blank'); return false">Google Gmail(F) </a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://keep.google.com', 'Google Keep' ); return false">Google Keep</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://calendar.google.com/', 'Calendar' ); return false">Google Calendar</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://contacts.google.com', 'Google Contacts' ); return false">Google Contacts</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://drive.google.com/?authuser=0#my-drive', 'GoogleDrive' ); return false">Google Drive</a>
-    				</li>
-					<li class="divider"></li> 
-    				<li>
-    					<a href="#page" onclick="openWindow('http://docs.google.com/document/u/0/', 'Google Docs' ); return false">Google Docs</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://docs.google.com/presentation/u/0/', 'Google Slides' ); return false">Google Slides</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://docs.google.com/drawings', 'Google Drawings' ); return false">Google Drawings</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://docs.google.com/spreadsheets/u/0/', 'Google Sheets' ); return false">Google Sheets</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://docs.google.com/forms/', 'Google Forms' ); return false">Google Forms</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://www.google.com/cloudprint', 'Google Print' ); return false">Google Print</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=180&SID=TDSSLIDE-180', 'Everything Google...' ); return false">Everything Google...</a>
-    				</li>
-					<li class="divider"></li>
 					
                 </ul>
             </li>
@@ -1527,27 +1459,27 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://c9.io/', 500, 300, 'right', 'top', {title: 'Cloud9', icon: '/img/jswm-web.png'}" size="60" id="c9" />
+    					 <input type="hidden" value="'https://c9.io/', 500, 300, 'right', 'top', {title: 'Cloud9', icon: '/img/jswm-web.png'}" size="60" id="c9" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('c9').value + ');');">Cloud9</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://play.golang.org/', 500, 300, 'right', 'top', {title: 'Go Playground', icon: '/img/jswm-web.png'}" size="60" id="goplay" />
+    					 <input type="hidden" value="'https://play.golang.org/', 500, 300, 'right', 'top', {title: 'Go Playground', icon: '/img/jswm-web.png'}" size="60" id="goplay" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('goplay').value + ');');">Go Playground</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://golang-programming.appspot.com/', 500, 300, 'right', 'top', {title: 'Golang Programming', icon: '/img/jswm-web.png'}" size="60" id="goprog" />
+    					 <input type="hidden" value="'https://golang-programming.appspot.com/', 500, 300, 'right', 'top', {title: 'Golang Programming', icon: '/img/jswm-web.png'}" size="60" id="goprog" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('goprog').value + ');');">Golang Programming</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://jsfiddle.net/', 500, 300, 'right', 'top', {title: 'JS Fiddle', icon: '/img/jswm-web.png'}" size="60" id="jsfiddle" />
+    					 <input type="hidden" value="'https://jsfiddle.net/', 500, 300, 'right', 'top', {title: 'JS Fiddle', icon: '/img/jswm-web.png'}" size="60" id="jsfiddle" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('jsfiddle').value + ');');">JS Fiddle</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'http://codepen.io/', 500, 300, 'right', 'top', {title: 'Codepen.io', icon: '/img/jswm-web.png'}" size="60" id="codepen.io" />
+    					 <input type="hidden" value="'https://codepen.io/', 500, 300, 'right', 'top', {title: 'Codepen.io', icon: '/img/jswm-web.png'}" size="60" id="codepen.io" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('codepen.io').value + ');');">CodePen.IO</a>
     				</li>
 					<li class="divider"></li>
@@ -1557,27 +1489,32 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://keycode.info/', 500, 300, 'right', 'top', {title: 'Key Codes', icon: '/img/jswm-web.png'}" size="60" id="keycodes" />
+    					 <input type="hidden" value="'https://keycode.info/', 500, 300, 'right', 'top', {title: 'Key Codes', icon: '/img/jswm-web.png'}" size="60" id="keycodes" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('keycodes').value + ');');">Javascript KeyCodes</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.w3schools.com/', 500, 300, 'right', 'top', {title: 'W3 Schools', icon: '/img/jswm-web.png'}" size="60" id="w3sch" />
-    					<a href="#page" onclick="eval('windowManager.openURI(' + $('w3sch').value + ');');">W3 Schools</a>
+    					 <input type="hidden" value="'https://keycode.info/', 500, 300, 'right', 'top', {title: 'Key Codes', icon: '/img/jswm-web.png'}" size="60" id="keycodes" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('keycodes').value + ');');">Javascript KeyCodes</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://www.mobilefish.com/services/base64/base64.php', 500, 300, 'right', 'top', {title: 'Base64 Encoder', icon: '/img/jswm-web.png'}" size="60" id="b64en" />
+    					 <input type="hidden" value="'https://www.colorpicker.com/', 500, 300, 'right', 'top', {title: 'Color Picker', icon: '/img/jswm-web.png'}" size="60" id="cpicker" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('cpicker').value + ');');">Color Picker</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'https://www.mobilefish.com/services/base64/base64.php', 500, 300, 'right', 'top', {title: 'Base64 Encoder', icon: '/img/jswm-web.png'}" size="60" id="b64en" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('b64en').value + ');');">Base64 Encoder</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://jsbeautifier.org/', 500, 300, 'right', 'top', {title: 'JS Beautifier', icon: '/img/jswm-web.png'}" size="60" id="jsbe" />
+    					 <input type="hidden" value="'https://jsbeautifier.org/', 500, 300, 'right', 'top', {title: 'JS Beautifier', icon: '/img/jswm-web.png'}" size="60" id="jsbe" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('jsbe').value + ');');">JS Beautifier</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'http://fmarcia.info/jsmin/test.html', 500, 300, 'right', 'top', {title: 'JS Minifier', icon: '/img/jswm-web.png'}" size="60" id="mfier" />
+    					 <input type="hidden" value="'https://fmarcia.info/jsmin/test.html', 500, 300, 'right', 'top', {title: 'JS Minifier', icon: '/img/jswm-web.png'}" size="60" id="mfier" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('mfier').value + ');');">JS Minifier</a>
     				</li>
 					<li class="divider"></li>
@@ -1589,65 +1526,10 @@
 					
 					
     				<li>
-    					<a href="#page" onclick="openWindow('http://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=183&SID=TDSSLIDE-183', 'moreplay' ); return false">More Playgrounds...</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=183&SID=TDSSLIDE-183', 'moreplay' ); return false">More Playgrounds...</a>
     				</li>
 					<li class="divider"></li>    
 					
-                </ul>
-            </li>
-            
-            <li class="divider"></li>
-
-            
-            <li>Google Cloud Developers                                                                                                                                                   
-              <span class="arrow"></span>
-                <ul class="sublist-menu">
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/cloudshell', 'Google Shell' ); return false">Google Shell</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/apis/library?project=', 'API Manager' ); return false">API Manager</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/permissions/projectpermissions?project=', 'Permissions' ); return false">Permissions</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/appengine', 'App Engine' ); return false">App Engine</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/compute/instances', 'Compute Engine' ); return false">Compute Engine</a>
-    				</li>
-					<li class="divider"></li>  
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/kubernetes/list', 'Container Engine' ); return false">Container Engine</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/networking/networks/list', 'Networking' ); return false">Networking</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/bigtable/clusters', 'Big Table' ); return false">Big Table</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/sql/instances', 'Cloud SQL' ); return false">Cloud SQL</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/datastore', 'Datastore' ); return false">Datastore</a>
-    				</li>
-					<li class="divider"></li>
-    				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/storage/browser', 'Cloud Storage' ); return false">Cloud Storage</a>
-    				</li>
-					<li class="divider"></li>					
-					
-
                 </ul>
             </li>
             
@@ -1657,23 +1539,23 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					<a href="#page" onclick="openWindow('http://code.google.com/', 'Google Code' ); return false">Google Developers</a>
+    					<a href="#page" onclick="openWindow('https://code.google.com/', 'Google Code' ); return false">Google Developers</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://console.cloud.google.com/cloudshell', 'Google Shell' ); return false">Google Shell</a>
+    					<a href="#page" onclick="openWindow('https://console.cloud.google.com/cloudshell', 'Google Shell' ); return false">Google Shell</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://developer.android.com/index.html', 'Android Developers' ); return false">Android Developers</a>
+    					<a href="#page" onclick="openWindow('https://developer.android.com/index.html', 'Android Developers' ); return false">Android Developers</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					<a href="#page" onclick="openWindow('http://developer.chrome.com/home', 'Chrome Developers' ); return false">Chrome Developers</a>
+    					<a href="#page" onclick="openWindow('https://developer.chrome.com/home', 'Chrome Developers' ); return false">Chrome Developers</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					<a href="#page" onclick="openWindow('http://cloud.google.com/', 'Cloud Developers' ); return false">Cloud Developers</a>
+    					<a href="#page" onclick="openWindow('https://cloud.google.com/', 'Cloud Developers' ); return false">Cloud Developers</a>
     				</li>
 					<li class="divider"></li>
     				<li>
@@ -1682,7 +1564,7 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=180&SID=TDSSLIDE-180', 'Everything Google...' ); return false">Everything Google...</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=180&SID=TDSSLIDE-180', 'Everything Google...' ); return false">Everything Google...</a>
     				</li>
 					<li class="divider"></li>
 
@@ -1696,27 +1578,27 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.facebook.com/ulapphcorporation', 'Facebook' ); return false">Facebook</a>
+    					<a href="#page" onclick="openWindow('https://www.facebook.com/ulapphcorporation', 'Facebook' ); return false">Facebook</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					<a href="#page" onclick="openWindow('http://plus.google.com', 'Google Plus' ); return false">Google Plus</a>
+    					<a href="#page" onclick="openWindow('https://plus.google.com', 'Google Plus' ); return false">Google Plus</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.twitter.com', 'Twitter' ); return false">Twitter</a>
+    					<a href="#page" onclick="openWindow('https://www.twitter.com', 'Twitter' ); return false">Twitter</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.linkedin.com', 'Linked In' ); return false">Linked In</a>
+    					<a href="#page" onclick="openWindow('https://www.linkedin.com', 'Linked In' ); return false">Linked In</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://www.stumbleupon.com/', 'Stumble Upon' ); return false">Stumble Upon</a>
+    					<a href="#page" onclick="openWindow('https://www.stumbleupon.com/', 'Stumble Upon' ); return false">Stumble Upon</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=196&SID=TDSSLIDE-196', 'All Social Networks...' ); return false">All Social Networks</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=196&SID=TDSSLIDE-196', 'All Social Networks...' ); return false">All Social Networks</a>
     				</li>
 					<li class="divider"></li>
 
@@ -1729,7 +1611,7 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					<a href="#page" onclick="openWindow('http://web.airdroid.com/', 'Airdroid' ); return false">Airdroid</a>
+    					<a href="#page" onclick="openWindow('https://web.airdroid.com/', 'Airdroid' ); return false">Airdroid</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
@@ -1747,19 +1629,19 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					<a href="#page" onclick="openWindow('http://opo.ulapph.com/slides?TYPE=SLIDE&DOC_ID=220&SID=TDSSLIDE-220', 'FREE For Business' ); return false">For Business</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=220&SID=TDSSLIDE-220', 'FREE For Business' ); return false">For Business</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					<a href="#page" onclick="openWindow('http://opo.ulapph.com/slides?TYPE=SLIDE&DOC_ID=222&SID=TDSSLIDE-222', 'FREE For Work' ); return false">For Work</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=222&SID=TDSSLIDE-222', 'FREE For Work' ); return false">For Work</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://opo.ulapph.com/slides?TYPE=SLIDE&DOC_ID=221&SID=TDSSLIDE-221', 'FREE for Design' ); return false">For Design</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=221&SID=TDSSLIDE-221', 'FREE for Design' ); return false">For Design</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					<a href="#page" onclick="openWindow('http://opo.ulapph.com/slides?TYPE=SLIDE&DOC_ID=221&SID=TDSSLIDE-221', 'FREE for Education' ); return false">For Education</a>
+    					<a href="#page" onclick="openWindow('https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=221&SID=TDSSLIDE-221', 'FREE for Education' ); return false">For Education</a>
     				</li>
 					<li class="divider"></li>
                 </ul>
@@ -1810,13 +1692,18 @@
               <span class="arrow"></span>                                                                                                                                   
                  <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'http://ulapph-public-1.appspot.com/articles?TYPE=ARTICLE&DOC_ID=3&SID=TDSARTL-3', 500, 300, 'right', 'top', {title: 'Help', icon: '/img/jswm-web.png'}" size="60" id="Help" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/articles?TYPE=ARTICLE&DOC_ID=3&SID=TDSARTL-3', 500, 300, 'right', 'top', {title: 'Help', icon: '/img/jswm-web.png'}" size="60" id="Help" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Help').value + ');');">ULAPPH Documentations</a>
     				</li>
 					<li class="divider"></li>
     				<li>
     					 <input type="hidden" value="'/guestbook?GB_FUNC=FEEDBACK_VIEW', 500, 300, 'right', 'top', {title: 'Submit Feedback', icon: '/img/jswm-web.png'}" size="60" id="feedback" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('feedback').value + ');');">Submit Feedback</a>
+    				</li>
+					<li class="divider"></li>
+    				<li>
+    					 <input type="hidden" value="'https://www.youtube.com/channel/UCfmBlIM8pbOs3Vaq1lTZ22Q', 500, 300, 'right', 'top', {title: 'Video Tutorials', icon: '/img/jswm-web.png'}" size="60" id="vtut" />
+    					<a href="#page" onclick="eval('windowManager.openURI(' + $('vtut').value + ');');">Video Tutorials</a>
     				</li>
 					<li class="divider"></li>
                 </ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
