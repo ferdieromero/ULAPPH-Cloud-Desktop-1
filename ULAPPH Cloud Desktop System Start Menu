@@ -23,7 +23,7 @@
             </li>
             <li class="divider"></li>
     		<!--li>
-    			 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet', 500, 300, 'right', 'top', {title: 'New Window', icon: '/img/jswm-web.png'}" size="60" id="newWindow" />
+    			 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet', 500, 300, 'left', 'top', {title: 'New Window', icon: '/img/jswm-web.png'}" size="60" id="newWindow" />
     			<a href="#page" onclick="eval('windowManager.openURI(' + $('newWindow').value + ');');">New Window</a>
     		</li>
     		<li class="divider"></li-->
@@ -31,47 +31,47 @@
               <span class="arrow"></span>                                                                                                                                   
                  <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EditPeople&UID=', 500, 300, 'right', 'top', {title: 'Edit Profile', icon: '/img/jswm-web.png'}" size="60" id="editProfile" />
+    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EditPeople&UID=', 500, 300, 'left', 'top', {title: 'Edit Profile', icon: '/img/jswm-web.png'}" size="60" id="editProfile" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('editProfile').value + ');');">Edit Profile</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=deleteMyAccount&UID=', 500, 300, 'right', 'top', {title: 'Delete Profile', icon: '/img/jswm-web.png'}" size="60" id="deleteProfile" />
+    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=deleteMyAccount&UID=', 500, 300, 'left', 'top', {title: 'Delete Profile', icon: '/img/jswm-web.png'}" size="60" id="deleteProfile" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('deleteProfile').value + ');');">Delete Profile</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_TOP_LIST_MENU_MINE&UID=', 500, 300, 'right', 'top', {title: 'Edit Personal Menu', icon: '/img/jswm-web.png'}" size="60" id="editCustomMenu" />
+    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_TOP_LIST_MENU_MINE&UID=', 500, 300, 'left', 'top', {title: 'Edit Personal Menu', icon: '/img/jswm-web.png'}" size="60" id="editCustomMenu" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('editCustomMenu').value + ');');">Edit Personal Menu</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_WINDOWS_MINE&UID=', 500, 300, 'right', 'top', {title: 'Edit UWM Windows', icon: '/img/jswm-web.png'}" size="60" id="editUWMWindows" />
+    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_WINDOWS_MINE&UID=', 500, 300, 'left', 'top', {title: 'Edit UWM Windows', icon: '/img/jswm-web.png'}" size="60" id="editUWMWindows" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('editUWMWindows').value + ');');">Edit UWM Windows</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_CONTACTS_LIST&UID=', 500, 300, 'right', 'top', {title: 'My Contacts', icon: '/img/jswm-web.png'}" size="60" id="myContacts" />
+    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_CONTACTS_LIST&UID=', 500, 300, 'left', 'top', {title: 'My Contacts', icon: '/img/jswm-web.png'}" size="60" id="myContacts" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myContacts').value + ');');">My Contacts</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MyLocalNotes', 500, 300, 'right', 'top', {title: 'My Local Notes', icon: '/img/jswm-web.png'}" size="60" id="myNotes" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MyLocalNotes', 500, 300, 'left', 'top', {title: 'My Local Notes', icon: '/img/jswm-web.png'}" size="60" id="myNotes" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myNotes').value + ');');">My Local Notes</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MyPreferences', 500, 300, 'right', 'top', {title: 'My Preferences', icon: '/img/jswm-web.png'}" size="60" id="myPrefs" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MyPreferences', 500, 300, 'left', 'top', {title: 'My Preferences', icon: '/img/jswm-web.png'}" size="60" id="myPrefs" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myPrefs').value + ');');">My Preferences</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MyUrlFetcher', 500, 300, 'right', 'top', {title: 'My URL Fetcher', icon: '/img/jswm-web.png'}" size="60" id="myURLs" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MyUrlFetcher', 500, 300, 'left', 'top', {title: 'My URL Fetcher', icon: '/img/jswm-web.png'}" size="60" id="myURLs" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myURLs').value + ');');">My URL Fetcher</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_SHORTCUTS&UID=', 500, 300, 'right', 'top', {title: 'My Shortcuts', icon: '/img/jswm-web.png'}" size="60" id="myShorts" />
+    					 <input type="hidden" value="'/people-edit?EditPeopleFunc=EDIT_SHORTCUTS&UID=', 500, 300, 'left', 'top', {title: 'My Shortcuts', icon: '/img/jswm-web.png'}" size="60" id="myShorts" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myShorts').value + ');');">My Shortcuts</a>
     				</li>
     				<li class="divider"></li>
@@ -83,62 +83,62 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'https://hereistoday.com/', 500, 300, 'right', 'top', {title: 'Here is Today', icon: '/img/jswm-web.png'}" size="60" id="heretoday" />
+    					 <input type="hidden" value="'https://hereistoday.com/', 500, 300, 'left', 'top', {title: 'Here is Today', icon: '/img/jswm-web.png'}" size="60" id="heretoday" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('heretoday').value + ');');">Here is Today</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-QUOTATIONS', 500, 300, 'right', 'top', {title: 'Quotations', icon: '/img/jswm-web.png'}" size="60" id="Quotations" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-QUOTATIONS', 500, 300, 'left', 'top', {title: 'Quotations', icon: '/img/jswm-web.png'}" size="60" id="Quotations" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Quotations').value + ');');">Quotations</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-BIBLE', 500, 300, 'right', 'top', {title: 'Bible', icon: '/img/jswm-web.png'}" size="60" id="Bible" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-BIBLE', 500, 300, 'left', 'top', {title: 'Bible', icon: '/img/jswm-web.png'}" size="60" id="Bible" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Bible').value + ');');">Bible</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-JOKES', 500, 300, 'right', 'top', {title: 'Jokes', icon: '/img/jswm-web.png'}" size="60" id="Jokes" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-JOKES', 500, 300, 'left', 'top', {title: 'Jokes', icon: '/img/jswm-web.png'}" size="60" id="Jokes" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Jokes').value + ');');">Jokes</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-SAVING', 500, 300, 'right', 'top', {title: 'Savings', icon: '/img/jswm-web.png'}" size="60" id="Savings" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-SAVING', 500, 300, 'left', 'top', {title: 'Savings', icon: '/img/jswm-web.png'}" size="60" id="Savings" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Savings').value + ');');">Savings</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-BLOG', 500, 300, 'right', 'top', {title: 'Blogging', icon: '/img/jswm-web.png'}" size="60" id="Blogging" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-BLOG', 500, 300, 'left', 'top', {title: 'Blogging', icon: '/img/jswm-web.png'}" size="60" id="Blogging" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Blogging').value + ');');">Blogging</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-HEALTH', 500, 300, 'right', 'top', {title: 'Health', icon: '/img/jswm-web.png'}" size="60" id="Health" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-HEALTH', 500, 300, 'left', 'top', {title: 'Health', icon: '/img/jswm-web.png'}" size="60" id="Health" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Health').value + ');');">Health</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-FITNESS', 500, 300, 'right', 'top', {title: 'Fitness', icon: '/img/jswm-web.png'}" size="60" id="Fitness" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-FITNESS', 500, 300, 'left', 'top', {title: 'Fitness', icon: '/img/jswm-web.png'}" size="60" id="Fitness" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Fitness').value + ');');">Fitness</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-INTERVIEW', 500, 300, 'right', 'top', {title: 'Interview', icon: '/img/jswm-web.png'}" size="60" id="Interview" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-INTERVIEW', 500, 300, 'left', 'top', {title: 'Interview', icon: '/img/jswm-web.png'}" size="60" id="Interview" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Interview').value + ');');">Interview</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-BUSINESS', 500, 300, 'right', 'top', {title: 'Business', icon: '/img/jswm-web.png'}" size="60" id="Business" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-BUSINESS', 500, 300, 'left', 'top', {title: 'Business', icon: '/img/jswm-web.png'}" size="60" id="Business" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Business').value + ');');">Business</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-LIFE', 500, 300, 'right', 'top', {title: 'Life', icon: '/img/jswm-web.png'}" size="60" id="Life" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-LIFE', 500, 300, 'left', 'top', {title: 'Life', icon: '/img/jswm-web.png'}" size="60" id="Life" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Life').value + ');');">Life</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-TABLE-TOPICS', 500, 300, 'right', 'top', {title: 'Table Topics', icon: '/img/jswm-web.png'}" size="60" id="TableTopics" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-TABLE-TOPICS', 500, 300, 'left', 'top', {title: 'Table Topics', icon: '/img/jswm-web.png'}" size="60" id="TableTopics" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('TableTopics').value + ');');">Table Topics</a>
     				</li>
 					<li class="divider"></li>
@@ -268,138 +268,138 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
 				<li>
-					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=RemoteControl', 500, 300, 'right', 'top', {title: 'Remote Control', icon: '/img/jswm-web.png'}" size="60" id="remoteControl" />
+					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=RemoteControl', 500, 300, 'left', 'top', {title: 'Remote Control', icon: '/img/jswm-web.png'}" size="60" id="remoteControl" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('remoteControl').value + ');');">Remote Control (Viewer)</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/presenter?MODE=CONTROL@888@PRESENTER_SESSION_KEY=dummy', 500, 300, 'right', 'top', {title: 'Remote Controller', icon: '/img/jswm-web.png'}" size="60" id="remoteController" />
+					 <input type="hidden" value="'/presenter?MODE=CONTROL@888@PRESENTER_SESSION_KEY=dummy', 500, 300, 'left', 'top', {title: 'Remote Controller', icon: '/img/jswm-web.png'}" size="60" id="remoteController" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('remoteController').value + ');');">Remote Control (Control)</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-				    <input type="hidden" value="'/contents?q=home', 500, 300, 'right', 'top', {title: 'myWebsite', icon: '/img/jswm-web.png'}" size="60" id="website" />
+				    <input type="hidden" value="'/contents?q=home', 500, 300, 'left', 'top', {title: 'myWebsite', icon: '/img/jswm-web.png'}" size="60" id="website" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('website').value + ');');">Public Website</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-				    <input type="hidden" value="'/infodb?DB_FUNC=VIEWER-SLIDES-ALL&TYPE=SLIDE&MODE=NORMAL&PARM=LOOP&SECS=8', 500, 300, 'right', 'top', {title: 'All Contents Index', icon: '/img/jswm-web.png'}" size="60" id="smaindex" />
+				    <input type="hidden" value="'/infodb?DB_FUNC=VIEWER-SLIDES-ALL&TYPE=SLIDE&MODE=NORMAL&PARM=LOOP&SECS=8', 500, 300, 'left', 'top', {title: 'All Contents Index', icon: '/img/jswm-web.png'}" size="60" id="smaindex" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('smaindex').value + ');');">All Contents Index</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'right', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren1" />
+					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'left', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren1" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('utren1').value + ');');">ULAPPH Trending</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'right', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew1" />
+					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'left', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew1" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('unew1').value + ');');">ULAPPH WhatsNew</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-				    <input type="hidden" value="'/search?f=glow2&In ULAPPH&i=yes', 500, 300, 'right', 'top', {title: 'Search', icon: '/img/jswm-web.png'}" size="60" id="search" />
+				    <input type="hidden" value="'/search?f=glow2&In ULAPPH&i=yes', 500, 300, 'left', 'top', {title: 'Search', icon: '/img/jswm-web.png'}" size="60" id="search" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('search').value + ');');">Search</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/?q=home', 500, 300, 'right', 'top', {title: 'myCarousel', icon: '/img/jswm-web.png'}" size="60" id="openURI1" />
+					<input type="hidden" value="'/?q=home', 500, 300, 'left', 'top', {title: 'myCarousel', icon: '/img/jswm-web.png'}" size="60" id="openURI1" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI1').value + ');');">Carousel</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/desktop0', 500, 300, 'right', 'top', {title: 'myDesktop0', icon: '/img/jswm-web.png'}" size="60" id="openURI2" />
+					<input type="hidden" value="'/desktop0', 500, 300, 'left', 'top', {title: 'myDesktop0', icon: '/img/jswm-web.png'}" size="60" id="openURI2" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI2').value + ');');">Desktop0</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/slides', 500, 300, 'right', 'top', {title: 'Slides', icon: '/img/jswm-web.png'}" size="60" id="slides" />
+					<input type="hidden" value="'/slides', 500, 300, 'left', 'top', {title: 'Slides', icon: '/img/jswm-web.png'}" size="60" id="slides" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('slides').value + ');');">Slides</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/infodb?DB_FUNC=SLIDES&CATEGORY=desktop0&VIEW=RECENT', 500, 300, 'right', 'top', {title: 'Slides - Recent', icon: '/img/jswm-web.png'}" size="60" id="slidesR" />
+					<input type="hidden" value="'/infodb?DB_FUNC=SLIDES&CATEGORY=desktop0&VIEW=RECENT', 500, 300, 'left', 'top', {title: 'Slides - Recent', icon: '/img/jswm-web.png'}" size="60" id="slidesR" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('slidesR').value + ');');">Slides - Recent</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/articles', 500, 300, 'right', 'top', {title: 'Articles', icon: '/img/jswm-web.png'}" size="60" id="articles" />
+					<input type="hidden" value="'/articles', 500, 300, 'left', 'top', {title: 'Articles', icon: '/img/jswm-web.png'}" size="60" id="articles" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('articles').value + ');');">Articles</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/infodb?DB_FUNC=ARTICLES&CATEGORY=desktop0&VIEW=RECENT', 500, 300, 'right', 'top', {title: 'Articles - Recent', icon: '/img/jswm-web.png'}" size="60" id="articlesR" />
+					<input type="hidden" value="'/infodb?DB_FUNC=ARTICLES&CATEGORY=desktop0&VIEW=RECENT', 500, 300, 'left', 'top', {title: 'Articles - Recent', icon: '/img/jswm-web.png'}" size="60" id="articlesR" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('articlesR').value + ');');">Articles - Recent</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/media', 500, 300, 'right', 'top', {title: 'Media', icon: '/img/jswm-web.png'}" size="60" id="media" />
+					<input type="hidden" value="'/media', 500, 300, 'left', 'top', {title: 'Media', icon: '/img/jswm-web.png'}" size="60" id="media" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('media').value + ');');">Media</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/infodb?DB_FUNC=MEDIA&CATEGORY=ALL_RECENT', 500, 300, 'right', 'top', {title: 'Media - Recent', icon: '/img/jswm-web.png'}" size="60" id="mediaR" />
+					<input type="hidden" value="'/infodb?DB_FUNC=MEDIA&CATEGORY=ALL_RECENT', 500, 300, 'left', 'top', {title: 'Media - Recent', icon: '/img/jswm-web.png'}" size="60" id="mediaR" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('mediaR').value + ');');">Media - Recent</a>
 				</li>
 				<li class="divider"></li>
 
 				<li>
-					 <input type="hidden" value="'/stream', 500, 300, 'right', 'top', {title: 'Stream', icon: '/img/jswm-web.png'}" size="60" id="stream" />
+					 <input type="hidden" value="'/stream', 500, 300, 'left', 'top', {title: 'Stream', icon: '/img/jswm-web.png'}" size="60" id="stream" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('stream').value + ');');">Stream</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/chat', 500, 300, 'right', 'top', {title: 'Public Chat', icon: '/img/jswm-web.png'}" size="60" id="openURI6" />
+					 <input type="hidden" value="'/chat', 500, 300, 'left', 'top', {title: 'Public Chat', icon: '/img/jswm-web.png'}" size="60" id="openURI6" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI6').value + ');');">Public Chat</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/chat?CHAT_FUNC=newChatRoom', 500, 300, 'right', 'top', {title: 'Private Chat (Owner)', icon: '/img/jswm-web.png'}" size="60" id="chatroom" />
+					 <input type="hidden" value="'/chat?CHAT_FUNC=newChatRoom', 500, 300, 'left', 'top', {title: 'Private Chat (Owner)', icon: '/img/jswm-web.png'}" size="60" id="chatroom" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('chatroom').value + ');');">Create Chat Room</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/chat?CHAT_FUNC=connectChatRoom', 500, 300, 'right', 'top', {title: 'Private Chat (Join)', icon: '/img/jswm-web.png'}" size="60" id="chatroom2" />
+					 <input type="hidden" value="'/chat?CHAT_FUNC=connectChatRoom', 500, 300, 'left', 'top', {title: 'Private Chat (Join)', icon: '/img/jswm-web.png'}" size="60" id="chatroom2" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('chatroom2').value + ');');">Join Chat Room</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/guestbook?GB_FUNC=GB_OWNER', 500, 300, 'right', 'top', {title: 'Guestbook', icon: '/img/jswm-web.png'}" size="60" id="gbook" />
+					 <input type="hidden" value="'/guestbook?GB_FUNC=GB_OWNER', 500, 300, 'left', 'top', {title: 'Guestbook', icon: '/img/jswm-web.png'}" size="60" id="gbook" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('gbook').value + ');');">Guestbook</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/admin-setup?ADMIN_FUNC=SEND_MSG_ALL', 500, 300, 'right', 'top', {title: 'Broadcast', icon: '/img/jswm-web.png'}" size="60" id="bcast" />
+					 <input type="hidden" value="'/admin-setup?ADMIN_FUNC=SEND_MSG_ALL', 500, 300, 'left', 'top', {title: 'Broadcast', icon: '/img/jswm-web.png'}" size="60" id="bcast" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('bcast').value + ');');">Broadcast</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/people?PEOPLE_FUNC=QUICK-VIEW', 500, 300, 'right', 'top', {title: 'People Directory', icon: '/img/jswm-web.png'}" size="60" id="people" />
+					 <input type="hidden" value="'/people?PEOPLE_FUNC=QUICK-VIEW', 500, 300, 'left', 'top', {title: 'People Directory', icon: '/img/jswm-web.png'}" size="60" id="people" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('people').value + ');');">People</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/media?FUNC_CODE=UMP', 500, 300, 'right', 'top', {title: 'Music Player', icon: '/img/jswm-web.png'}" size="60" id="openURI3" />
+					 <input type="hidden" value="'/media?FUNC_CODE=UMP', 500, 300, 'left', 'top', {title: 'Music Player', icon: '/img/jswm-web.png'}" size="60" id="openURI3" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI3').value + ');');">Music Player</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/media?FUNC_CODE=MDP', 500, 500, 'right', 'top', {title: 'MIDI Player', icon: '/img/jswm-web.png'}" size="60" id="mdplayer" />
+					 <input type="hidden" value="'/media?FUNC_CODE=MDP', 500, 500, 'left', 'top', {title: 'MIDI Player', icon: '/img/jswm-web.png'}" size="60" id="mdplayer" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('mdplayer').value + ');');">MIDI Player</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/media?FUNC_CODE=UVP', 500, 300, 'right', 'top', {title: 'Video Player', icon: '/img/jswm-web.png'}" size="60" id="openURI4" />
+					 <input type="hidden" value="'/media?FUNC_CODE=UVP', 500, 300, 'left', 'top', {title: 'Video Player', icon: '/img/jswm-web.png'}" size="60" id="openURI4" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI4').value + ');');">Video Player</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/media?FUNC_CODE=YVP', 500, 500, 'right', 'top', {title: 'Youtube Player', icon: '/img/jswm-web.png'}" size="60" id="ytplayer" />
+					 <input type="hidden" value="'/media?FUNC_CODE=YVP', 500, 500, 'left', 'top', {title: 'Youtube Player', icon: '/img/jswm-web.png'}" size="60" id="ytplayer" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('ytplayer').value + ');');">Youtube Player</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					<input type="hidden" value="'/media?FUNC_CODE=VIEW_THUMBS', 500, 300, 'right', 'top', {title: 'Photo Gallery', icon: '/img/jswm-web.png'}" size="60" id="gallery" />
+					<input type="hidden" value="'/media?FUNC_CODE=VIEW_THUMBS', 500, 300, 'left', 'top', {title: 'Photo Gallery', icon: '/img/jswm-web.png'}" size="60" id="gallery" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('gallery').value + ');');">Photo Gallery</a>
 				</li>
 				<li class="divider"></li>
@@ -412,87 +412,87 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=QuickLaunch', 500, 300, 'right', 'top', {title: 'Quick Launch', icon: '/img/jswm-web.png'}" size="60" id="qlaunch" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=QuickLaunch', 500, 300, 'left', 'top', {title: 'Quick Launch', icon: '/img/jswm-web.png'}" size="60" id="qlaunch" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('qlaunch').value + ');');">Quick Launch</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/media?FUNC_CODE=SET_MULTI_IMAGE_UPLOAD', 500, 300, 'right', 'top', {title: 'Multiple Upload', icon: '/img/jswm-web.png'}" size="60" id="MultipleUpload" />
+    					 <input type="hidden" value="'/media?FUNC_CODE=SET_MULTI_IMAGE_UPLOAD', 500, 300, 'left', 'top', {title: 'Multiple Upload', icon: '/img/jswm-web.png'}" size="60" id="MultipleUpload" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('MultipleUpload').value + ');');">Multiple Upload</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/?q=qi#upload-image', 500, 300, 'right', 'top', {title: 'Upload Image', icon: '/img/jswm-web.png'}" size="60" id="UploadImage" />
+    					 <input type="hidden" value="'/?q=qi#upload-image', 500, 300, 'left', 'top', {title: 'Upload Image', icon: '/img/jswm-web.png'}" size="60" id="UploadImage" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('UploadImage').value + ');');">Upload Image</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/?q=qm#upload-music', 500, 300, 'right', 'top', {title: 'Upload Music', icon: '/img/jswm-web.png'}" size="60" id="UploadMusic" />
+    					 <input type="hidden" value="'/?q=qm#upload-music', 500, 300, 'left', 'top', {title: 'Upload Music', icon: '/img/jswm-web.png'}" size="60" id="UploadMusic" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('UploadMusic').value + ');');">Upload Music</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'/?q=qv#upload-video', 500, 300, 'right', 'top', {title: 'Upload Video', icon: '/img/jswm-web.png'}" size="60" id="UploadVideo" />
+    					 <input type="hidden" value="'/?q=qv#upload-video', 500, 300, 'left', 'top', {title: 'Upload Video', icon: '/img/jswm-web.png'}" size="60" id="UploadVideo" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('UploadVideo').value + ');');">Upload Video</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?DOC_ID=0&SID=NEWARTICLE', 500, 300, 'right', 'top', {title: 'New Article', icon: '/img/jswm-web.png'}" size="60" id="NewArticle" />
+    					 <input type="hidden" value="'/editor?DOC_ID=0&SID=NEWARTICLE', 500, 300, 'left', 'top', {title: 'New Article', icon: '/img/jswm-web.png'}" size="60" id="NewArticle" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('NewArticle').value + ');');">New Article</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?DOC_ID=0&SID=NEWSLIDE', 500, 300, 'right', 'top', {title: 'New Slide', icon: '/img/jswm-web.png'}" size="60" id="NewSlide" />
+    					 <input type="hidden" value="'/editor?DOC_ID=0&SID=NEWSLIDE', 500, 300, 'left', 'top', {title: 'New Slide', icon: '/img/jswm-web.png'}" size="60" id="NewSlide" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('NewSlide').value + ');');">New Slide</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?MEDIA_ID=0&SID=NEWTEXT', 500, 300, 'right', 'top', {title: 'New Text', icon: '/img/jswm-web.png'}" size="60" id="NewText" />
+    					 <input type="hidden" value="'/editor?MEDIA_ID=0&SID=NEWTEXT', 500, 300, 'left', 'top', {title: 'New Text', icon: '/img/jswm-web.png'}" size="60" id="NewText" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('NewText').value + ');');">New Text</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?EDIT_FUNC=TEXT-CSS', 500, 300, 'right', 'top', {title: 'Text Formatter', icon: '/img/jswm-web.png'}" size="60" id="textcss" />
+    					 <input type="hidden" value="'/editor?EDIT_FUNC=TEXT-CSS', 500, 300, 'left', 'top', {title: 'Text Formatter', icon: '/img/jswm-web.png'}" size="60" id="textcss" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('textcss').value + ');');">Text Formatter</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?EDIT_FUNC=READER', 500, 300, 'right', 'top', {title: 'Ace Editor', icon: '/img/jswm-web.png'}" size="60" id="acedit" />
+    					 <input type="hidden" value="'/editor?EDIT_FUNC=READER', 500, 300, 'left', 'top', {title: 'Ace Editor', icon: '/img/jswm-web.png'}" size="60" id="acedit" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('acedit').value + ');');">Ace Editor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?EDIT_FUNC=TINY', 500, 300, 'right', 'top', {title: 'Tiny Editor', icon: '/img/jswm-web.png'}" size="60" id="tinyedit" />
+    					 <input type="hidden" value="'/editor?EDIT_FUNC=TINY', 500, 300, 'left', 'top', {title: 'Tiny Editor', icon: '/img/jswm-web.png'}" size="60" id="tinyedit" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('tinyedit').value + ');');">Tiny Editor</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://deepumohan.com/projects/word-count/', 500, 300, 'right', 'top', {title: 'Word Counter', icon: '/img/jswm-web.png'}" size="60" id="wctr" />
+    					 <input type="hidden" value="'https://deepumohan.com/projects/word-count/', 500, 300, 'left', 'top', {title: 'Word Counter', icon: '/img/jswm-web.png'}" size="60" id="wctr" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wctr').value + ');');">Word Counter</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/?q=qu', 500, 300, 'right', 'top', {title: 'Add Website', icon: '/img/jswm-web.png'}" size="60" id="AddWebsite" />
+    					 <input type="hidden" value="'/?q=qu', 500, 300, 'left', 'top', {title: 'Add Website', icon: '/img/jswm-web.png'}" size="60" id="AddWebsite" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('AddWebsite').value + ');');">Add Website</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/uloc', 500, 300, 'right', 'top', {title: 'Local Storage', icon: '/img/jswm-web.png'}" size="60" id="LocalStorage" />
+    					 <input type="hidden" value="'/uloc', 500, 300, 'left', 'top', {title: 'Local Storage', icon: '/img/jswm-web.png'}" size="60" id="LocalStorage" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('LocalStorage').value + ');');">Local Storage</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?EDIT_FUNC=TEXT-TO-SPEECH', 500, 300, 'right', 'top', {title: 'Text to Speech', icon: '/img/jswm-web.png'}" size="60" id="Text2Speech" />
+    					 <input type="hidden" value="'/editor?EDIT_FUNC=TEXT-TO-SPEECH', 500, 300, 'left', 'top', {title: 'Text to Speech', icon: '/img/jswm-web.png'}" size="60" id="Text2Speech" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Text2Speech').value + ');');">Text to Speech</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?EDIT_FUNC=CRYPTO', 500, 300, 'right', 'top', {title: 'Encryption', icon: '/img/jswm-web.png'}" size="60" id="crypto" />
+    					 <input type="hidden" value="'/editor?EDIT_FUNC=CRYPTO', 500, 300, 'left', 'top', {title: 'Encryption', icon: '/img/jswm-web.png'}" size="60" id="crypto" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('crypto').value + ');');">Encryption</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/editor?EDIT_FUNC=DRAW', 500, 300, 'right', 'top', {title: 'Drawing', icon: '/img/jswm-web.png'}" size="60" id="lcdraw" />
+    					 <input type="hidden" value="'/editor?EDIT_FUNC=DRAW', 500, 300, 'left', 'top', {title: 'Drawing', icon: '/img/jswm-web.png'}" size="60" id="lcdraw" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('lcdraw').value + ');');">Drawing</a>
     				</li>
 					<li class="divider"></li>
@@ -505,72 +505,72 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop1', 500, 300, 'right', 'top', {title: 'Games', icon: '/img/jswm-web.png'}" size="60" id="Games" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop1', 500, 300, 'left', 'top', {title: 'Games', icon: '/img/jswm-web.png'}" size="60" id="Games" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Games').value + ');');">Games</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop2', 500, 300, 'right', 'top', {title: 'Movies', icon: '/img/jswm-web.png'}" size="60" id="Movies" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop2', 500, 300, 'left', 'top', {title: 'Movies', icon: '/img/jswm-web.png'}" size="60" id="Movies" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Movies').value + ');');">Movies</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop3', 500, 300, 'right', 'top', {title: 'Funny', icon: '/img/jswm-web.png'}" size="60" id="Funny" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop3', 500, 300, 'left', 'top', {title: 'Funny', icon: '/img/jswm-web.png'}" size="60" id="Funny" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Funny').value + ');');">Funny</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop5', 500, 300, 'right', 'top', {title: 'Banks', icon: '/img/jswm-web.png'}" size="60" id="Banks" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop5', 500, 300, 'left', 'top', {title: 'Banks', icon: '/img/jswm-web.png'}" size="60" id="Banks" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Banks').value + ');');">Banks</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop10', 500, 300, 'right', 'top', {title: 'Learn', icon: '/img/jswm-web.png'}" size="60" id="Learn" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop10', 500, 300, 'left', 'top', {title: 'Learn', icon: '/img/jswm-web.png'}" size="60" id="Learn" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Learn').value + ');');">Learn</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop11', 500, 300, 'right', 'top', {title: 'Health', icon: '/img/jswm-web.png'}" size="60" id="Health" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop11', 500, 300, 'left', 'top', {title: 'Health', icon: '/img/jswm-web.png'}" size="60" id="Health" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Health').value + ');');">Health</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop12', 500, 300, 'right', 'top', {title: 'Fitness', icon: '/img/jswm-web.png'}" size="60" id="Fitness" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop12', 500, 300, 'left', 'top', {title: 'Fitness', icon: '/img/jswm-web.png'}" size="60" id="Fitness" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Fitness').value + ');');">Fitness</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop14', 500, 300, 'right', 'top', {title: 'Jobs', icon: '/img/jswm-web.png'}" size="60" id="Jobs" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop14', 500, 300, 'left', 'top', {title: 'Jobs', icon: '/img/jswm-web.png'}" size="60" id="Jobs" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Jobs').value + ');');">Jobs</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop17', 500, 300, 'right', 'top', {title: 'Travel', icon: '/img/jswm-web.png'}" size="60" id="Travel" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop17', 500, 300, 'left', 'top', {title: 'Travel', icon: '/img/jswm-web.png'}" size="60" id="Travel" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Travel').value + ');');">Travel</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop19', 500, 300, 'right', 'top', {title: 'Sports', icon: '/img/jswm-web.png'}" size="60" id="Sports" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop19', 500, 300, 'left', 'top', {title: 'Sports', icon: '/img/jswm-web.png'}" size="60" id="Sports" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Sports').value + ');');">Sports</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop15', 500, 300, 'right', 'top', {title: 'Business', icon: '/img/jswm-web.png'}" size="60" id="Business" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop15', 500, 300, 'left', 'top', {title: 'Business', icon: '/img/jswm-web.png'}" size="60" id="Business" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Business').value + ');');">Business</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop201', 500, 300, 'right', 'top', {title: 'DIY', icon: '/img/jswm-web.png'}" size="60" id="DIY" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop201', 500, 300, 'left', 'top', {title: 'DIY', icon: '/img/jswm-web.png'}" size="60" id="DIY" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('DIY').value + ');');">DIY</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop301', 500, 300, 'right', 'top', {title: 'Food', icon: '/img/jswm-web.png'}" size="60" id="Food" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/contents?q=desktop301', 500, 300, 'left', 'top', {title: 'Food', icon: '/img/jswm-web.png'}" size="60" id="Food" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Food').value + ');');">Food</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=1&SID=TDSSLIDE-1', 500, 300, 'right', 'top', {title: 'More...', icon: '/img/jswm-web.png'}" size="60" id="More" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=1&SID=TDSSLIDE-1', 500, 300, 'left', 'top', {title: 'More...', icon: '/img/jswm-web.png'}" size="60" id="More" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('More').value + ');');">More...</a>
     				</li>
 					<li class="divider"></li>
@@ -634,87 +634,87 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet', 500, 300, 'right', 'top', {title: 'Mini Browser', icon: '/img/jswm-web.png'}" size="60" id="minibrowser" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet', 500, 300, 'left', 'top', {title: 'Mini Browser', icon: '/img/jswm-web.png'}" size="60" id="minibrowser" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('minibrowser').value + ');');">Mini Browser</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    				    <input type="hidden" value="'/tools?FUNC=WIDGET&t=ProxyBrowser', 500, 300, 'right', 'top', {title: 'Proxy Browser', icon: '/img/jswm-web.png'}" size="60" id="ufb" />
+    				    <input type="hidden" value="'/tools?FUNC=WIDGET&t=ProxyBrowser', 500, 300, 'left', 'top', {title: 'Proxy Browser', icon: '/img/jswm-web.png'}" size="60" id="ufb" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ufb').value + ');');">Proxy Browser</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    				    <input type="hidden" value="'/tools?FUNC=WIDGET&t=RandomGenerator', 500, 300, 'right', 'top', {title: 'Random Generator', icon: '/img/jswm-web.png'}" size="60" id="rgen" />
+    				    <input type="hidden" value="'/tools?FUNC=WIDGET&t=RandomGenerator', 500, 300, 'left', 'top', {title: 'Random Generator', icon: '/img/jswm-web.png'}" size="60" id="rgen" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('rgen').value + ');');">Random Generator</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/bible?BIB_FUNC=biblegateway', 500, 300, 'right', 'top', {title: 'Bible Audio', icon: '/img/jswm-web.png'}" size="60" id="openURI17" />
+    					 <input type="hidden" value="'/bible?BIB_FUNC=biblegateway', 500, 300, 'left', 'top', {title: 'Bible Audio', icon: '/img/jswm-web.png'}" size="60" id="openURI17" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI17').value + ');');">Bible Audio</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://randombibleizer.spiffy.tech/', 500, 300, 'right', 'top', {title: 'Bible Random', icon: '/img/jswm-web.png'}" size="60" id="brand" />
+    					 <input type="hidden" value="'https://randombibleizer.spiffy.tech/', 500, 300, 'left', 'top', {title: 'Bible Random', icon: '/img/jswm-web.png'}" size="60" id="brand" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('brand').value + ');');">Bible Random</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.fromtexttospeech.com/', 500, 300, 'right', 'top', {title: 'Text2Speech-MP3', icon: '/img/jswm-web.png'}" size="60" id="ttsmp3" />
+    					 <input type="hidden" value="'https://www.fromtexttospeech.com/', 500, 300, 'left', 'top', {title: 'Text2Speech-MP3', icon: '/img/jswm-web.png'}" size="60" id="ttsmp3" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ttsmp3').value + ');');">Text2Speech-MP3</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=Calendar', 500, 300, 'right', 'top', {title: 'myCalendar', icon: '/img/jswm-web.png'}" size="60" id="calendar" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=Calendar', 500, 300, 'left', 'top', {title: 'myCalendar', icon: '/img/jswm-web.png'}" size="60" id="calendar" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('calendar').value + ');');">Calendar</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=Weather', 500, 300, 'right', 'top', {title: 'Weather Today', icon: '/img/jswm-web.png'}" size="60" id="weather" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=Weather', 500, 300, 'left', 'top', {title: 'Weather Today', icon: '/img/jswm-web.png'}" size="60" id="weather" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('weather').value + ');');">Weather</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://dictionary.reference.com/', 500, 300, 'right', 'top', {title: 'Dictionary', icon: '/img/jswm-web.png'}" size="60" id="dictionary" />
+    					 <input type="hidden" value="'https://dictionary.reference.com/', 500, 300, 'left', 'top', {title: 'Dictionary', icon: '/img/jswm-web.png'}" size="60" id="dictionary" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('dictionary').value + ');');">Dictionary</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.m.wikipedia.org', 500, 300, 'right', 'top', {title: 'Wikipedia', icon: '/img/jswm-web.png'}" size="60" id="wikipedia" />
+    					 <input type="hidden" value="'https://en.m.wikipedia.org', 500, 300, 'left', 'top', {title: 'Wikipedia', icon: '/img/jswm-web.png'}" size="60" id="wikipedia" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wikipedia').value + ');');">Wikipedia</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://tools.pingdom.com/ping/', 500, 300, 'right', 'top', {title: 'Ping', icon: '/img/jswm-web.png'}" size="60" id="pingTool" />
+    					 <input type="hidden" value="'https://tools.pingdom.com/ping/', 500, 300, 'left', 'top', {title: 'Ping', icon: '/img/jswm-web.png'}" size="60" id="pingTool" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('pingTool').value + ');');">Ping</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'/time/zone.html', 500, 300, 'right', 'top', {title: 'worldtime', icon: '/img/jswm-web.png'}" size="60" id="worldtime" />
+    					 <input type="hidden" value="'/time/zone.html', 500, 300, 'left', 'top', {title: 'worldtime', icon: '/img/jswm-web.png'}" size="60" id="worldtime" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('worldtime').value + ');');">World Timezone</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'https://www.timezoneconverter.com/cgi-bin/tzc.tzc', 500, 300, 'right', 'top', {title: 'Timezone', icon: '/img/jswm-web.png'}" size="60" id="timeZone" />
+    					 <input type="hidden" value="'https://www.timezoneconverter.com/cgi-bin/tzc.tzc', 500, 300, 'left', 'top', {title: 'Timezone', icon: '/img/jswm-web.png'}" size="60" id="timeZone" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('timeZone').value + ');');">Timezone Converter</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'https://scientific-calculator.appspot.com/', 500, 300, 'right', 'top', {title: 'Calculator', icon: '/img/jswm-web.png'}" size="60" id="calculator" />
+    					 <input type="hidden" value="'https://scientific-calculator.appspot.com/', 500, 300, 'left', 'top', {title: 'Calculator', icon: '/img/jswm-web.png'}" size="60" id="calculator" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('calculator').value + ');');">Calculator</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.towerhobbies.com/ucc.html', 500, 300, 'right', 'top', {title: 'Currency Converter', icon: '/img/jswm-web.png'}" size="60" id="currConv" />
+    					 <input type="hidden" value="'https://www.towerhobbies.com/ucc.html', 500, 300, 'left', 'top', {title: 'Currency Converter', icon: '/img/jswm-web.png'}" size="60" id="currConv" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('currConv').value + ');');">Currency Converter</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://onlineclock.net/radio/', 500, 300, 'right', 'top', {title: 'Radio Alarm Clock', icon: '/img/jswm-web.png'}" size="60" id="radioClock" />
+    					 <input type="hidden" value="'https://onlineclock.net/radio/', 500, 300, 'left', 'top', {title: 'Radio Alarm Clock', icon: '/img/jswm-web.png'}" size="60" id="radioClock" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('radioClock').value + ');');">Radio Alarm Clock</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://zxing.appspot.com/generator/', 500, 300, 'right', 'top', {title: 'QR Generator', icon: '/img/jswm-web.png'}" size="60" id="qrCode" />
+    					 <input type="hidden" value="'https://zxing.appspot.com/generator/', 500, 300, 'left', 'top', {title: 'QR Generator', icon: '/img/jswm-web.png'}" size="60" id="qrCode" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('qrCode').value + ');');">QR Generator</a>
     				</li>
 					<li class="divider"></li>
@@ -728,77 +728,77 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'/directory?DIR_FUNC=sites', 500, 300, 'right', 'top', {title: 'ULAPPH Sites Directory', icon: '/img/jswm-uwm.png'}" size="60" id="udir" />
+    					 <input type="hidden" value="'/directory?DIR_FUNC=sites', 500, 300, 'left', 'top', {title: 'ULAPPH Sites Directory', icon: '/img/jswm-uwm.png'}" size="60" id="udir" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('udir').value + ');');">ULAPPH Sites Directory</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/directory?DIR_FUNC=people', 500, 300, 'right', 'top', {title: 'ULAPPH People Directory', icon: '/img/jswm-uwm.png'}" size="60" id="udir2" />
+    					 <input type="hidden" value="'/directory?DIR_FUNC=people', 500, 300, 'left', 'top', {title: 'ULAPPH People Directory', icon: '/img/jswm-uwm.png'}" size="60" id="udir2" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('udir2').value + ');');">ULAPPH People Directory</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'right', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren" />
+    					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-trending', 500, 300, 'left', 'top', {title: 'ULAPPH Trending', icon: '/img/jswm-uwm.png'}" size="60" id="utren" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('utren').value + ');');">ULAPPH Trending</a>
     				</li>
 					<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'right', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew2" />
+					 <input type="hidden" value="'https://ulapph-sites.appspot.com/social?SO_FUNC=show-whats-new', 500, 300, 'left', 'top', {title: 'ULAPPH Whats New', icon: '/img/jswm-uwm.png'}" size="60" id="unew2" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('unew2').value + ');');">ULAPPH WhatsNew</a>
 				</li>
 				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.ulapph.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Corporation', icon: '/img/jswm-uwm.png'}" size="60" id="ucorp" />
+    					 <input type="hidden" value="'https://www.ulapph.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Corporation', icon: '/img/jswm-uwm.png'}" size="60" id="ucorp" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ucorp').value + ');');">ULAPPH Corporation</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH OPO Content Server', icon: '/img/jswm-uwm.png'}" size="60" id="openURI16" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH OPO Content Server', icon: '/img/jswm-uwm.png'}" size="60" id="openURI16" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI16').value + ');');">ULAPPH OPO</a>
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'https://ulapph-1.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH God Theme', icon: '/img/jswm-uwm.png'}" size="60" id="godtheme" />
+    					 <input type="hidden" value="'https://ulapph-1.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH God Theme', icon: '/img/jswm-uwm.png'}" size="60" id="godtheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('godtheme').value + ');');">ULAPPH God Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-2.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Universe Theme', icon: '/img/jswm-uwm.png'}" size="60" id="unitheme" />
+    					 <input type="hidden" value="'https://ulapph-2.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Universe Theme', icon: '/img/jswm-uwm.png'}" size="60" id="unitheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('unitheme').value + ');');">ULAPPH Universe Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-3.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Earth Theme', icon: '/img/jswm-uwm.png'}" size="60" id="earththeme" />
+    					 <input type="hidden" value="'https://ulapph-3.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Earth Theme', icon: '/img/jswm-uwm.png'}" size="60" id="earththeme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('earththeme').value + ');');">ULAPPH Earth Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-4.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Philippines Theme', icon: '/img/jswm-uwm.png'}" size="60" id="phtheme" />
+    					 <input type="hidden" value="'https://ulapph-4.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Philippines Theme', icon: '/img/jswm-uwm.png'}" size="60" id="phtheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('phtheme').value + ');');">ULAPPH Philippines Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-5.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Global Theme', icon: '/img/jswm-uwm.png'}" size="60" id="glotheme" />
+    					 <input type="hidden" value="'https://ulapph-5.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Global Theme', icon: '/img/jswm-uwm.png'}" size="60" id="glotheme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('glotheme').value + ');');">ULAPPH Global Theme</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-ves.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Virtual Education', icon: '/img/jswm-uwm.png'}" size="60" id="ves" />
+    					 <input type="hidden" value="'https://ulapph-ves.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Virtual Education', icon: '/img/jswm-uwm.png'}" size="60" id="ves" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ves').value + ');');">ULAPPH Virtual Education</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-infostream.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Infostream', icon: '/img/jswm-uwm.png'}" size="60" id="infostream" />
+    					 <input type="hidden" value="'https://ulapph-infostream.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Infostream', icon: '/img/jswm-uwm.png'}" size="60" id="infostream" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('infostream').value + ');');">ULAPPH Infostream</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-sites.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Sites', icon: '/img/jswm-uwm.png'}" size="60" id="usites" />
+    					 <input type="hidden" value="'https://ulapph-sites.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Sites', icon: '/img/jswm-uwm.png'}" size="60" id="usites" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('usites').value + ');');">ULAPPH Sites</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://golang-programming.appspot.com/uwm', 500, 300, 'right', 'top', {title: 'uwm - ULAPPH Golang', icon: '/img/jswm-uwm.png'}" size="60" id="ugolang" />
+    					 <input type="hidden" value="'https://golang-programming.appspot.com/uwm', 500, 300, 'left', 'top', {title: 'uwm - ULAPPH Golang', icon: '/img/jswm-uwm.png'}" size="60" id="ugolang" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ugolang').value + ');');">ULAPPH Golang</a>
     				</li>
 					<li class="divider"></li>
@@ -811,67 +811,67 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Kinder&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Kinder', 500, 300, 'right', 'top', {title: 'Kinder Search', icon: '/img/jswm-web.png'}" size="60" id="kinder" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Kinder&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Kinder', 500, 300, 'left', 'top', {title: 'Kinder Search', icon: '/img/jswm-web.png'}" size="60" id="kinder" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('kinder').value + ');');">Kinder Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%201&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-1', 500, 300, 'right', 'top', {title: 'Grade 1 Search', icon: '/img/jswm-web.png'}" size="60" id="grade1" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%201&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-1', 500, 300, 'left', 'top', {title: 'Grade 1 Search', icon: '/img/jswm-web.png'}" size="60" id="grade1" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade1').value + ');');">Grade 1 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%202&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-2', 500, 300, 'right', 'top', {title: 'Grade 2 Search', icon: '/img/jswm-web.png'}" size="60" id="grade2" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%202&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-2', 500, 300, 'left', 'top', {title: 'Grade 2 Search', icon: '/img/jswm-web.png'}" size="60" id="grade2" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade2').value + ');');">Grade 2 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%203&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-3', 500, 300, 'right', 'top', {title: 'Grade 3 Search', icon: '/img/jswm-web.png'}" size="60" id="grade3" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%203&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-3', 500, 300, 'left', 'top', {title: 'Grade 3 Search', icon: '/img/jswm-web.png'}" size="60" id="grade3" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade3').value + ');');">Grade 3 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%204&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-4', 500, 300, 'right', 'top', {title: 'Grade 4 Search', icon: '/img/jswm-web.png'}" size="60" id="grade4" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%204&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-4', 500, 300, 'left', 'top', {title: 'Grade 4 Search', icon: '/img/jswm-web.png'}" size="60" id="grade4" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade4').value + ');');">Grade 4 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%205&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-5', 500, 300, 'right', 'top', {title: 'Grade 5 Search', icon: '/img/jswm-web.png'}" size="60" id="grade5" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%205&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-5', 500, 300, 'left', 'top', {title: 'Grade 5 Search', icon: '/img/jswm-web.png'}" size="60" id="grade5" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade5').value + ');');">Grade 5 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%206&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-6', 500, 300, 'right', 'top', {title: 'Grade 6 Search', icon: '/img/jswm-web.png'}" size="60" id="grade6" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%206&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-6', 500, 300, 'left', 'top', {title: 'Grade 6 Search', icon: '/img/jswm-web.png'}" size="60" id="grade6" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 6 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%207&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-7', 500, 300, 'right', 'top', {title: 'Grade 7 Search', icon: '/img/jswm-web.png'}" size="60" id="grade7" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%207&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-7', 500, 300, 'left', 'top', {title: 'Grade 7 Search', icon: '/img/jswm-web.png'}" size="60" id="grade7" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 7 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%208&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-8', 500, 300, 'right', 'top', {title: 'Grade 8 Search', icon: '/img/jswm-web.png'}" size="60" id="grade8" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%208&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-8', 500, 300, 'left', 'top', {title: 'Grade 8 Search', icon: '/img/jswm-web.png'}" size="60" id="grade8" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 8 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%209&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-9', 500, 300, 'right', 'top', {title: 'Grade 9 Search', icon: '/img/jswm-web.png'}" size="60" id="grade9" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%209&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-9', 500, 300, 'left', 'top', {title: 'Grade 9 Search', icon: '/img/jswm-web.png'}" size="60" id="grade9" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 9 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2010&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-10', 500, 300, 'right', 'top', {title: 'Grade 10 Search', icon: '/img/jswm-web.png'}" size="60" id="grade10" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2010&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-10', 500, 300, 'left', 'top', {title: 'Grade 10 Search', icon: '/img/jswm-web.png'}" size="60" id="grade10" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 10 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2011&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-11', 500, 300, 'right', 'top', {title: 'Grade 11 Search', icon: '/img/jswm-web.png'}" size="60" id="grade11" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2011&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-11', 500, 300, 'left', 'top', {title: 'Grade 11 Search', icon: '/img/jswm-web.png'}" size="60" id="grade11" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 11 Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2012&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-12', 500, 300, 'right', 'top', {title: 'Grade 12 Search', icon: '/img/jswm-web.png'}" size="60" id="grade12" />
+    					 <input type="hidden" value="'/tools?FUNC=WIDGET&t=MiniBrowserGet&TITLE=Grade%2012&GITURL=https://raw.githubusercontent.com/edwindvinas/ULAPPH-Cloud-Desktop/master/DEPED/DEPED-K12-Grade-12', 500, 300, 'left', 'top', {title: 'Grade 12 Search', icon: '/img/jswm-web.png'}" size="60" id="grade12" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('grade6').value + ');');">Grade 12 Search</a>
     				</li>
 					<li class="divider"></li>
@@ -885,142 +885,142 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'https://www.rfc-editor.org/search/rfc_search.php', 500, 300, 'right', 'top', {title: 'RFC Search', icon: '/img/jswm-web.png'}" size="60" id="cal1" />
+    					 <input type="hidden" value="'https://www.rfc-editor.org/search/rfc_search.php', 500, 300, 'left', 'top', {title: 'RFC Search', icon: '/img/jswm-web.png'}" size="60" id="cal1" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal1').value + ');');">RFC Search</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://pilc.org.ph/cgi-bin/koha/opac-main.pl', 500, 300, 'right', 'top', {title: 'PILC Library', icon: '/img/jswm-web.png'}" size="60" id="cal2" />
+    					 <input type="hidden" value="'https://pilc.org.ph/cgi-bin/koha/opac-main.pl', 500, 300, 'left', 'top', {title: 'PILC Library', icon: '/img/jswm-web.png'}" size="60" id="cal2" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal2').value + ');');">PILC Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.mainlib.upd.edu.ph/', 500, 300, 'right', 'top', {title: 'UPD Library', icon: '/img/jswm-web.png'}" size="60" id="cal3" />
+    					 <input type="hidden" value="'https://www.mainlib.upd.edu.ph/', 500, 300, 'left', 'top', {title: 'UPD Library', icon: '/img/jswm-web.png'}" size="60" id="cal3" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal3').value + ');');">UPD Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.elib.gov.ph/', 500, 300, 'right', 'top', {title: 'Phil e-Lib', icon: '/img/jswm-web.png'}" size="60" id="cal4" />
+    					 <input type="hidden" value="'https://www.elib.gov.ph/', 500, 300, 'left', 'top', {title: 'Phil e-Lib', icon: '/img/jswm-web.png'}" size="60" id="cal4" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal4').value + ');');">Phil e-Lib</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.librarylink.org.ph/', 500, 300, 'right', 'top', {title: 'Library Link', icon: '/img/jswm-web.png'}" size="60" id="cal5" />
+    					 <input type="hidden" value="'https://www.librarylink.org.ph/', 500, 300, 'left', 'top', {title: 'Library Link', icon: '/img/jswm-web.png'}" size="60" id="cal5" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal5').value + ');');">Library Link</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.dlsu.edu.ph/library/free_databases.asp', 500, 300, 'right', 'top', {title: 'DLSU Library', icon: '/img/jswm-web.png'}" size="60" id="cal6" />
+    					 <input type="hidden" value="'https://www.dlsu.edu.ph/library/free_databases.asp', 500, 300, 'left', 'top', {title: 'DLSU Library', icon: '/img/jswm-web.png'}" size="60" id="cal6" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal6').value + ');');">DLSU Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.librarydir.org/', 500, 300, 'right', 'top', {title: 'Library Dir', icon: '/img/jswm-web.png'}" size="60" id="cal7" />
+    					 <input type="hidden" value="'https://www.librarydir.org/', 500, 300, 'left', 'top', {title: 'Library Dir', icon: '/img/jswm-web.png'}" size="60" id="cal7" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal7').value + ');');">Library Dir</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://library.uplb.edu.ph/', 500, 300, 'right', 'top', {title: 'UPLB Library', icon: '/img/jswm-web.png'}" size="60" id="cal8" />
+    					 <input type="hidden" value="'https://library.uplb.edu.ph/', 500, 300, 'left', 'top', {title: 'UPLB Library', icon: '/img/jswm-web.png'}" size="60" id="cal8" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal8').value + ');');">UPLB Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://library.upou.edu.ph/', 500, 300, 'right', 'top', {title: 'UPOU Library', icon: '/img/jswm-web.png'}" size="60" id="cal9" />
+    					 <input type="hidden" value="'https://library.upou.edu.ph/', 500, 300, 'left', 'top', {title: 'UPOU Library', icon: '/img/jswm-web.png'}" size="60" id="cal9" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal9').value + ');');">UPOU Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.tip.edu.ph/library', 500, 300, 'right', 'top', {title: 'TIP Library', icon: '/img/jswm-web.png'}" size="60" id="cal10" />
+    					 <input type="hidden" value="'https://www.tip.edu.ph/library', 500, 300, 'left', 'top', {title: 'TIP Library', icon: '/img/jswm-web.png'}" size="60" id="cal10" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal10').value + ');');">TIP Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ilib.upm.edu.ph/', 500, 300, 'right', 'top', {title: 'UPM Library', icon: '/img/jswm-web.png'}" size="60" id="cal12" />
+    					 <input type="hidden" value="'https://ilib.upm.edu.ph/', 500, 300, 'left', 'top', {title: 'UPM Library', icon: '/img/jswm-web.png'}" size="60" id="cal12" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal12').value + ');');">UPM Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ustlib.ust.edu.ph/', 500, 300, 'right', 'top', {title: 'UST Libary', icon: '/img/jswm-web.png'}" size="60" id="cal13" />
+    					 <input type="hidden" value="'https://ustlib.ust.edu.ph/', 500, 300, 'left', 'top', {title: 'UST Libary', icon: '/img/jswm-web.png'}" size="60" id="cal13" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal13').value + ');');">UST Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://rizal.library.ateneo.edu/', 500, 300, 'right', 'top', {title: 'Ateneo Libary', icon: '/img/jswm-web.png'}" size="60" id="cal14" />
+    					 <input type="hidden" value="'https://rizal.library.ateneo.edu/', 500, 300, 'left', 'top', {title: 'Ateneo Libary', icon: '/img/jswm-web.png'}" size="60" id="cal14" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal14').value + ');');">Ateneo Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.chanrobles.com/legal3nationalibrary.html', 500, 300, 'right', 'top', {title: 'Chan Robles', icon: '/img/jswm-web.png'}" size="60" id="cal11" />
+    					 <input type="hidden" value="'https://www.chanrobles.com/legal3nationalibrary.html', 500, 300, 'left', 'top', {title: 'Chan Robles', icon: '/img/jswm-web.png'}" size="60" id="cal11" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal11').value + ');');">Chan Robles</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://online.pbts.net.ph/', 500, 300, 'right', 'top', {title: 'PBTS Library', icon: '/img/jswm-web.png'}" size="60" id="cal15" />
+    					 <input type="hidden" value="'https://online.pbts.net.ph/', 500, 300, 'left', 'top', {title: 'PBTS Library', icon: '/img/jswm-web.png'}" size="60" id="cal15" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal15').value + ');');">PBTS Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://opac.filipinaslibrary.org.ph/', 500, 300, 'right', 'top', {title: 'Filipinas Library', icon: '/img/jswm-web.png'}" size="60" id="cal16" />
+    					 <input type="hidden" value="'https://opac.filipinaslibrary.org.ph/', 500, 300, 'left', 'top', {title: 'Filipinas Library', icon: '/img/jswm-web.png'}" size="60" id="cal16" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal16').value + ');');">Filipinas Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.library.usc.edu.ph/', 500, 300, 'right', 'top', {title: 'USC Library', icon: '/img/jswm-web.png'}" size="60" id="cal17" />
+    					 <input type="hidden" value="'https://www.library.usc.edu.ph/', 500, 300, 'left', 'top', {title: 'USC Library', icon: '/img/jswm-web.png'}" size="60" id="cal17" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal17').value + ');');">USC Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.lib-web.org/asia/philippines/', 500, 300, 'right', 'top', {title: 'LibWeb Phils', icon: '/img/jswm-web.png'}" size="60" id="cal18" />
+    					 <input type="hidden" value="'https://www.lib-web.org/asia/philippines/', 500, 300, 'left', 'top', {title: 'LibWeb Phils', icon: '/img/jswm-web.png'}" size="60" id="cal18" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal18').value + ');');">LibWeb Phils</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.adamson.edu.ph/?page=library', 500, 300, 'right', 'top', {title: 'ADU Library', icon: '/img/jswm-web.png'}" size="60" id="cal19" />
+    					 <input type="hidden" value="'https://www.adamson.edu.ph/?page=library', 500, 300, 'left', 'top', {title: 'ADU Library', icon: '/img/jswm-web.png'}" size="60" id="cal19" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal19').value + ');');">ADU Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://library.adb.org/', 500, 300, 'right', 'top', {title: 'ADB Library', icon: '/img/jswm-web.png'}" size="60" id="cal20" />
+    					 <input type="hidden" value="'https://library.adb.org/', 500, 300, 'left', 'top', {title: 'ADB Library', icon: '/img/jswm-web.png'}" size="60" id="cal20" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal20').value + ');');">ADB Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.dti.gov.ph/dti/index.php/resources/e-library', 500, 300, 'right', 'top', {title: 'DTI Library', icon: '/img/jswm-web.png'}" size="60" id="cal21" />
+    					 <input type="hidden" value="'https://www.dti.gov.ph/dti/index.php/resources/e-library', 500, 300, 'left', 'top', {title: 'DTI Library', icon: '/img/jswm-web.png'}" size="60" id="cal21" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal21').value + ');');">DTI Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://data.gov.ph/', 500, 300, 'right', 'top', {title: 'Data Phils', icon: '/img/jswm-web.png'}" size="60" id="cal22" />
+    					 <input type="hidden" value="'https://data.gov.ph/', 500, 300, 'left', 'top', {title: 'Data Phils', icon: '/img/jswm-web.png'}" size="60" id="cal22" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal22').value + ');');">Data Phils</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.dost.gov.ph/knowledge-resources/databases', 500, 300, 'right', 'top', {title: 'DOST Databases', icon: '/img/jswm-web.png'}" size="60" id="cal23" />
+    					 <input type="hidden" value="'https://www.dost.gov.ph/knowledge-resources/databases', 500, 300, 'left', 'top', {title: 'DOST Databases', icon: '/img/jswm-web.png'}" size="60" id="cal23" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal23').value + ');');">DOST Databases</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://library.xu.edu.ph/newwebpage/openaccessdatabases.htm', 500, 300, 'right', 'top', {title: 'XU Library', icon: '/img/jswm-web.png'}" size="60" id="cal24" />
+    					 <input type="hidden" value="'https://library.xu.edu.ph/newwebpage/openaccessdatabases.htm', 500, 300, 'left', 'top', {title: 'XU Library', icon: '/img/jswm-web.png'}" size="60" id="cal24" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal24').value + ');');">XU Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.ipophil.gov.ph/', 500, 300, 'right', 'top', {title: 'IPO Library', icon: '/img/jswm-web.png'}" size="60" id="cal25" />
+    					 <input type="hidden" value="'https://www.ipophil.gov.ph/', 500, 300, 'left', 'top', {title: 'IPO Library', icon: '/img/jswm-web.png'}" size="60" id="cal25" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal25').value + ');');">IPO Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'right', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
+    					 <input type="hidden" value="'https://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'left', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal26').value + ');');">NLP Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'right', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
+    					 <input type="hidden" value="'https://web.nlp.gov.ph/nlp/?q=taxonomy/term/14', 500, 300, 'left', 'top', {title: 'NLP Library', icon: '/img/jswm-web.png'}" size="60" id="cal26" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal26').value + ');');">NLP Library</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.unc.edu.ph/?page_id=662', 500, 300, 'right', 'top', {title: 'UNC Library', icon: '/img/jswm-web.png'}" size="60" id="cal27" />
+    					 <input type="hidden" value="'https://www.unc.edu.ph/?page_id=662', 500, 300, 'left', 'top', {title: 'UNC Library', icon: '/img/jswm-web.png'}" size="60" id="cal27" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cal27').value + ');');">UNC Library</a>
     				</li>
 					<li class="divider"></li>
@@ -1036,17 +1036,17 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'https://ipaddress.com/', 500, 300, 'right', 'top', {title: 'IP Address', icon: '/img/jswm-web.png'}" size="60" id="myip" />
+    					 <input type="hidden" value="'https://ipaddress.com/', 500, 300, 'left', 'top', {title: 'IP Address', icon: '/img/jswm-web.png'}" size="60" id="myip" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('myip').value + ');');">IP Address</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.subnetmask.info/', 500, 300, 'right', 'top', {title: 'Network Calculators', icon: '/img/jswm-web.png'}" size="60" id="ncalc" />
+    					 <input type="hidden" value="'https://www.subnetmask.info/', 500, 300, 'left', 'top', {title: 'Network Calculators', icon: '/img/jswm-web.png'}" size="60" id="ncalc" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ncalc').value + ');');">Network Calculators</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://html5demos.com/geo', 500, 300, 'right', 'top', {title: 'Geo Location', icon: '/img/jswm-web.png'}" size="60" id="findme" />
+    					 <input type="hidden" value="'https://html5demos.com/geo', 500, 300, 'left', 'top', {title: 'Geo Location', icon: '/img/jswm-web.png'}" size="60" id="findme" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('findme').value + ');');">Geo Location</a>
     				</li>
 					<li class="divider"></li>
@@ -1076,62 +1076,62 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://hexillion.com/asp/samples/AutoWhois.vbs.asp', 500, 300, 'right', 'top', {title: 'AutoWhois', icon: '/img/jswm-web.png'}" size="60" id="autowhois" />
+    					 <input type="hidden" value="'https://hexillion.com/asp/samples/AutoWhois.vbs.asp', 500, 300, 'left', 'top', {title: 'AutoWhois', icon: '/img/jswm-web.png'}" size="60" id="autowhois" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('autowhois').value + ');');">AutoWhois</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ipgeolocation.nmonitoring.com/', 500, 300, 'right', 'top', {title: 'IP Geolocation', icon: '/img/jswm-web.png'}" size="60" id="ipgeo" />
+    					 <input type="hidden" value="'https://ipgeolocation.nmonitoring.com/', 500, 300, 'left', 'top', {title: 'IP Geolocation', icon: '/img/jswm-web.png'}" size="60" id="ipgeo" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ipgeo').value + ');');">IP Geolocation</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.nmonitoring.com/ip-to-domain-name.html', 500, 300, 'right', 'top', {title: 'IP to Domain Name', icon: '/img/jswm-web.png'}" size="60" id="ip2dom" />
+    					 <input type="hidden" value="'https://www.nmonitoring.com/ip-to-domain-name.html', 500, 300, 'left', 'top', {title: 'IP to Domain Name', icon: '/img/jswm-web.png'}" size="60" id="ip2dom" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('ip2dom').value + ');');">IP to Domain Name</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.nmonitoring.com/show-mx-record.html', 500, 300, 'right', 'top', {title: 'Show MX Record', icon: '/img/jswm-web.png'}" size="60" id="showmxrecord" />
+    					 <input type="hidden" value="'https://www.nmonitoring.com/show-mx-record.html', 500, 300, 'left', 'top', {title: 'Show MX Record', icon: '/img/jswm-web.png'}" size="60" id="showmxrecord" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('showmxrecord').value + ');');">Show MX Record</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://dig-nslookup.nmonitoring.com/dns-dig-nslookup.html', 500, 300, 'right', 'top', {title: 'DNS Dig', icon: '/img/jswm-web.png'}" size="60" id="dnsdig" />
+    					 <input type="hidden" value="'https://dig-nslookup.nmonitoring.com/dns-dig-nslookup.html', 500, 300, 'left', 'top', {title: 'DNS Dig', icon: '/img/jswm-web.png'}" size="60" id="dnsdig" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('dnsdig').value + ');');">DNS Dig</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'https://www.speedtest.net/', 500, 300, 'right', 'top', {title: 'Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt" />
+    					 <input type="hidden" value="'https://www.speedtest.net/', 500, 300, 'left', 'top', {title: 'Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('speedt').value + ');');">Speed Test</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.att.com/speedtest/', 500, 300, 'right', 'top', {title: 'AT&T Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt2" />
+    					 <input type="hidden" value="'https://www.att.com/speedtest/', 500, 300, 'left', 'top', {title: 'AT&T Speed Test', icon: '/img/jswm-web.png'}" size="60" id="speedt2" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('speedt2').value + ');');">AT&T Speed Test</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.nmonitoring.com/service-port-name.html', 500, 300, 'right', 'top', {title: 'Servic to Port', icon: '/img/jswm-web.png'}" size="60" id="servp" />
+    					 <input type="hidden" value="'https://www.nmonitoring.com/service-port-name.html', 500, 300, 'left', 'top', {title: 'Servic to Port', icon: '/img/jswm-web.png'}" size="60" id="servp" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('servp').value + ');');">Service to Port</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.kloth.net/services/srvinfo.php', 500, 300, 'right', 'top', {title: 'Server Info', icon: '/img/jswm-web.png'}" size="60" id="servi" />
+    					 <input type="hidden" value="'https://www.kloth.net/services/srvinfo.php', 500, 300, 'left', 'top', {title: 'Server Info', icon: '/img/jswm-web.png'}" size="60" id="servi" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('servi').value + ');');">Server Info</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://bgp.he.net/', 500, 300, 'right', 'top', {title: 'BGP Toolkit', icon: '/img/jswm-web.png'}" size="60" id="bgpt" />
+    					 <input type="hidden" value="'https://bgp.he.net/', 500, 300, 'left', 'top', {title: 'BGP Toolkit', icon: '/img/jswm-web.png'}" size="60" id="bgpt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('bgpt').value + ');');">BGP Toolkit</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://lg.he.net/', 500, 300, 'right', 'top', {title: 'Looking Glass', icon: '/img/jswm-web.png'}" size="60" id="lglass" />
+    					 <input type="hidden" value="'https://lg.he.net/', 500, 300, 'left', 'top', {title: 'Looking Glass', icon: '/img/jswm-web.png'}" size="60" id="lglass" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('lglass').value + ');');">Looking Glass</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=218&SID=TDSSLIDE-218&MUSIC_ID=0&GET_NEXT=', 500, 300, 'right', 'top', {title: 'All Networking Tools', icon: '/img/jswm-web.png'}" size="60" id="allntt" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/slides?TYPE=SLIDE&DOC_ID=218&SID=TDSSLIDE-218&MUSIC_ID=0&GET_NEXT=', 500, 300, 'left', 'top', {title: 'All Networking Tools', icon: '/img/jswm-web.png'}" size="60" id="allntt" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('allntt').value + ');');">View All Tools...</a>
     				</li>
 					<li class="divider"></li>
@@ -1145,12 +1145,12 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'/bible?BIB_FUNC=biblegateway', 500, 300, 'right', 'top', {title: 'Random Bible Audio', icon: '/img/jswm-web.png'}" size="60" id="rbaudio" />
+    					 <input type="hidden" value="'/bible?BIB_FUNC=biblegateway', 500, 300, 'left', 'top', {title: 'Random Bible Audio', icon: '/img/jswm-web.png'}" size="60" id="rbaudio" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('rbaudio').value + ');');">Random Bible Audio</a>
     				</li>
     				<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-NOTIFICATIONS-MAP&SID=FAM_TRACKER', 500, 300, 'right', 'top', {title: 'Family Tracker', icon: '/img/jswm-web.png'}" size="60" id="famtracker" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-NOTIFICATIONS-MAP&SID=FAM_TRACKER', 500, 300, 'left', 'top', {title: 'Family Tracker', icon: '/img/jswm-web.png'}" size="60" id="famtracker" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('famtracker').value + ');');">Family Tracker</a>
     				</li>
     				<li class="divider"></li>               
@@ -1163,7 +1163,7 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-EQ-PH&SID=ULAPPH-EQ-PH', 500, 300, 'right', 'top', {title: 'Earthquake Monitor', icon: '/img/jswm-web.png'}" size="60" id="eqMon" />
+    					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-EQ-PH&SID=ULAPPH-EQ-PH', 500, 300, 'left', 'top', {title: 'Earthquake Monitor', icon: '/img/jswm-web.png'}" size="60" id="eqMon" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('eqMon').value + ');');">Earthquake Monitor</a>
     				</li>
 					<li class="divider"></li>
@@ -1310,62 +1310,62 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#East_and_Southern_Africa', 500, 300, 'right', 'top', {title: 'East and Southern Africa', icon: '/img/jswm-web.png'}" size="60" id="re1" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#East_and_Southern_Africa', 500, 300, 'left', 'top', {title: 'East and Southern Africa', icon: '/img/jswm-web.png'}" size="60" id="re1" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re1').value + ');');">East and Southern Africa</a>
     				</li>
     				<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#North_Africa', 500, 300, 'right', 'top', {title: 'North Africa', icon: '/img/jswm-web.png'}" size="60" id="re2" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#North_Africa', 500, 300, 'left', 'top', {title: 'North Africa', icon: '/img/jswm-web.png'}" size="60" id="re2" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re2').value + ');');">North Africa</a>
     				</li>
     				<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#West_and_Central_Africa', 500, 300, 'right', 'top', {title: 'West and Central Africa', icon: '/img/jswm-web.png'}" size="60" id="re3" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#West_and_Central_Africa', 500, 300, 'left', 'top', {title: 'West and Central Africa', icon: '/img/jswm-web.png'}" size="60" id="re3" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re3').value + ');');">West and Central Africa</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Asia_Pacific', 500, 300, 'right', 'top', {title: 'Asia Pacific', icon: '/img/jswm-web.png'}" size="60" id="re4" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Asia_Pacific', 500, 300, 'left', 'top', {title: 'Asia Pacific', icon: '/img/jswm-web.png'}" size="60" id="re4" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re4').value + ');');">Asia Pacific</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#North_America', 500, 300, 'right', 'top', {title: 'North America', icon: '/img/jswm-web.png'}" size="60" id="re5" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#North_America', 500, 300, 'left', 'top', {title: 'North America', icon: '/img/jswm-web.png'}" size="60" id="re5" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re5').value + ');');">North America</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Latin_America', 500, 300, 'right', 'top', {title: 'Latin America', icon: '/img/jswm-web.png'}" size="60" id="re6" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Latin_America', 500, 300, 'left', 'top', {title: 'Latin America', icon: '/img/jswm-web.png'}" size="60" id="re6" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re6').value + ');');">Latin America</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Caribbean', 500, 300, 'right', 'top', {title: 'Caribbean', icon: '/img/jswm-web.png'}" size="60" id="re7" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Caribbean', 500, 300, 'left', 'top', {title: 'Caribbean', icon: '/img/jswm-web.png'}" size="60" id="re7" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re7').value + ');');">Caribbean</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Europe', 500, 300, 'right', 'top', {title: 'Europe', icon: '/img/jswm-web.png'}" size="60" id="re8" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Europe', 500, 300, 'left', 'top', {title: 'Europe', icon: '/img/jswm-web.png'}" size="60" id="re8" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re8').value + ');');">Europe</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Scandinavia', 500, 300, 'right', 'top', {title: 'Scandinavia', icon: '/img/jswm-web.png'}" size="60" id="re9" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Scandinavia', 500, 300, 'left', 'top', {title: 'Scandinavia', icon: '/img/jswm-web.png'}" size="60" id="re9" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re9').value + ');');">Scandinavia</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Middle_East', 500, 300, 'right', 'top', {title: 'Middle East', icon: '/img/jswm-web.png'}" size="60" id="re10" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Middle_East', 500, 300, 'left', 'top', {title: 'Middle East', icon: '/img/jswm-web.png'}" size="60" id="re10" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re10').value + ');');">Middle East</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Central_Asia', 500, 300, 'right', 'top', {title: 'Central Asia', icon: '/img/jswm-web.png'}" size="60" id="re11" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Central_Asia', 500, 300, 'left', 'top', {title: 'Central Asia', icon: '/img/jswm-web.png'}" size="60" id="re11" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re11').value + ');');">Central Asia</a>
     				</li>
     				<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Antartica', 500, 300, 'right', 'top', {title: 'Antartica', icon: '/img/jswm-web.png'}" size="60" id="re12" />
+    					 <input type="hidden" value="'https://en.wikipedia.org/wiki/National_research_and_education_network#Antartica', 500, 300, 'left', 'top', {title: 'Antartica', icon: '/img/jswm-web.png'}" size="60" id="re12" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('re12').value + ');');">Antartica</a>
     				</li>
     				<li class="divider"></li>
@@ -1383,22 +1383,22 @@
     				</li>
 					<li class="divider"></li>
    				    <li>
-    					 <input type="hidden" value="'https://web.skype.com/', 500, 300, 'right', 'top', {title: 'Web Skype', icon: '/img/jswm-web.png'}" size="60" id="wskype" />
+    					 <input type="hidden" value="'https://web.skype.com/', 500, 300, 'left', 'top', {title: 'Web Skype', icon: '/img/jswm-web.png'}" size="60" id="wskype" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wskype').value + ');');">Web Skype</a>
     				</li>
 					<li class="divider"></li>
    				    <li>
-    					 <input type="hidden" value="'https://apprtc.appspot.com/', 500, 300, 'right', 'top', {title: 'Apprtc Videochat', icon: '/img/jswm-web.png'}" size="60" id="artcvideo" />
+    					 <input type="hidden" value="'https://apprtc.appspot.com/', 500, 300, 'left', 'top', {title: 'Apprtc Videochat', icon: '/img/jswm-web.png'}" size="60" id="artcvideo" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('artcvideo').value + ');');">Apprtc Videochat</a>
     				</li>
 					<li class="divider"></li>
    				    <li>
-    					 <input type="hidden" value="'https://www.driveplayer.com/', 500, 300, 'right', 'top', {title: 'Drive Music Player', icon: '/img/jswm-web.png'}" size="60" id="dmplayer" />
+    					 <input type="hidden" value="'https://www.driveplayer.com/', 500, 300, 'left', 'top', {title: 'Drive Music Player', icon: '/img/jswm-web.png'}" size="60" id="dmplayer" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('dmplayer').value + ');');">Drive Music Player</a>
     				</li>
 					<li class="divider"></li>
    				    <li>
-    					 <input type="hidden" value="'https://kiwiirc.com/client', 500, 300, 'right', 'top', {title: 'KiwiIRC', icon: '/img/jswm-web.png'}" size="60" id="KiwiIRC" />
+    					 <input type="hidden" value="'https://kiwiirc.com/client', 500, 300, 'left', 'top', {title: 'KiwiIRC', icon: '/img/jswm-web.png'}" size="60" id="KiwiIRC" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('KiwiIRC').value + ');');">KiwiIRC</a>
     				</li>
 					<li class="divider"></li>
@@ -1454,72 +1454,72 @@
               <span class="arrow"></span>
                 <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'https://repl.it/languages', 500, 300, 'right', 'top', {title: 'Repl', icon: '/img/jswm-web.png'}" size="60" id="repl" />
+    					 <input type="hidden" value="'https://repl.it/languages', 500, 300, 'left', 'top', {title: 'Repl', icon: '/img/jswm-web.png'}" size="60" id="repl" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('repl').value + ');');">Repl.it</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://c9.io/', 500, 300, 'right', 'top', {title: 'Cloud9', icon: '/img/jswm-web.png'}" size="60" id="c9" />
+    					 <input type="hidden" value="'https://c9.io/', 500, 300, 'left', 'top', {title: 'Cloud9', icon: '/img/jswm-web.png'}" size="60" id="c9" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('c9').value + ');');">Cloud9</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://play.golang.org/', 500, 300, 'right', 'top', {title: 'Go Playground', icon: '/img/jswm-web.png'}" size="60" id="goplay" />
+    					 <input type="hidden" value="'https://play.golang.org/', 500, 300, 'left', 'top', {title: 'Go Playground', icon: '/img/jswm-web.png'}" size="60" id="goplay" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('goplay').value + ');');">Go Playground</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://golang-programming.appspot.com/', 500, 300, 'right', 'top', {title: 'Golang Programming', icon: '/img/jswm-web.png'}" size="60" id="goprog" />
+    					 <input type="hidden" value="'https://golang-programming.appspot.com/', 500, 300, 'left', 'top', {title: 'Golang Programming', icon: '/img/jswm-web.png'}" size="60" id="goprog" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('goprog').value + ');');">Golang Programming</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://jsfiddle.net/', 500, 300, 'right', 'top', {title: 'JS Fiddle', icon: '/img/jswm-web.png'}" size="60" id="jsfiddle" />
+    					 <input type="hidden" value="'https://jsfiddle.net/', 500, 300, 'left', 'top', {title: 'JS Fiddle', icon: '/img/jswm-web.png'}" size="60" id="jsfiddle" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('jsfiddle').value + ');');">JS Fiddle</a>
     				</li>
 					<li class="divider"></li> 
     				<li>
-    					 <input type="hidden" value="'https://codepen.io/', 500, 300, 'right', 'top', {title: 'Codepen.io', icon: '/img/jswm-web.png'}" size="60" id="codepen.io" />
+    					 <input type="hidden" value="'https://codepen.io/', 500, 300, 'left', 'top', {title: 'Codepen.io', icon: '/img/jswm-web.png'}" size="60" id="codepen.io" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('codepen.io').value + ');');">CodePen.IO</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.websequencediagrams.com/', 500, 300, 'right', 'top', {title: 'WebSequence Diagrams', icon: '/img/jswm-web.png'}" size="60" id="wsdiag" />
+    					 <input type="hidden" value="'https://www.websequencediagrams.com/', 500, 300, 'left', 'top', {title: 'WebSequence Diagrams', icon: '/img/jswm-web.png'}" size="60" id="wsdiag" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wsdiag').value + ');');">WebSequence Diagrams</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://keycode.info/', 500, 300, 'right', 'top', {title: 'Key Codes', icon: '/img/jswm-web.png'}" size="60" id="keycodes" />
+    					 <input type="hidden" value="'https://keycode.info/', 500, 300, 'left', 'top', {title: 'Key Codes', icon: '/img/jswm-web.png'}" size="60" id="keycodes" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('keycodes').value + ');');">Javascript KeyCodes</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://keycode.info/', 500, 300, 'right', 'top', {title: 'Key Codes', icon: '/img/jswm-web.png'}" size="60" id="keycodes" />
+    					 <input type="hidden" value="'https://keycode.info/', 500, 300, 'left', 'top', {title: 'Key Codes', icon: '/img/jswm-web.png'}" size="60" id="keycodes" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('keycodes').value + ');');">Javascript KeyCodes</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.colorpicker.com/', 500, 300, 'right', 'top', {title: 'Color Picker', icon: '/img/jswm-web.png'}" size="60" id="cpicker" />
+    					 <input type="hidden" value="'https://www.colorpicker.com/', 500, 300, 'left', 'top', {title: 'Color Picker', icon: '/img/jswm-web.png'}" size="60" id="cpicker" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('cpicker').value + ');');">Color Picker</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.mobilefish.com/services/base64/base64.php', 500, 300, 'right', 'top', {title: 'Base64 Encoder', icon: '/img/jswm-web.png'}" size="60" id="b64en" />
+    					 <input type="hidden" value="'https://www.mobilefish.com/services/base64/base64.php', 500, 300, 'left', 'top', {title: 'Base64 Encoder', icon: '/img/jswm-web.png'}" size="60" id="b64en" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('b64en').value + ');');">Base64 Encoder</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://jsbeautifier.org/', 500, 300, 'right', 'top', {title: 'JS Beautifier', icon: '/img/jswm-web.png'}" size="60" id="jsbe" />
+    					 <input type="hidden" value="'https://jsbeautifier.org/', 500, 300, 'left', 'top', {title: 'JS Beautifier', icon: '/img/jswm-web.png'}" size="60" id="jsbe" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('jsbe').value + ');');">JS Beautifier</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://fmarcia.info/jsmin/test.html', 500, 300, 'right', 'top', {title: 'JS Minifier', icon: '/img/jswm-web.png'}" size="60" id="mfier" />
+    					 <input type="hidden" value="'https://fmarcia.info/jsmin/test.html', 500, 300, 'left', 'top', {title: 'JS Minifier', icon: '/img/jswm-web.png'}" size="60" id="mfier" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('mfier').value + ');');">JS Minifier</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://validator.w3.org/', 500, 300, 'right', 'top', {title: 'Markup Validator', icon: '/img/jswm-web.png'}" size="60" id="mval" />
+    					 <input type="hidden" value="'https://validator.w3.org/', 500, 300, 'left', 'top', {title: 'Markup Validator', icon: '/img/jswm-web.png'}" size="60" id="mval" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('mval').value + ');');">Markup Validator</a>
     				</li>
 					<li class="divider"></li>
@@ -1559,7 +1559,7 @@
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.websequencediagrams.com/', 500, 300, 'right', 'top', {title: 'WebSequence Diagrams', icon: '/img/jswm-web.png'}" size="60" id="wsdiag" />
+    					 <input type="hidden" value="'https://www.websequencediagrams.com/', 500, 300, 'left', 'top', {title: 'WebSequence Diagrams', icon: '/img/jswm-web.png'}" size="60" id="wsdiag" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('wsdiag').value + ');');">WebSequence Diagrams</a>
     				</li>
 					<li class="divider"></li>
@@ -1615,7 +1615,7 @@
     				</li>
 					<li class="divider"></li>  
     				<li>
-    					 <input type="hidden" value="'/editor?EDIT_FUNC=SEMAPHORE', 500, 300, 'right', 'top', {title: 'Semaphore', icon: '/img/jswm-web.png'}" size="60" id="semsms" />
+    					 <input type="hidden" value="'/editor?EDIT_FUNC=SEMAPHORE', 500, 300, 'left', 'top', {title: 'Semaphore', icon: '/img/jswm-web.png'}" size="60" id="semsms" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('semsms').value + ');');">Semaphore</a>
     				</li>
     				<li class="divider"></li>
@@ -1669,17 +1669,17 @@
               <span class="arrow"></span>                                                                                                                                   
                  <ul class="sublist-menu">
 				<li>
-					 <input type="hidden" value="'/admin-setup', 500, 300, 'right', 'top', {title: 'Admin', icon: '/img/jswm-web.png'}" size="60" id="openURI5" />
+					 <input type="hidden" value="'/admin-setup', 500, 300, 'left', 'top', {title: 'Admin', icon: '/img/jswm-web.png'}" size="60" id="openURI5" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('openURI5').value + ');');">Admin</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-NOTIFICATIONS-LOG&SID=ULAPPH-NOTIFICATIONS-LOG', 500, 300, 'right', 'top', {title: 'Access Logs', icon: '/img/jswm-web.png'}" size="60" id="accessLogs" />
+					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-NOTIFICATIONS-LOG&SID=ULAPPH-NOTIFICATIONS-LOG', 500, 300, 'left', 'top', {title: 'Access Logs', icon: '/img/jswm-web.png'}" size="60" id="accessLogs" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('accessLogs').value + ');');">Notifications & Logs</a>
 				</li>
 				<li class="divider"></li>
 				<li>
-					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-NOTIFICATIONS-MAP', 500, 300, 'right', 'top', {title: 'Access Maps', icon: '/img/jswm-web.png'}" size="60" id="accessMaps" />
+					 <input type="hidden" value="'/infodb?DB_FUNC=ULAPPH-NOTIFICATIONS-MAP', 500, 300, 'left', 'top', {title: 'Access Maps', icon: '/img/jswm-web.png'}" size="60" id="accessMaps" />
 					<a href="#page" onclick="eval('windowManager.openURI(' + $('accessMaps').value + ');');">User Location Maps</a>
 				</li>
 				<li class="divider"></li>
@@ -1692,17 +1692,17 @@
               <span class="arrow"></span>                                                                                                                                   
                  <ul class="sublist-menu">
     				<li>
-    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/articles?TYPE=ARTICLE&DOC_ID=3&SID=TDSARTL-3', 500, 300, 'right', 'top', {title: 'Help', icon: '/img/jswm-web.png'}" size="60" id="Help" />
+    					 <input type="hidden" value="'https://ulapph-public-1.appspot.com/articles?TYPE=ARTICLE&DOC_ID=3&SID=TDSARTL-3', 500, 300, 'left', 'top', {title: 'Help', icon: '/img/jswm-web.png'}" size="60" id="Help" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('Help').value + ');');">ULAPPH Documentations</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'/guestbook?GB_FUNC=FEEDBACK_VIEW', 500, 300, 'right', 'top', {title: 'Submit Feedback', icon: '/img/jswm-web.png'}" size="60" id="feedback" />
+    					 <input type="hidden" value="'/guestbook?GB_FUNC=FEEDBACK_VIEW', 500, 300, 'left', 'top', {title: 'Submit Feedback', icon: '/img/jswm-web.png'}" size="60" id="feedback" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('feedback').value + ');');">Submit Feedback</a>
     				</li>
 					<li class="divider"></li>
     				<li>
-    					 <input type="hidden" value="'https://www.youtube.com/channel/UCfmBlIM8pbOs3Vaq1lTZ22Q', 500, 300, 'right', 'top', {title: 'Video Tutorials', icon: '/img/jswm-web.png'}" size="60" id="vtut" />
+    					 <input type="hidden" value="'https://www.youtube.com/channel/UCfmBlIM8pbOs3Vaq1lTZ22Q', 500, 300, 'left', 'top', {title: 'Video Tutorials', icon: '/img/jswm-web.png'}" size="60" id="vtut" />
     					<a href="#page" onclick="eval('windowManager.openURI(' + $('vtut').value + ');');">Video Tutorials</a>
     				</li>
 					<li class="divider"></li>
