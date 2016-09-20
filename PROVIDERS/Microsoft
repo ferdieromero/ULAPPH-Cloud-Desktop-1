@@ -1,96 +1,108 @@
-<li>
-<a href="#page">Microsoft Office</a>
-<ul class="sublist">
-	<li>
-		<a href="#page" onclick="window.open('https://outlook.com','_blank'); return false">Login</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://onedrive.live.com', 'Microsoft live' ); return false">One Drive</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://outlook.com/', 'Microsoft outlook' ); return false">Mail</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://calendar.live.com/calendar/calendar.aspx', 'Microsoft calendar' ); return false">Calendar</a>
-	</li>
-	<li class="divider"></li>
-	
-	<li>
-		<a href="#page" onclick="openWindow('https://bay02.calendar.live.com/calendar/calendar.aspx?rru=tasks', 'Microsoft tasks' ); return false">Tasks</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://office.live.com/start/Word.aspx?omkt=en-PH', 'Microsoft Word' ); return false">Word</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://office.live.com/start/Excel.aspx?omkt=en-PH', 'Microsoft Excel' ); return false">Excel</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://office.live.com/start/PowerPoint.aspx?omkt=en-PH', 'Microsoft PowerPoint' ); return false">Powerpoint</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.onenote.com/notebooks', 'Microsoft notebooks' ); return false">One Note</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://docs.com/en-us?entrypointid=1', 'Microsoft docs' ); return false">Docs.com</a>
-	</li>
-	<li class="divider"></li>
-</ul>
-</li>
+	    <li>
+        	<a href="#page">Microsoft</a>   
+            <ul class="sublist">
+				<li>Microsoft Office    
+				  <span class="arrow"></span>
+					<ul class="sublist-menu">
 
-<li>
-<a href="#page">Applications</a>
-<ul class="sublist">
-	<li>
-		<a href="#page" onclick="window.open('https://outlook.com','_blank'); return false">Login</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://sway.com/', 'Microsoft sway' ); return false">Sway</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://docs.com/en-us?entrypointid=1', 'Microsoft docs' ); return false">Docs.com</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.office.com/', 'Microsoft office' ); return false">Office</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.bing.com/?FORM=MO0027', 'Microsoft bing' ); return false">Bing</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.msn.com/en-ph/?OCID=CALHeader', 'Microsoft MSN' ); return false">MSN</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.microsoft.com/en-ph/', 'Microsoft Website' ); return false">Microsoft</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.microsoftstore.com/', 'Microsoft Store' ); return false">Store</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://twitter.com/Microsoft', 'Microsoft twitter' ); return false">Twitter</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.facebook.com/Microsoft', 'Microsoft facebook' ); return false">Facebook</a>
-	</li>
-	<li class="divider"></li>
-	<li>
-		<a href="#page" onclick="openWindow('https://www.youtube.com/user/Microsoft', 'Microsoft youtube' ); return false">Youtube</a>
-	</li>
-	<li class="divider"></li>
-</ul>
-</li>
+						<li>
+							<a href="#page" onclick="window.open('https://outlook.com','_blank'); return false">Login</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://onedrive.live.com', 'Microsoft live' ); return false">One Drive</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://outlook.com/', 'Microsoft outlook' ); return false">Mail</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://calendar.live.com/calendar/calendar.aspx', 'Microsoft calendar' ); return false">Calendar</a>
+						</li>
+						<li class="divider"></li>
+						
+						<li>
+							<a href="#page" onclick="openWindow('https://bay02.calendar.live.com/calendar/calendar.aspx?rru=tasks', 'Microsoft tasks' ); return false">Tasks</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://office.live.com/start/Word.aspx?omkt=en-PH', 'Microsoft Word' ); return false">Word</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://office.live.com/start/Excel.aspx?omkt=en-PH', 'Microsoft Excel' ); return false">Excel</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://office.live.com/start/PowerPoint.aspx?omkt=en-PH', 'Microsoft PowerPoint' ); return false">Powerpoint</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.onenote.com/notebooks', 'Microsoft notebooks' ); return false">One Note</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://docs.com/en-us?entrypointid=1', 'Microsoft docs' ); return false">Docs.com</a>
+						</li>
+						<li class="divider"></li>
+		
+					</ul>
+				</li>
+				<li class="divider"></li>
+
+				<li>Applications
+				  <span class="arrow"></span>
+					<ul class="sublist-menu">
+
+						<li>
+							<a href="#page" onclick="window.open('https://outlook.com','_blank'); return false">Login</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://sway.com/', 'Microsoft sway' ); return false">Sway</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://docs.com/en-us?entrypointid=1', 'Microsoft docs' ); return false">Docs.com</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.office.com/', 'Microsoft office' ); return false">Office</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.bing.com/?FORM=MO0027', 'Microsoft bing' ); return false">Bing</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.msn.com/en-ph/?OCID=CALHeader', 'Microsoft MSN' ); return false">MSN</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.microsoft.com/en-ph/', 'Microsoft Website' ); return false">Microsoft</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.microsoftstore.com/', 'Microsoft Store' ); return false">Store</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://twitter.com/Microsoft', 'Microsoft twitter' ); return false">Twitter</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.facebook.com/Microsoft', 'Microsoft facebook' ); return false">Facebook</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://www.youtube.com/user/Microsoft', 'Microsoft youtube' ); return false">Youtube</a>
+						</li>
+						<li class="divider"></li>
+					
+					</ul>
+				</li>
+				<li class="divider"></li>
+		
+			</ul>
+		</li>
