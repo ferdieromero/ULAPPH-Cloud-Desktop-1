@@ -87,6 +87,9 @@ Desktop - no access, search or activity logs are retained!
 - Ability to search on all ULAPPH Cloud Desktops that are part of the same network
 - Monitor the performance of ULAPPH Cloud Desktop using Dweet.io and Freeboard
 
+# Setup
+![enter image description here](http://lh3.googleusercontent.com/T0v_elAC2F2yFjCQbDP88Nv0cktt7XLML7eOnoToRSwPxzD97EGbEFupWkva4rIwfi5Cw7AmU7Ozd6D4qgFU7z3To0vZZOI=s800)
+
 # To point your Start Menu to Github
 Go to Admin Setup, edit your System Top List Menu to include the line below on the very first line:
 
