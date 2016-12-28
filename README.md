@@ -2,6 +2,9 @@
 
 Welcome to ULAPPH Cloud Desktop! Your online cloud desktop and cloud website!  It runs on your browser! https://goo.gl/8PJbT8
 
+# Explore Start Menu
+https://ulapph-public-1.appspot.com/media?FUNC_CODE=GET_MEDIA&MEDIA_ID=1099&SID=TDSMEDIA-1099
+
 # Videos
 https://www.youtube.com/watch?list=PLHGslGB8z3_kDrebayoNNLc7VnXVfjuRZ&v=ih0ztWZg5R0
 
