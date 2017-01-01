@@ -181,6 +181,10 @@
 						</li>
 						<li class="divider"></li>
 						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/logs/viewer', 'Logs Viewer' ); return false">Logs Viewer</a>
+						</li>
+						<li class="divider"></li>
+						<li>
 							<a href="#page" onclick="openWindow('https://console.cloud.google.com/apis/library?project=', 'API Manager' ); return false">API Manager</a>
 						</li>
 						<li class="divider"></li>
