@@ -1,5 +1,7 @@
 # ULAPPH-Cloud-Desktop
 
+![enter image description here](http://opo.ulapph.com/img/ulapph-logo.png)
+
 Welcome to ULAPPH Cloud Desktop! Your online cloud desktop and cloud website!  It runs on your browser! https://goo.gl/8PJbT8
 
 # Explore Start Menu
