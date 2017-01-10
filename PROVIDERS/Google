@@ -224,6 +224,10 @@
 							<a href="#page" onclick="openWindow('https://console.cloud.google.com/storage/browser', 'Cloud Storage' ); return false">Cloud Storage</a>
 						</li>
 						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.firebase.google.com', 'Firebase' ); return false">Firebase</a>
+						</li>
+						<li class="divider"></li>
 					</ul>
 				</li>
 				<li class="divider"></li>
