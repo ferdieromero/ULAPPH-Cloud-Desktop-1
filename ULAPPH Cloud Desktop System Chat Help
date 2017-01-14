@@ -14,6 +14,8 @@ To change ringtone, type /ringtone or /ringtone NUMBER if you know the item.
 
 To turn on/off sound, type /sound on|off. 
 
+To open news window, type /news or /news NUMBER if you know the item. 
+
 To go to Carousel screen, type /carousel. 
 
 To go to desktop0, type /desktop0. 
@@ -24,6 +26,8 @@ To logout from ULAPPH, type /logout.
 
 To show saved users list, type /session or type /session_clear to reset list. 
 
+To open people directory, type /people
+
 To send private message, type /pm user@gmail.com. 
 
 To create private room, type /room. 
@@ -32,8 +36,14 @@ To view a slide/article/media number, type /slide NUMBER or /article NUMBER or /
 
 To open a URL or website address, type /open URL. To send a link, type /link URL. 
 
+To view trending contents, type /trending.
+
+To view new contents, type /whatsnew.
+
+To view sites directory, type /sites.
+
 To send an image, type /image URL. To create a note, type /note. 
 
-To scrape a url, type /scrape<space>http://sample.com<keyword>. 
+To scrape a url, type /scrape<space>http://sample.com<keyword>.
 
 To say goodbye to chat, type /bye.
