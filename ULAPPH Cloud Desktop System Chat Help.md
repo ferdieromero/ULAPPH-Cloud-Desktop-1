@@ -6,9 +6,11 @@ ULAPPH Chat is an ULAPPH Cloud Desktop application that can be used to join worl
 
 Open your ULAPPH Cloud Desktop from your browser. If you are not logged in, you can join the worldwide & country-wide channels only. If you are logged in, you can join also the site-wide and private channels. Please note that when you log in to your ULAPPH Cloud Desktop's UWM, you will automatically open these chat channels.
 
-[Worldwide Chat](https://ulapph-public-1.appspot.com/chat?pubchan=worlwide)
-[Country Chat](https://ulapph-public-1.appspot.com/chat?pubchan=country)
-[Site Chat](https://ulapph-public-1.appspot.com/chat?pubchan=public)
+###[Worldwide Chat](https://ulapph-public-1.appspot.com/chat?pubchan=worlwide)
+
+###[Country Chat](https://ulapph-public-1.appspot.com/chat?pubchan=country)
+
+###[Site Chat](https://ulapph-public-1.appspot.com/chat?pubchan=public)
 
 ## Keywords
 
