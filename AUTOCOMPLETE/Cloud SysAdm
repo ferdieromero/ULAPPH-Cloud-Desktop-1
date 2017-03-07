@@ -3,7 +3,7 @@
 $(function(){
   var entries = [
     { value: 'oc login | Login', data: 'https://docs.openshift.org/latest/getting_started/administrators.html#building-from-source' }, 
-    { value: 'oc new-project test |Create new project', data: 'https://lrmds.deped.gov.ph/list/kto12/kinder/2' },   
+    { value: 'oc new-project test |Create new project', data: 'https://docs.openshift.org/latest/getting_started/administrators.html#building-from-source' },   
   ];
   // setup autocomplete function pulling from entries[] array
   $('#autocomplete').autocomplete({
