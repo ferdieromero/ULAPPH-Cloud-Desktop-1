@@ -2,8 +2,8 @@
 
 $(function(){
   var entries = [
-    { value: 'Kinder-Week-1', data: 'https://lrmds.deped.gov.ph/list/kto12/kinder/1' }, 
-    { value: 'Kinder-Week-2', data: 'https://lrmds.deped.gov.ph/list/kto12/kinder/2' },   
+    { value: 'oc login | Login', data: 'https://docs.openshift.org/latest/getting_started/administrators.html#building-from-source' }, 
+    { value: 'oc new-project test |Create new project', data: 'https://lrmds.deped.gov.ph/list/kto12/kinder/2' },   
   ];
   // setup autocomplete function pulling from entries[] array
   $('#autocomplete').autocomplete({
