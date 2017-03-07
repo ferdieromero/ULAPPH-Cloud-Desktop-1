@@ -2,8 +2,8 @@
 
 $(function(){
   var entries = [
-    { value: 'Elementary Mathematics Grade 1: Chapter I. Grade 1, Subtraction', data: 'http://lrmds.deped.gov.ph/detail/2183' }, 
-    { value: 'MTB-MLE Grade 1: Bikol Week 1 Teacher’s Guide', data: 'http://lrmds.deped.gov.ph/detail/3933' },   
+    { value: 'Elementary Mathematics Grade 1: Chapter I. Grade 1, Subtraction', data: 'https://lrmds.deped.gov.ph/detail/2183' }, 
+    { value: 'MTB-MLE Grade 1: Bikol Week 1 Teacher’s Guide', data: 'https://lrmds.deped.gov.ph/detail/3933' },   
   ];
   // setup autocomplete function pulling from entries[] array
   $('#autocomplete').autocomplete({
