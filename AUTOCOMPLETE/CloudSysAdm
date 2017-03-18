@@ -3,7 +3,20 @@
 $(function(){
   var entries = [
     { value: 'oc login | Login', data: 'https://docs.openshift.org/latest/getting_started/administrators.html#building-from-source' }, 
-    { value: 'oc new-project test |Create new project', data: 'https://docs.openshift.org/latest/getting_started/administrators.html#building-from-source' },   
+    { value: 'oc new-project test | Create new project', data: 'https://docs.openshift.org/latest/getting_started/administrators.html#building-from-source' },
+    
+    { value: 'git config --global user.email EMAIL | Setup git email', data: 'http://n/a' },
+    { value: 'config --global user.name USERNAME | Setup git username', data: 'http://n/a' },
+    { value: 'git add --all | Add all changed in git', data: 'http://n/a' },
+    { value: 'git commit -m MESSAGE | Add commit message', data: 'http://n/a' },
+    { value: 'git push origin master | Commit now to git', data: 'http://n/a' },
+    { value: 'vim .ssh/known_hosts | Add ssh key', data: 'http://n/a' },
+    { value: 'chmod 600 ~/.ssh/config | Update ssh config', data: 'http://n/a' },
+    { value: 'git clone ssh://git@gitserver.this.git | Clone a private repo', data: 'http://n/a' },
+    { value: 'git clone ssh://git@gitserver.this.git | Clone a private repo', data: 'http://n/a' },
+    { value: ' oc secrets new-dockercfg my-registry2  --docker-server=IP_ADDRESS_HERE:PORT --docker-username=USERNAME --docker-password=TOKEN_FROM_WHOAMI_T
+--docker-email=EMAIL | Create a secret', data: 'http://n/a' },
+    { value: 'command | Explanation', data: 'linkHere' },
   ];
   // setup autocomplete function pulling from entries[] array
   $('#autocomplete').autocomplete({
