@@ -4,8 +4,7 @@ $(function(){
   var entries = [
     { value: 'find /home/user/ -type f | xargs sed -i  \'s/a.example.com/b.example.com/g\'', data: 'Find and replace files in subdirectories | https://stackoverflow.com/questions/1585170/how-to-find-and-replace-all-occurrences-of-a-string-recursively-in-a-directory-t' }, 
     { value: 'lsof -ti:5901 | xargs kill -9', data: 'bind: Address already in use | https://askubuntu.com/questions/447820/ssh-l-error-bind-address-already-in-use' }, 
-    { value: 'PS1=\'\u:\W\$ \'', data: 'shorten a bash shell unix prompt' }, 
-    
+    { value: 'PS1=\'\\u:\\W\\$ \'', data: 'shorten a bash shell unix prompt' }, 
   ];
   // setup autocomplete function pulling from entries[] array
   $('#autocomplete').autocomplete({
