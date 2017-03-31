@@ -9,7 +9,7 @@ $(function(){
     { value: 'git add --all | Add all changed in git', data: 'http://n/a' },
     { value: 'git commit -m MESSAGE | Add commit message', data: 'http://n/a' },
     { value: 'git push origin master | Commit now to git', data: 'http://n/a' },
-    { value: 'vim .ssh/known_hosts | Add ssh key', data: 'http://n/a' },
+    { value: 'vim .ssh/known_hosts | Add ssh key', data: 'https://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use' },
     { value: 'chmod 600 ~/.ssh/config | Update ssh config', data: 'http://n/a' },
     { value: 'git clone ssh://git@gitserver.this.git | Clone a private repo', data: 'http://n/a' },
     { value: 'git clone ssh://git@gitserver.this.git | Clone a private repo', data: 'http://n/a' },
