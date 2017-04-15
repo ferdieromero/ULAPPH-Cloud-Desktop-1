@@ -189,7 +189,15 @@
 						</li>
 						<li class="divider"></li>
 						<li>
-							<a href="#page" onclick="openWindow('https://console.cloud.google.com/permissions/projectpermissions?project=', 'Permissions' ); return false">Permissions</a>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/billing?project=', 'Billing' ); return false">Billing</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/launcher?project=', 'Cloud Launcher' ); return false">Cloud Launcher</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/iam-admin?project=', 'IAM & Admin' ); return false">IAM & Admin</a>
 						</li>
 						<li class="divider"></li>
 						<li>
@@ -209,6 +217,10 @@
 						</li>
 						<li class="divider"></li>
 						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/functions?project=', 'Cloud Functions' ); return false">Cloud Functions</a>
+						</li>
+						<li class="divider"></li>
+						<li>
 							<a href="#page" onclick="openWindow('https://console.cloud.google.com/bigtable/clusters', 'Big Table' ); return false">Big Table</a>
 						</li>
 						<li class="divider"></li>
@@ -225,7 +237,75 @@
 						</li>
 						<li class="divider"></li>
 						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/spanner?project=', 'Spanner' ); return false">Spanner</a>
+						</li>
+						<li class="divider"></li>
+						<li>
 							<a href="#page" onclick="openWindow('https://console.firebase.google.com', 'Firebase' ); return false">Firebase</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/monitoring?project=', 'Monitoring' ); return false">Monitoring</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/debug?project=', 'Debug' ); return false">Debug</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/traces?project=', 'Trace' ); return false">Trace</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/logs?project=', 'Logging' ); return false">Logging</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/errors?project=', 'Error Reporting' ); return false">Error Reporting</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/gcr?project=', 'Container Registry' ); return false">Container Registry</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/code?project=', 'Development' ); return false">Development</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/deployments?project=', 'Deployment Manager' ); return false">Deployment Manager</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/testlab?project=', 'Test Lab' ); return false">Test Lab</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/endpoints?project=', 'Endpoints' ); return false">Endpoints</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/bigquery?project=', 'Big Query' ); return false">Big Query</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/cloudpubsub?project=', 'PubSub' ); return false">PubSub</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/dataproc?project=', 'Data Proc' ); return false">Data Proc</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/dataflow?project=', 'Data Flow' ); return false">Data Flow</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/mlengine?project=', 'ML Engine' ); return false">ML Engine</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#page" onclick="openWindow('https://console.cloud.google.com/genomics?project=', 'Genomics' ); return false">Genomics</a>
 						</li>
 						<li class="divider"></li>
 					</ul>
