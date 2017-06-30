@@ -102,7 +102,7 @@
 						</li>
 						<li class="divider"></li>  
 						<li>
-							<a href="#page" onclick="openWindow('https://news.google.com', 'Google News' ); return false">Google News</a>
+							<a href="#page" onclick="window.open('https://news.google.com','_blank'); return false">Google News</a>
 						</li>
 						<li class="divider"></li>  
 						<li>
