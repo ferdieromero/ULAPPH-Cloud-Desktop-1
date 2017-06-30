@@ -1,4 +1,4 @@
 # ULAPPH-Cloud-Desktop
 
-Moved to:
+Other files are stored in:
 https://github.com/ulapph/ULAPPH-Cloud-Desktop
