@@ -2,7 +2,11 @@ Welcome to ULAPPH Cloud Desktop!
 ===================
 
 
-We are now releasing **ULAPPH Cloud Desktop** to open source community! It was designed to look like a desktop computer only that it runs in a browser such as Chrome, Opera and Firefox! It displays contents into **Windows** which can be configured via **Settings**. It can contain up to **1000 desktops** so you can organize your work easily. It automatically generates contents into **slides**, **articles**, **media** which are saved in the cloud. It can be used to **develop Javascript applications** such as for Internet of Things (IOT).  It saves data in the cloud which means no problem if you spill coffee on your device. You can just open your ULAPPH Cloud Desktop anytime, anywhere and any device such as Windows desktop, Android smartphone or tablets. It has a remote control which can be used to play Youtube videos or control slides presentation via mobile phone or a separate device.
+We are now releasing **ULAPPH Cloud Desktop**[^ulapph]. It was designed to look like a desktop computer only that it runs in a browser such as Chrome, Opera and Firefox! It displays contents into **Windows** which can be configured via **Settings**. It can contain up to **1000 desktops** so you can organize your work easily. It automatically generates contents into **slides**, **articles**, **media** which are saved in the cloud. It can be used to **develop Javascript applications** such as for Internet of Things (IOT).  It saves data in the cloud which means no problem if you spill coffee on your device. You can just open your ULAPPH Cloud Desktop anytime, anywhere and any device such as Windows desktop, Android smartphone or tablets. 
+
+[ULAPPH Cloud Desktop](https://www.ulapph.com/) is a web-based desktop (webtop) for online work, publishing, and development! ULAPPH is coined from word "ulap" which means cloud and PH which means it originated from the Philippines.
+
+![http://lh3.googleusercontent.com/rdYiJWTDIf0OUVf0cAHwgEJBdKWeFnFC0OFRdoVo8-4tpzNk3MESibvzBLoLVYxZ-8W-2gS7H9o-xzJBy2VEk0bpGZ1NFg=s900](http://lh3.googleusercontent.com/rdYiJWTDIf0OUVf0cAHwgEJBdKWeFnFC0OFRdoVo8-4tpzNk3MESibvzBLoLVYxZ-8W-2gS7H9o-xzJBy2VEk0bpGZ1NFg=s900)
 
 > **System Requirements:** To install ULAPPH Cloud Desktop you need the following:
 
@@ -83,13 +87,14 @@ server1.appspot.com -> sites.appspot.com: Conntects to central server
 server2.appspot.com -> sites.appspot.com: Conntects to central server
 installer.appspot.com -> server1.appspot.com: Auto creates project ID
 local installer -> server1.appspot.com: Installs the software to cloud
-local installer -> server2.appspot.com: Installs the software to cloud
 ```
 
+### Screenshots
 
+![enter image description here](https://lh3.googleusercontent.com/oWeiwR9uf3r0N5PXLcEBYBj56ZWPdXDBx06xkdnLEzt_YGkOOdNdVCTmO6XPKxe_915vTwl3JXO4h_ANwOvdEzz_RAc8BFU=s900)
 
-### About ULAPPH Cloud Desktop
+![enter image description here](https://lh3.googleusercontent.com/OGZjALz1lCM9TKHd11Hc5cEE9XuNUPIcFaYKqD7-sb4Aoresi7-S60dJXgvmQfhnQDiyTuSWR8l3Ullvst6sA_n0KUkJ0A=s900)
 
-[ULAPPH Cloud Desktop](https://www.ulapph.com/) is a web-based desktop (webtop) for online work, publishing, and development! ULAPPH is coined from word "ulap" which means cloud and PH which means it originated from the Philippines.
+![enter image description here](http://lh3.googleusercontent.com/fNMF_rr2NwTBg1_dbd-bKeOPz_HAjBFtOa3HztBrE7jFS7ojnOPQ5SgJvlaA3XqZwcgJUp0j3_piDZ0ph3h0ws9gpmQ66w=s900)
 
-
+![enter image description here](https://lh3.googleusercontent.com/WkV7BkGU8anaCn3OqpkRfRbBc-9k_wZVzCPQV-Rs_605F2P12tfqdC7Uv6B0yFUvSMzSol-e62679GvJsRMUb82Vi8cl=s900)
