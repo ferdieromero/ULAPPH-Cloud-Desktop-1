@@ -280,6 +280,19 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * Sprig - github.com/Masterminds/sprig
 * Silly Name Generator - github.com/edwindvinas/sillyname-go
 
+### List of Core Libraries Used
+* html/template
+* path/filepath
+* encoding/base64
+* encoding/json
+* io/ioutil
+* appengine/... and google.golang.org/appengine
+* google.golang.org/api/googleapi/transport
+* google.golang.org/api/plus/v1
+* code.google.com/p/google-api-go-client/youtube/v3
+* golang.org/x/net/context
+* encoding/binary
+
 ### Questions?
 * Gmail account: edwin.d.vinas@gmail.com
 
