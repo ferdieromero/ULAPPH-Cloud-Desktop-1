@@ -241,7 +241,7 @@ installer.appspot.com -> server1.appspot.com: Auto creates project ID
 local installer -> server1.appspot.com: Installs the software to cloud
 ```
 
-### Screenshots
+### More Screenshots
 
 ![enter image description here](https://lh3.googleusercontent.com/oWeiwR9uf3r0N5PXLcEBYBj56ZWPdXDBx06xkdnLEzt_YGkOOdNdVCTmO6XPKxe_915vTwl3JXO4h_ANwOvdEzz_RAc8BFU=s900)
 
