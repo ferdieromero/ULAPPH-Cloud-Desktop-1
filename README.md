@@ -264,4 +264,23 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * Most of all, thank you to all the open source developers whom we have included the libraries inside the ULAPPH Cloud Desktop
 
 ### List of Open Source Libraries Used
-* HTTP User Agent Parsing and Detection - https://github.com/mssola/user_agent
+* HTTP User Agent Parsing and Detection - github.com/mssola/user_agent
+* Golang presenter - golang.org/x/tools/present
+* Humanize - github.com/dustin/go-humanize
+* HTML to Text - github.com/jaytaylor/html2text
+* Percent - github.com/edwindvinas/percent
+* JSON - github.com/edwindvinas/jsonq
+* Firebase - gopkg.in/zabawaba99/firego.v1
+* JWT - github.com/dgrijalva/jwt-go
+* GO Query - github.com/PuerkitoBio/goquery
+* English sentences - gopkg.in/neurosnap/sentences.v1/english
+* Oauth2 - golang.org/x/oauth2
+* Github - github.com/google/go-github/github
+* Bleve - github.com/blevesearch/bleve
+* Sprig - github.com/Masterminds/sprig
+* Silly Name Generator - github.com/edwindvinas/sillyname-go
+
+### Questions?
+* Gmail account: edwin.d.vinas@gmail.com
+
+
