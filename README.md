@@ -264,4 +264,4 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * Most of all, thank you to all the open source developers whom we have included the libraries inside the ULAPPH Cloud Desktop
 
 ### List of Open Source Libraries Used
-* TBD
+* HTTP User Agent Parsing and Detection - https://github.com/mssola/user_agent
