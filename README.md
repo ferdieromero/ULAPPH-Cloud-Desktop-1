@@ -43,12 +43,12 @@ ULAPPH Cloud Desktop installation has two phases:
 
 ### STEP 2: Download the needed source codes
 * Download the ULAPPH Cloud Desktop source codes which contain Golang, HTML, CSS, JS, etc
-	* TBD
+	* https://github.com/ulapph/ULAPPH-Cloud-Desktop
 
 ### STEP 3: Download the local installer
 * Download the Excel file with contains macro to automate installation or upgrades
 * Configure the installer
-	* TBD
+	* https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer
 
 ### STEP 4: Add row in the installer for new servers
 * If the ULAPPH server is new, we need to add a row in the installer
