@@ -2,18 +2,24 @@ Welcome to ULAPPH Cloud Desktop!
 ===================
 
 
-We are now releasing **ULAPPH Cloud Desktop** to opensource community. It was designed to look & work like a desktop computer only that it runs in a browser such as Chrome, Opera and Firefox! It displays contents into **Windows** which can be configured via **Settings**. It can contain up to **1000 desktops** so you can organize your work easily. It automatically generates contents into **slides**, **articles**, **media** which are saved in the cloud. It can be used to **develop Javascript applications** such as for Internet of Things (IOT).  It saves data in the cloud which means no problem if you spill coffee on your device. You can just open your ULAPPH Cloud Desktop anytime, anywhere and any device such as Windows desktop, Android smartphone or tablets. 
+**ULAPPH Cloud Desktop** is a cloud desktop that runs in a browser such as Chrome, Opera and Firefox! It contains Javascript windowing system which displays contents in multiple **Windows**. The desktop can be configured to contain up to **1000 desktop categories** so you can organize your work your personal, business and any information. It automatically generates contents into **slides**, **articles**, and **media** which are automatically saved in the Google cloud. It can be used to **develop Javascript applications** such as for Internet of Things (IOT) or execute **Golang** codes.  It saves data in the cloud which means your cloud desktop is available anytime, anywhere and any device. It works in laptops, desktops, Android/IOS devices as long as they have Chrome, Opera or Firefox browsers -- no installation required except the X-Frame-Ignore extension and Cross Origin extension. 
 
-[ULAPPH Cloud Desktop](https://www.ulapph.com/) is a web-based desktop (webtop) for online work, publishing, and development! ULAPPH is coined from word "ulap" which means cloud and PH which means it originated from the Philippines.
+[ULAPPH Cloud Desktop](https://www.ulapph.com/) is a web-based desktop (webtop) for your online work, publishing, and development! ULAPPH is coined from word "ulap" which means cloud and PH which means it originated from the Philippines.
 
 ![http://lh3.googleusercontent.com/rdYiJWTDIf0OUVf0cAHwgEJBdKWeFnFC0OFRdoVo8-4tpzNk3MESibvzBLoLVYxZ-8W-2gS7H9o-xzJBy2VEk0bpGZ1NFg=s900](http://lh3.googleusercontent.com/rdYiJWTDIf0OUVf0cAHwgEJBdKWeFnFC0OFRdoVo8-4tpzNk3MESibvzBLoLVYxZ-8W-2gS7H9o-xzJBy2VEk0bpGZ1NFg=s900)
 
-> **System Requirements:** To install ULAPPH Cloud Desktop you need the following:
+> **System Requirements (part 1):** To install ULAPPH Cloud Desktop you need the following:
+> - A Google account or G-Suite account
+> - A Windows or Mac desktop with Office & VBA Excel
+> - A Chrome, Opera or Firefox browser in laptop, desktop or mobile
 
-> - Knowledge in Golang
+> **System Requirements (part 2):** To customize ULAPPH Cloud Desktop you need the following:
+
+> - Knowledge in Golang programming https://golang.org
 > - Knowledge in Google App Engine, Google APIs, Google Cloud Platform
 > - A Google account or G-Suite account
 > - A Windows or Mac desktop with Office & VBA Excel
+> - A Chrome, Opera or Firefox browser in laptop, desktop or mobile
 
 ----------
 
