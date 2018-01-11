@@ -324,7 +324,7 @@ local installer -> server1.appspot.com: Installs the software to cloud
 - Thank you as well to all the people who supported our social media campaigns through their likes and comments. Special mention to my wife who managed the start-up, my sister-in-law, school mates and even strangers who supported us in their own little ways.
 - Thank you as well to Alessio for creating the Mac OS X like CSS user interface
 - Thank you as well to Ed for creating the Javascript window manager
-- Thank you so much to my current company and colleagues who supported the opensourcing of this simple piece of software
+- Thank you so much to my current company who re-hired me and to my colleagues who supported the opensourcing of this simple piece of software
 * Most of all, thank you to all the open source developers whom we have included the libraries inside the ULAPPH Cloud Desktop
 
 ### Questions, Suggestions, Comments?
