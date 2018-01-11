@@ -128,10 +128,26 @@ ULAPPH Cloud Desktop installation has two phases:
 
 ### STEP 3: Download the installer tool
 * Download the Excel file with contains macro to automate installation or upgrades
-* Configure the installer
 	* https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer
+* Configure the installer such as the email address, Google project ID and the installation paths
+* Directory Structure must be correct
+* You can create a main folder such as **C:\Users\your-folder-name\ulapph**
+* Create a folder under the above named **ulapph-cloud-desktop** so you will have **C:\Users\your-folder-name\ulapph\ulapph-cloud-desktop**
+* Download the sources from **https://github.com/Accenture/ULAPPH-Cloud-Desktop** to the **ulapph-cloud-desktop** folder
+* Configure the installer with the correct paths above
+* (Later, you can configure all other credentials -- sorry no docs yet about this)
 
-### STEP 4: Add row in the installer for new servers
+### STEP 3b: First time installer setup
+* For first time users which already has a new Google Project ID...
+* Once you have opened the Excel tool and VBA is enabled, we can just find & replace the existing row
+* Find and replace the owner email address from **demo.ulapph@gmail.com** to your **google-email-address@gmail.com**
+* Find and replace the Google Project ID from **hornriver-leader** to **your-server-name**
+* Make sure to check the correct directory structure and put it in the installer
+*  Press F5 to install which calls appcfg.py or you can right click to access the installer menu
+* Login if prompted by Ouath2 login and follow the screen instructions
+* After a couple of minutes, your cloud desktop will be installed to your Google Project ID
+
+### STEP 4: For existing installer, add row in the installer for new servers
 * If the ULAPPH server is new, we need to add a row in the installer
 * Update the row to contain the details of the new server
 * Make sure you update the columns appropriately
