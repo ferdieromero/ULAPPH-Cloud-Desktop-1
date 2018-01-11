@@ -4,8 +4,9 @@ ULAPPH Cloud Desktop
 This repo is for documentations only
 ------------------------------------
 - **Source code can be found here: https://github.com/Accenture/ULAPPH-Cloud-Desktop**
-- **If you are ready to create a project ID: http://www.google.com**
-- **After the project ID is created in Google Cloud, you should be redirected to this page. Proceed to STEP 2**
+- **VBA Installer tool can be found here: https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer**
+- **If you are ready to create a project ID go here: http://www.google.com**
+- **After the project ID is created in Google Cloud, you should be redirected to this page and so proceed to STEP 2**
 
 Introduction
 ------------
