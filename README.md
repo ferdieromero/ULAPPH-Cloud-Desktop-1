@@ -7,6 +7,7 @@ This repo is for documentations only
 - **VBA Installer tool can be found here: https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer**
 - **If you are ready to create a project ID go here: http://www.ulapph.com**
 - **After the project ID is created in Google Cloud, you should be redirected to this page and so proceed to STEP 2**
+- **If you want to login to your ULAPPH Cloud Desktop, go to http://www.ulapph.com/ and click Login**
 
 Introduction
 ------------
