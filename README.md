@@ -256,6 +256,8 @@ ULAPPH Cloud Desktop installation has two phases:
 
 ### STEP 8: Customizing the source codes
 * You may customize the cloud desktop and test your change in your own cloud desktop
+	* Update the golang codes in **main.go** (this is the single Golang program that controls everything)
+	* Update the static codes in **static** folder
 * Then request a pull request if you want to contribute your changes
 
 ### ULAPPH Setup
