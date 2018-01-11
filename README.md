@@ -332,6 +332,38 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * appengine/search - Built-in Google Search indexing (document level)
 * github.com/blevesearch/bleve - Golang full-text search indexing (content level)
 
+### List of Built-in Webapps ###
+* Swagger UI
+* CSV to JSON
+* Drawing
+* JS Beautify
+* JSON to CSV
+* JWT Debugger
+* HTML5 Terminal
+* Mindmaps
+* Speedtest
+* Timelines
+* ULAPPH Webapp
+
+### Serving Static Website inside ULAPPH Cloud Desktop ###
+* see static/ folder
+* You can put your HTML pages to server inside ULAPPH Cloud Desktop
+* Example: static/mywebapp
+* You can then access the pages here: https://your-server-name.appspot.com/mywebapp
+
+### List of 211 Core Built-in JS Libraries ###
+* see static/js folder
+* You can use these when you develop webapps inside ULAPPH Cloud Desktop
+
+### List of 36 Additional Built-in JS Libraries ###
+* see static/lib/js folder
+* You can use these when you develop webapps inside ULAPPH Cloud Desktop
+
+### Other Built-in Static Libraries ###
+* see static/lib/css folder
+* see static/lib/fonts folder
+* see static/lib/img folder
+
 ### List of ULAPPH Central Servers ###
 * https://ulapph-sites.appspot.com
 
@@ -346,4 +378,6 @@ local installer -> server1.appspot.com: Installs the software to cloud
 ### Questions, Suggestions, Comments?
 * Gmail account: edwin.d.vinas@gmail.com
 
+### TODOS ###
+- More documentations to follow
 
