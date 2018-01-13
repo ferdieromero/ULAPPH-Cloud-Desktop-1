@@ -316,6 +316,7 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * Ed Sanders' Javascript Window Manager - http://jswm.sourceforge.net/
 * Alessio Atzeni's Mac OS X Lion CSS3 - http://www.alessioatzeni.com/mac-osx-lion-css3/
 * Golang Templates for rendering pages - html/template
+* Ajax.org's Ace editor
 
 ### List of Core Google App Engine Libraries ###
 * appengine/datastore - No SQL database
@@ -347,6 +348,7 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * Speedtest
 * Timelines
 * ULAPPH Webapp
+* Ace editor
 
 ### Serving Static Website inside ULAPPH Cloud Desktop ###
 * see static/ folder
