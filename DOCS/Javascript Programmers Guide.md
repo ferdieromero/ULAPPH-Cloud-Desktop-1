@@ -165,15 +165,13 @@ You can customize the desktop via some Javascript codes. You can add these codes
 
 This sets the desktop wallpaper to a fix image.
 
-``
-<script>    
-    setTimeout(function(){
-    	var rn = document.getElementById("ranid");
-    	rn.value = "pause";
-        var bgImgUrl = "https://lh3.googleusercontent.com/5-KY9yZgOBEaS5d-f7fS7SYbMDRA3UPW1Ppgp_-oraPuqyP0FUZCKQoHzi-dF5qiLm9h7xuuzzbEiKnGhFZ9pKl9_UK4Og=s1500";
-        document.getElementById("DEFAULT_WALLPAPER").value = bgImgUrl;
-        document.getElementById('page').style.backgroundImage = "url(" + bgImgUrl + ")";    
-    }, 10000);
-</script>
-``
+    <script>    
+        setTimeout(function(){
+            var rn = document.getElementById("ranid");
+            rn.value = "pause";
+            var bgImgUrl = "https://lh3.googleusercontent.com/5-KY9yZgOBEaS5d-f7fS7SYbMDRA3UPW1Ppgp_-oraPuqyP0FUZCKQoHzi-dF5qiLm9h7xuuzzbEiKnGhFZ9pKl9_UK4Og=s1500";
+            document.getElementById("DEFAULT_WALLPAPER").value = bgImgUrl;
+            document.getElementById('page').style.backgroundImage = "url(" + bgImgUrl + ")";    
+        }, 10000);
+    </script>
 
