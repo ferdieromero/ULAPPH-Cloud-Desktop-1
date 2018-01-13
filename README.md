@@ -10,6 +10,10 @@ This repo is for documentations only
 - **If you want to login to your ULAPPH Cloud Desktop, go to http://www.ulapph.com/ and click Login**
 - **If your account is added in ULAPPH Sites server, go to http://www.ulapph.net/ to access your desktop directly**
 
+Advanced User Guides
+--------------------
+- **Javascript Programmers Guide https://raw.githubusercontent.com/ulapph/ULAPPH-Cloud-Desktop/master/ULAPPH_Cloud_Desktop_Documentation.slide** 
+
 Introduction
 ------------
 
