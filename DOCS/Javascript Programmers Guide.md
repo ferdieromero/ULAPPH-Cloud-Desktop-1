@@ -2,7 +2,7 @@ ULAPPH Cloud Desktop - Javascript Programmers Guide
 ===================
 
 
-This is a guide for **ULAPPH**[^ulapph] Javascript Programmers.
+This is a guide for Javascript Programmers.
 
 ----------
 
@@ -132,4 +132,4 @@ This contains the currently opened ULAPPH desktops.
 
 
 ---------
-  [^ulapph]: [ULAPPH](http://www.ulapph.com/) is a webtop written in Golang.
+
