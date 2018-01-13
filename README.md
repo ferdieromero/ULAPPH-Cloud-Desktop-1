@@ -316,7 +316,7 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * Ed Sanders' Javascript Window Manager - http://jswm.sourceforge.net/
 * Alessio Atzeni's Mac OS X Lion CSS3 - http://www.alessioatzeni.com/mac-osx-lion-css3/
 * Golang Templates for rendering pages - html/template
-* Ajax.org's Ace editor
+* Ajax.org's Ace editor - https://en.wikipedia.org/wiki/Ace_(editor)
 
 ### List of Core Google App Engine Libraries ###
 * appengine/datastore - No SQL database
