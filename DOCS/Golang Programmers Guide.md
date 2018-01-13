@@ -7,7 +7,9 @@ Here are the steps on how to contribute your codes to ULAPPH Cloud Desktop.
 * Visit https://github.com/Accenture/ULAPPH-Cloud-Desktop
 * Clone the latest repo
 
-	git clone https://github.com/Accenture/ULAPPH-Cloud-Desktop.git
+```
+git clone https://github.com/Accenture/ULAPPH-Cloud-Desktop.git
+```
 
 ### STEP 2: Update the main.go & other codes
 * Update the golang codes in main.go
