@@ -121,8 +121,16 @@ Accessing Local Storage Parameters
 
 When you access /uwm desktop, you will have access to the local storage parameters.
 
-#### <i class="icon-file"></i> desktop
+#### <i class="icon-file"></i> fingerprint
 
-This contains the name of the desktop such as uwm1, uwm2, desktop0 etc.
+This contains the unique fingerprint of the browser.
+
+#### <i class="icon-file"></i> uwm-1, uwm-2, uwm-n
+
+This contains the currently opened ULAPPH desktops.
+
+
+
+
   [^ulapph]: [
   ULAPPH](http://www.ulapph.com/) is a webtop written in Golang.
