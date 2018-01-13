@@ -12,7 +12,7 @@ This repo is for documentations only
 
 Advanced User Guides
 --------------------
-- **[Javascript Programmers Guide](https://raw.githubusercontent.com/ulapph/ULAPPH-Cloud-Desktop/master/ULAPPH_Cloud_Desktop_Documentation.slide)** | **[Javascript Programmers Guide](https://raw.githubusercontent.com/ulapph/ULAPPH-Cloud-Desktop/master/ULAPPH_Cloud_Desktop_Documentation.slide)** | **[Javascript Programmers Guide](https://raw.githubusercontent.com/ulapph/ULAPPH-Cloud-Desktop/master/ULAPPH_Cloud_Desktop_Documentation.slide)** | **[Javascript Programmers Guide](https://raw.githubusercontent.com/ulapph/ULAPPH-Cloud-Desktop/master/ULAPPH_Cloud_Desktop_Documentation.slide)**
+- **[Golang Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Javascript%20Programmers%20Guide.md)** | **[Javascript Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Javascript%20Programmers%20Guide.md)** | **[Golang Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Javascript%20Programmers%20Guide.md)** | **[Webapp Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Javascript%20Programmers%20Guide.md)**
 
 Introduction
 ------------
