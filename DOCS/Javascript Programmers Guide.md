@@ -131,6 +131,5 @@ This contains the currently opened ULAPPH desktops.
 
 
 
-
-  [^ulapph]: [
-  ULAPPH](http://www.ulapph.com/) is a webtop written in Golang.
+---------
+  [^ulapph]: [ULAPPH](http://www.ulapph.com/) is a webtop written in Golang.
