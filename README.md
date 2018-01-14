@@ -168,6 +168,7 @@ local installer -> server1.appspot.com: Installs the software to cloud
 * Alessio Atzeni's Mac OS X Lion CSS3 - http://www.alessioatzeni.com/mac-osx-lion-css3/
 * Golang Templates for rendering pages - html/template
 * Ajax.org's Ace editor - https://en.wikipedia.org/wiki/Ace_(editor)
+* WebKit.org's Sticky Notes - https://webkit.org/demos/sticky-notes/
 
 ### List of Core Google App Engine Libraries ###
 * appengine/datastore - No SQL database
