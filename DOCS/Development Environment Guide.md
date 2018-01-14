@@ -18,3 +18,6 @@ Install Google Cloud SDK
 - Download/Install Google Cloud SDK https://cloud.google.com/sdk/docs/
 - If above fails, follow the alternative way to install here https://cloud.google.com/sdk/downloads
 
+Alternative: Install Original AppEngine SDK
+- If you don't want to use gcloud, you can use the original Appengine SDK
+- Download/Install original AppEngine SDK https://cloud.google.com/appengine/docs/standard/python/download#appengine_sdk
