@@ -16,4 +16,5 @@ Install Golang
 Install Google Cloud SDK
 ----------------------------
 - Download/Install Google Cloud SDK https://cloud.google.com/sdk/docs/
+- If above fails, follow the alternative way to install here https://cloud.google.com/sdk/downloads
 
