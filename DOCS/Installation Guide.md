@@ -131,6 +131,18 @@ ULAPPH Cloud Desktop installation has two phases:
 		* Click the reload icon in the main desktop toolbar
 
 ### STEP 6: Access your cloud desktop links
+* Install browser extensions
+	* For Chrome, here are the two extenstions that you need to install:
+		* Allow-Control-Allow-Origin (https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-launcher-info-dialog)
+		* Ignore X-Frame headers (https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe?utm_source=chrome-app-launcher-info-dialog)
+	* For Firefox, here are the add-ons you need to install:
+		* CORS Everywhere (https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/?src=search)
+		* Ignore X-Frames Options (https://addons.mozilla.org/en-US/firefox/addon/ignore-x-frame-options/?src=search)
+	* For Opera, you need to download the following extensions and install to Opera
+		* Force CORS (https://github.com/edwindvinas/ForceCORS)
+		* Force Embed (https://github.com/edwindvinas/force-embed)
+	* For Edge/IE/Safari - no extensions available!
+
 * After successful setup, you can now access:
 	* **http://your-server-name.appspot.com/uwm** - The main desktop
 	* **http://your-server-name.appspot.com/webapp** - The mobile webapp
