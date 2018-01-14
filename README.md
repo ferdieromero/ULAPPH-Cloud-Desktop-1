@@ -41,6 +41,8 @@ Introduction
 Screenshots
 -----------
 
+![Automated creation of Google Project ID](https://lh3.googleusercontent.com/ldzUkHX-WOlYFbJMUdLsaUWvpPAGPg9a7Sa1l4G7roi_tcg37DOs9OCxzixADHVnVgeK-9sACI2Smw366q8mgdJJFuiPzJY=s800)
+
 ![enter image description here](http://lh3.googleusercontent.com/z_PKzOutRu5a9LASLNjnpeM3tzHHSiS8fIpJkAs3exZEr9KC-Vx0pAsHBpCH7NCOu4C3O0VpaILn-eHxR3GlhP3HVO8y=s800)
 
 ![enter image description here](http://lh3.googleusercontent.com/koZo7dbIKHA1EV1ItyfXE82NN4uCPrQuCM-N44oOleFpz18h3WVW56GPNn4KpyrtRiyVk4eSiXeycDkvUQOWPiTtp3qJi3M=s800)
