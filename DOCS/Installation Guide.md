@@ -39,6 +39,11 @@ ULAPPH Cloud Desktop installation has two phases:
 *  Press F5 to install which calls appcfg.py or you can right click to access the installer menu
 * Login if prompted by Ouath2 login and follow the screen instructions
 * After a couple of minutes, your cloud desktop will be installed to your Google Project ID
+* Note if you encountered some issues on missing libraries, execute the go get script
+
+```
+./gogetall.sh
+```
 
 ### STEP 4: For existing installer, add row in the installer for new servers
 * If the ULAPPH server is new, we need to add a row in the installer
