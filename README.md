@@ -21,7 +21,7 @@ Introduction
 
 [ULAPPH Cloud Desktop](https://www.ulapph.com/) is a web-based desktop (webtop) for your online work, publishing, and development! ULAPPH is coined from word "ulap" which means cloud and PH which means it originated from the Philippines.
 
-![http://lh3.googleusercontent.com/rdYiJWTDIf0OUVf0cAHwgEJBdKWeFnFC0OFRdoVo8-4tpzNk3MESibvzBLoLVYxZ-8W-2gS7H9o-xzJBy2VEk0bpGZ1NFg=s900](http://lh3.googleusercontent.com/rdYiJWTDIf0OUVf0cAHwgEJBdKWeFnFC0OFRdoVo8-4tpzNk3MESibvzBLoLVYxZ-8W-2gS7H9o-xzJBy2VEk0bpGZ1NFg=s900)
+![ULAPPH Logo](http://edwin-daen-vinas.appspot.com/img/banaosystems-boot.png)
 
 > **System Requirements (part 1):** To install ULAPPH Cloud Desktop you need the following:
 > - A Google account or G-Suite account (free or paid)
@@ -40,24 +40,15 @@ Introduction
 
 Screenshots
 -----------
-
 ![Automated creation of Google Project ID](https://lh3.googleusercontent.com/ldzUkHX-WOlYFbJMUdLsaUWvpPAGPg9a7Sa1l4G7roi_tcg37DOs9OCxzixADHVnVgeK-9sACI2Smw366q8mgdJJFuiPzJY=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/z_PKzOutRu5a9LASLNjnpeM3tzHHSiS8fIpJkAs3exZEr9KC-Vx0pAsHBpCH7NCOu4C3O0VpaILn-eHxR3GlhP3HVO8y=s500)
+![ULAPPH UWM Desktop](http://lh3.googleusercontent.com/rdYiJWTDIf0OUVf0cAHwgEJBdKWeFnFC0OFRdoVo8-4tpzNk3MESibvzBLoLVYxZ-8W-2gS7H9o-xzJBy2VEk0bpGZ1NFg=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/koZo7dbIKHA1EV1ItyfXE82NN4uCPrQuCM-N44oOleFpz18h3WVW56GPNn4KpyrtRiyVk4eSiXeycDkvUQOWPiTtp3qJi3M=s500)
+![ULAPPH UWM Desktop](https://lh3.googleusercontent.com/IhJbOUEiXbtqKT-gKoMSf5lBY2oowLLNL9JrXyFMUShlVO5waXjuMMEUyWWZVMuiz11eaYDSbsJWhPeiq2hAe1sb3F9R=s900)
 
-![enter link description here](http://lh3.googleusercontent.com/rALoT8Vwr2TDjQeOeVpcXLLAXXXu9NtA-3XSd69Id7gt6xBJbTIRelo4Ae-y_RAGYUIoz-vqLoIRV5t2iAxKE7xafmuaYw=s500)
+![ULAPPH UWM Desktop](https://lh3.googleusercontent.com/VoNjasti_TDnNqDN5fJf6aXIzZ5ByqW__DaSOV5cKR4zr8pobCTo1PUENfCRktZ_j7eLu5cVc89DHHbxJODBu0bkHCd9_w=s900)
 
-![enter image description here](http://lh3.googleusercontent.com/QGu1bnmFoIGoZqvYMKWbqseoSc4IT7_zjkhnpv6oCbKPWNmM4kFFN0omnO9xCdbSqCxchwN026XOVBZHhUW8E9msDoo=s500)
-
-![enter image description here](http://lh3.googleusercontent.com/hEz5DP3BYyzZLAcub26vKMNIcBQ7ZWL6cphKoqpc8Nwn4DnpbnwDaUDTayXo0njFwBBOvz-Ok3YpNdFDAKVXx64D1yPB=s500)
-
-![enter image description here](http://lh3.googleusercontent.com/J1DwrvMvtDUKTitw1UDD9iXgBFxVRaLlON8FIO9I_hN0Wab0ddxdFIqmpIC9v3V0TxG94uBcZccD2HOSdyOf0ogidO3GAhc1=s500)
-
-![enter image description here](http://lh3.googleusercontent.com/kQmUemekPYZJFlMW4HSLxNuZp8SAn4xNo8PE5bLoixb7tVZ1gHEZWugRnXGErGL2iniQvY6GuIT-zziTsOVW7wltg2eeeISX9w=s500)
-
-![enter image description here](https://lh3.googleusercontent.com/UQnbRGKWY9shokrD2Ha5eUNcrWGJ8JuE_TtNcY7B5_o5hytl0s7MOWp2M5Zc08vd9wrwxjNBEWm8pqEVSZiYS5Yw39W0fYQp=s500)
+![ULAPPH UWM Desktop](https://lh3.googleusercontent.com/q1Wp_bX1XCfo9oEvgZpjyQEpBHyPU8mWs8wRb4pMYs_i2pHX0iViYjDBMUpwg8zqB8SQLrUHEZ3XdaRSYUxnxQ3Pm4CVLw=s900)
 
 Features
 --------
@@ -239,4 +230,5 @@ local installer -> server1.appspot.com: Installs the software to cloud
 
 ### TODOS ###
 - More documentations to follow
+- Collaborate with other developers in order to improve the software
 
