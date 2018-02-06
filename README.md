@@ -232,3 +232,4 @@ local installer -> server1.appspot.com: Installs the software to cloud
 - More documentations to follow
 - Collaborate with other developers in order to improve the software
 
+Thank you very much for your stars! ;-)
