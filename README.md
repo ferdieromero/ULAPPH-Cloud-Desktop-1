@@ -1,7 +1,7 @@
-ULAPPH Cloud Desktop
+ULAPPH Cloud Desktop (Documentations)
 ====================
 
-This repo is for documentations only
+Quick Links
 ------------------------------------
 - **Source code can be found here: https://github.com/Accenture/ULAPPH-Cloud-Desktop**
 - **VBA Installer tool can be found here: https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer**
@@ -41,23 +41,23 @@ Introduction
 Screenshots
 -----------
 
-![Automated creation of Google Project ID](https://lh3.googleusercontent.com/ldzUkHX-WOlYFbJMUdLsaUWvpPAGPg9a7Sa1l4G7roi_tcg37DOs9OCxzixADHVnVgeK-9sACI2Smw366q8mgdJJFuiPzJY=s800)
+![Automated creation of Google Project ID](https://lh3.googleusercontent.com/ldzUkHX-WOlYFbJMUdLsaUWvpPAGPg9a7Sa1l4G7roi_tcg37DOs9OCxzixADHVnVgeK-9sACI2Smw366q8mgdJJFuiPzJY=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/z_PKzOutRu5a9LASLNjnpeM3tzHHSiS8fIpJkAs3exZEr9KC-Vx0pAsHBpCH7NCOu4C3O0VpaILn-eHxR3GlhP3HVO8y=s800)
+![enter image description here](http://lh3.googleusercontent.com/z_PKzOutRu5a9LASLNjnpeM3tzHHSiS8fIpJkAs3exZEr9KC-Vx0pAsHBpCH7NCOu4C3O0VpaILn-eHxR3GlhP3HVO8y=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/koZo7dbIKHA1EV1ItyfXE82NN4uCPrQuCM-N44oOleFpz18h3WVW56GPNn4KpyrtRiyVk4eSiXeycDkvUQOWPiTtp3qJi3M=s800)
+![enter image description here](http://lh3.googleusercontent.com/koZo7dbIKHA1EV1ItyfXE82NN4uCPrQuCM-N44oOleFpz18h3WVW56GPNn4KpyrtRiyVk4eSiXeycDkvUQOWPiTtp3qJi3M=s500)
 
-![enter link description here](http://lh3.googleusercontent.com/rALoT8Vwr2TDjQeOeVpcXLLAXXXu9NtA-3XSd69Id7gt6xBJbTIRelo4Ae-y_RAGYUIoz-vqLoIRV5t2iAxKE7xafmuaYw=s800)
+![enter link description here](http://lh3.googleusercontent.com/rALoT8Vwr2TDjQeOeVpcXLLAXXXu9NtA-3XSd69Id7gt6xBJbTIRelo4Ae-y_RAGYUIoz-vqLoIRV5t2iAxKE7xafmuaYw=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/QGu1bnmFoIGoZqvYMKWbqseoSc4IT7_zjkhnpv6oCbKPWNmM4kFFN0omnO9xCdbSqCxchwN026XOVBZHhUW8E9msDoo=s800)
+![enter image description here](http://lh3.googleusercontent.com/QGu1bnmFoIGoZqvYMKWbqseoSc4IT7_zjkhnpv6oCbKPWNmM4kFFN0omnO9xCdbSqCxchwN026XOVBZHhUW8E9msDoo=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/hEz5DP3BYyzZLAcub26vKMNIcBQ7ZWL6cphKoqpc8Nwn4DnpbnwDaUDTayXo0njFwBBOvz-Ok3YpNdFDAKVXx64D1yPB=s800)
+![enter image description here](http://lh3.googleusercontent.com/hEz5DP3BYyzZLAcub26vKMNIcBQ7ZWL6cphKoqpc8Nwn4DnpbnwDaUDTayXo0njFwBBOvz-Ok3YpNdFDAKVXx64D1yPB=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/J1DwrvMvtDUKTitw1UDD9iXgBFxVRaLlON8FIO9I_hN0Wab0ddxdFIqmpIC9v3V0TxG94uBcZccD2HOSdyOf0ogidO3GAhc1=s800)
+![enter image description here](http://lh3.googleusercontent.com/J1DwrvMvtDUKTitw1UDD9iXgBFxVRaLlON8FIO9I_hN0Wab0ddxdFIqmpIC9v3V0TxG94uBcZccD2HOSdyOf0ogidO3GAhc1=s500)
 
-![enter image description here](http://lh3.googleusercontent.com/kQmUemekPYZJFlMW4HSLxNuZp8SAn4xNo8PE5bLoixb7tVZ1gHEZWugRnXGErGL2iniQvY6GuIT-zziTsOVW7wltg2eeeISX9w=s800)
+![enter image description here](http://lh3.googleusercontent.com/kQmUemekPYZJFlMW4HSLxNuZp8SAn4xNo8PE5bLoixb7tVZ1gHEZWugRnXGErGL2iniQvY6GuIT-zziTsOVW7wltg2eeeISX9w=s500)
 
-![enter image description here](https://lh3.googleusercontent.com/UQnbRGKWY9shokrD2Ha5eUNcrWGJ8JuE_TtNcY7B5_o5hytl0s7MOWp2M5Zc08vd9wrwxjNBEWm8pqEVSZiYS5Yw39W0fYQp=s800)
+![enter image description here](https://lh3.googleusercontent.com/UQnbRGKWY9shokrD2Ha5eUNcrWGJ8JuE_TtNcY7B5_o5hytl0s7MOWp2M5Zc08vd9wrwxjNBEWm8pqEVSZiYS5Yw39W0fYQp=s500)
 
 Features
 --------
