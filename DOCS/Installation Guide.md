@@ -1,4 +1,4 @@
-ULAPPH Cloud Desktop - Installation Guide
+ULAPPH Cloud Desktop - Installation Guide using the VBA Installer Tool
 =============
 
 ULAPPH Cloud Desktop installation has two phases:
@@ -19,7 +19,7 @@ ULAPPH Cloud Desktop installation has two phases:
 * Download the ULAPPH Cloud Desktop source codes which contain Golang, HTML, CSS, JS, etc
 	* https://github.com/ulapph/ULAPPH-Cloud-Desktop
 
-### STEP 3: Download the installer tool
+### STEP 3a: Download the VBA Excel installer tool
 * Download the Excel file with contains macro to automate installation or upgrades
 	* https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer
 * Configure the installer such as the email address, Google project ID and the installation paths
@@ -36,7 +36,7 @@ ULAPPH Cloud Desktop installation has two phases:
 * Find and replace the owner email address from **demo.ulapph@gmail.com** to your **google-email-address@gmail.com**
 * Find and replace the Google Project ID from **hornriver-leader** to **your-server-name**
 * Make sure to check the correct directory structure and put it in the installer
-*  Press F5 to install which calls appcfg.py or you can right click to access the installer menu
+* Press F5 to install which calls appcfg.py or you can right click to access the installer menu
 * Login if prompted by Ouath2 login and follow the screen instructions
 * After a couple of minutes, your cloud desktop will be installed to your Google Project ID
 * Note if you encountered some issues on missing libraries, execute the go get script
