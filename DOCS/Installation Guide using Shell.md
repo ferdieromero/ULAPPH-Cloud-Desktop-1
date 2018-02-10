@@ -82,11 +82,14 @@ ULAPPH Cloud Desktop installation has two phases:
 	cd ULAPPH-Cloud-Desktop-Configs
 	ulapphctl --config deathlake-fly.yaml install
 ```
-* The above command will actually create a modified main.go file
+* The above command will actually create a modified main.go file called "main3.go"
 
 ### STEP 4b: Execute gcloud to install ULAPPH Cloud Desktop to Google Cloud
-* Once you have modified the main.go using the ulapphctl command, we can now execute gcloud command
-* This will finally install the ULAPPH Cloud Desktop (with modified main.go) to Google Appengine
+* Once you have verified the main3.go, we can now override the main.go
+```
+	cp main3.go main.go
+```
+* Now, install the ULAPPH Cloud Desktop (with modified main.go) to Google Appengine
 ```
 	cd ULAPPH-Cloud-Desktop
 	gcloud --project=deathlake-fly \
