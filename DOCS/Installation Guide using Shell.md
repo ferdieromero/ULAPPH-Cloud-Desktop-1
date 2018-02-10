@@ -96,7 +96,7 @@ ULAPPH Cloud Desktop installation has two phases:
 gcloud --project=deathlake-fly \
 --account=demo.ulapph@gmail.com \
 --verbosity=info --quiet \
-app deploy app.yaml\
+app deploy app.yaml
 ```
 * If error occurs similar to below, this means there are packages that we first need to download to local
 * We can actually fix this via go get command for each missing modules
