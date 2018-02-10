@@ -110,6 +110,7 @@ app deploy app.yaml\
 	chmod +x gogetall.sh
 	./gogetall.sh
 ```
+* You may ignore the errors during gogetall.sh especially about appengine and sprig
 * Re-execute gcloud command above and see if it proceeded with the installation
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
