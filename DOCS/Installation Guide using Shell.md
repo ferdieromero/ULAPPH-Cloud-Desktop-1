@@ -48,6 +48,8 @@ ULAPPH Cloud Desktop installation has two phases:
   - https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer
   
 ```
+	mkdir ulapph
+	cd ulapph
 	git clone https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer.git
 	
 	cd ULAPPH-Cloud-Desktop-Shell-Installer
