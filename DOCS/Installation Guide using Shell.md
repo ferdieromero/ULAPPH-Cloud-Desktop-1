@@ -95,8 +95,7 @@ ULAPPH Cloud Desktop installation has two phases:
 gcloud --project=deathlake-fly \
 --account=demo.ulapph@gmail.com \
 --verbosity=info --quiet \
-app deploy \
-ULAPPH-Cloud-Desktop/app.yaml
+app deploy app.yaml\
 ```
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
