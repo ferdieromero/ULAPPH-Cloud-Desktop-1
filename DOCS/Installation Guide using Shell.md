@@ -1,3 +1,4 @@
+
 ULAPPH Cloud Desktop - Installation Guide using Google Cloud Shell
 =============
 
@@ -15,6 +16,8 @@ ULAPPH Cloud Desktop installation has two phases:
 * After the project ID is created in Google Cloud, you should be redirected to this page.
 * You may also check the Google Cloud Console to see if your project ID is created
 	* https://console.cloud.google.com/cloud-resource-manager
+* You can open the Google Cloud Shell
+	* https://console.cloud.google.com/cloudshell/editor?shellonly=true
 
 ### STEP 2: Download the needed source codes
 * Note that the ULAPPH Cloud Desktop source codes which contain Golang, HTML, CSS, JS, etc are found below
