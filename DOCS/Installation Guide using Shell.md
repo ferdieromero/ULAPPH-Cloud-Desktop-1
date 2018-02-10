@@ -87,11 +87,11 @@ ULAPPH Cloud Desktop installation has two phases:
 ### STEP 4b: Execute gcloud to install ULAPPH Cloud Desktop to Google Cloud
 * Once you have verified the main3.go, we can now override the main.go
 ```
+	cd ULAPPH-Cloud-Desktop
 	cp main3.go main.go
 ```
 * Now, install the ULAPPH Cloud Desktop (with modified main.go) to Google Appengine
 ```
-	cd ULAPPH-Cloud-Desktop
 	gcloud --project=deathlake-fly \
 		--account=demo.ulapph@gmail.com \
 		--verbosity=info --quiet \
