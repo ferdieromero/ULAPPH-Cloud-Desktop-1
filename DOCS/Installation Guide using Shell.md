@@ -66,11 +66,10 @@ ULAPPH Cloud Desktop installation has two phases:
 ```
 
 ### STEP 3b: First time installer setup
-* For first time users which already has a new Google Project ID...
-* Find and replace the owner email address from **demo.ulapph@gmail.com** to your **google-email-address@gmail.com**
-* Find and replace the Google Project ID from **hornriver-leader** to **your-server-name**
-* After a couple of minutes, your cloud desktop will be installed to your Google Project ID
-* Note if you encountered some issues on missing libraries, execute the go get script
+* For first time users which already has a new Google Project ID, we need to setup the YAML
+* Go to the repository below and download the sample YAML file
+	* https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer
+* Edit the YAML file to suit for your project
 
 ```
 ./gogetall.sh
