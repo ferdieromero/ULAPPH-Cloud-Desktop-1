@@ -7,7 +7,8 @@ Quick Links
 - **VBA Installer tool can be found here: https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer**
 - **Shell Installer tool can be found here: https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer**
 - **To create a Google cloud project ID using web interface go here: http://www.ulapph.com**
-- **If you want to login to your own ULAPPH Cloud Desktop, go to http://www.ulapph.com/ and click Login or go to http://ulapph.net**
+- **If you want to visit the homepage of ULAPPH Cloud Desktop, go to http://www.ulapph.com/**
+- **If you want to directly login to your own ULAPPH Cloud Desktop, go to http://ulapph.net**
 - **If you want to add your account in the central ULAPPH server, contact edwin.d.vinas@gmail.com**
 
 Advanced User Guides
