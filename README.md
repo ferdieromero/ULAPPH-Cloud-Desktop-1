@@ -5,10 +5,10 @@ Quick Links
 ------------------------------------
 - **Source code can be found here: https://github.com/Accenture/ULAPPH-Cloud-Desktop**
 - **VBA Installer tool can be found here: https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer**
-- **If you are ready to create a project ID go here: http://www.ulapph.com**
-- **After the project ID is created in Google Cloud, you should be redirected to this page and so proceed to STEP 2**
-- **If you want to login to your ULAPPH Cloud Desktop, go to http://www.ulapph.com/ and click Login or go to http://ulapph.net**
-- **If your account is added in ULAPPH Sites server, go to http://www.ulapph.net/ to access your desktop directly**
+- **Shell Installer tool can be found here: https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer**
+- **To create a Google cloud project ID using web interface go here: http://www.ulapph.com**
+- **If you want to login to your own ULAPPH Cloud Desktop, go to http://www.ulapph.com/ and click Login or go to http://ulapph.net**
+- **If you want to add your account in the central ULAPPH server, contact edwin.d.vinas@gmail.com**
 
 Advanced User Guides
 --------------------
@@ -227,9 +227,5 @@ local installer -> server1.appspot.com: Installs the software to cloud
 
 ### Questions, Suggestions, Comments?
 * Gmail account: edwin.d.vinas@gmail.com
-
-### TODOS ###
-- More documentations to follow
-- Collaborate with other developers in order to improve the software
 
 Thank you very much for your stars! ;-)
