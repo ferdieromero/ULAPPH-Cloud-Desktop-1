@@ -91,11 +91,20 @@ ULAPPH Cloud Desktop installation has two phases:
 	cp main3.go main.go
 ```
 * Now, install the ULAPPH Cloud Desktop (with modified main.go) to Google Appengine
+* Copy the command below and press enter
 ```
 gcloud --project=deathlake-fly \
 --account=demo.ulapph@gmail.com \
 --verbosity=info --quiet \
 app deploy app.yaml\
+```
+* If error occurs similar to below, this means there are packages that we first need to download to local
+```
+	cannot find package "github.com/dgrijalva/jwt-go" in any of
+```
+* To resolve the above error, execute the gogetall.sh script which downloads all pre-requisite Golang libraries
+```
+	./gogetall.sh
 ```
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
