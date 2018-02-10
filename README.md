@@ -11,7 +11,7 @@ Quick Links
 - **If you want to directly login to your own ULAPPH Cloud Desktop, go to http://ulapph.net**
 - **If you want to add your account in the central ULAPPH server, contact edwin.d.vinas@gmail.com**
 
-Advanced User Guides
+User Guides
 --------------------
 - **[Installation Guide via VBA](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Installation%20Guide.md)**
 - **[Installation Guide via Shell](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Installation%20Guide%20using%20Shell.md)**
