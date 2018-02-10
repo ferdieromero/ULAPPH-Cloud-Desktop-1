@@ -99,14 +99,18 @@ gcloud --project=deathlake-fly \
 app deploy app.yaml\
 ```
 * If error occurs similar to below, this means there are packages that we first need to download to local
+* We can actually fix this via go get command for each missing modules
 ```
 	cannot find package "github.com/dgrijalva/jwt-go" in any of
+	
+	go get github.com/dgrijalva/jwt-go
 ```
 * To resolve the above error, execute the gogetall.sh script which downloads all pre-requisite Golang libraries
 ```
 	chmod +x gogetall.sh
 	./gogetall.sh
 ```
+* Re-execute gcloud command above and see if it proceeded with the installation
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
 
