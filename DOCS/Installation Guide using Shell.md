@@ -31,6 +31,14 @@ ULAPPH Cloud Desktop installation has two phases:
   cd ULAPPH-Cloud-Desktop-1/
   ls
 ```
+* Note: If you just want to get the latest codes
+```
+  mkdir ulapph
+  cd ulapph
+  git clone https://github.com/accenture/ULAPPH-Cloud-Desktop.git
+  cd ULAPPH-Cloud-Desktop/
+  ls
+```
 
 ### STEP 3a: Download the VBA Excel installer tool
 * Download the shell installer tool
