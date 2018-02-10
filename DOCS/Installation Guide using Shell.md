@@ -76,8 +76,17 @@ ULAPPH Cloud Desktop installation has two phases:
 	vim ../ULAPPH-Cloud-Desktop-Configs/deathlake-fly.yaml
 ```
 
-### STEP 4: Install ULAPPH Cloud Desktop sources to Google Cloud
+### STEP 4a: Prepare ULAPPH Cloud Desktop sources prior to installing to Google Cloud
 * Once you have installed ulapphctl, run it by pointing to the configuration yaml file
+```
+	cd ULAPPH-Cloud-Desktop-Configs
+	ulapphctl --config deathlake-fly.yaml install
+```
+* The above command will actually create a modified main.go file
+
+### STEP 4b: Execute gcloud to install ULAPPH Cloud Desktop to Google Cloud
+* Once you have modified the main.go using the ulapphctl command, we can now execute gcloud command
+* This will finally install the ULAPPH Cloud Desktop (with modified main.go) to Google Appengine
 ```
 	cd ULAPPH-Cloud-Desktop-Configs
 	ulapphctl --config deathlake-fly.yaml install
