@@ -69,16 +69,17 @@ ULAPPH Cloud Desktop installation has two phases:
 * For first time users which already has a new Google Project ID, we need to setup the YAML
 * Go to the repository below and download the sample YAML file
 	* https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer
-* Edit the YAML file to suit for your project
+* Edit the YAML file to suit for your project (for example, project ID is deathlake-fly.yaml)
 ```
-	cp ulapph-demo.yaml  deathlake-fly.yaml
-	vim deathlake-fly.yaml
+	mkdir ../ULAPPH-Cloud-Desktop-Configs
+	cp ulapph-demo.yaml  ../ULAPPH-Cloud-Desktop-Configs/deathlake-fly.yaml
+	vim ../ULAPPH-Cloud-Desktop-Configs/deathlake-fly.yaml
 ```
 
 ### STEP 4: Install ULAPPH Cloud Desktop sources to Google Cloud
 * Once you have installed ulapphctl, run it by pointing to the configuration yaml file
 ```
-	ulapphctl --config "../ULAPPH-Cloud-Desktop-Configs/ulapph-demo.yaml" install
+	ulapphctl --config "../ULAPPH-Cloud-Desktop-Configs/deathlake-fly.yaml" install
 ```
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
