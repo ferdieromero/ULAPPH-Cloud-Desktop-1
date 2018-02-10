@@ -43,9 +43,24 @@ ULAPPH Cloud Desktop installation has two phases:
   ls
 ```
 
-### STEP 3a: Download the VBA Excel installer tool
+### STEP 3a: Download the Shell installer tool
 * Download the shell installer tool
   - https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer
+  
+```
+	git clone https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer.git
+	
+	cd ULAPPH-Cloud-Desktop-Shell-Installer
+	go get github.com/jinzhu/configor
+	go get github.com/urfave/cli
+	
+	export GOBIN=/home/ulapph/gopath/bin
+	
+	go install ulapphctl.go
+	which ulapphctl
+	/home/ulapph/gopath/bin/ulapphctl
+	ulapphctl help
+```
 
 ### STEP 3b: First time installer setup
 * For first time users which already has a new Google Project ID...
