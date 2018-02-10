@@ -104,6 +104,7 @@ app deploy app.yaml\
 ```
 * To resolve the above error, execute the gogetall.sh script which downloads all pre-requisite Golang libraries
 ```
+	chmod +x gogetall.sh
 	./gogetall.sh
 ```
 
