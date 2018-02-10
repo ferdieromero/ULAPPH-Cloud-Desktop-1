@@ -56,6 +56,7 @@ ULAPPH Cloud Desktop installation has two phases:
 	go get github.com/jinzhu/configor
 	go get github.com/urfave/cli
 	
+	env | grep GOPATH
 	export GOBIN=/home/ulapph/gopath/bin
 	
 	go install ulapphctl.go
