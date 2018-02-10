@@ -13,7 +13,14 @@ Quick Links
 
 Advanced User Guides
 --------------------
-- **[Installation Guide via VBA](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Installation%20Guide.md)** | **[Installation Guide via Shell](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Installation%20Guide%20using%20Shell.md)** | **[Browser Extensions Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Browser%20Extensions%20Guide.md)** | **[Development Environment Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Development%20Environment%20Guide.md)** | **[Javascript Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Javascript%20Programmers%20Guide.md)** | **[Golang Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Golang%20Programmers%20Guide.md)** | **[IOT Programmers Guide]** | **[Webapp Programmers Guide]**
+- **[Installation Guide via VBA](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Installation%20Guide.md)**
+- **[Installation Guide via Shell](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Installation%20Guide%20using%20Shell.md)**
+- **[Browser Extensions Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Browser%20Extensions%20Guide.md)**
+- **[Development Environment Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Development%20Environment%20Guide.md)**
+- **[Javascript Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Javascript%20Programmers%20Guide.md)**
+- **[Golang Programmers Guide](https://github.com/edwindvinas/ULAPPH-Cloud-Desktop/blob/master/DOCS/Golang%20Programmers%20Guide.md)**
+- **[IOT Programmers Guide]**
+- **[Webapp Programmers Guide]**
 
 Introduction
 ------------
