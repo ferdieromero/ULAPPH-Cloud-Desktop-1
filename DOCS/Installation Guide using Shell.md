@@ -75,7 +75,7 @@ ULAPPH Cloud Desktop installation has two phases:
 	vim deathlake-fly.yaml
 ```
 
-### STEP 4: For existing installer, no need to update the YAML
+### STEP 4: Install ULAPPH Cloud Desktop sources to Google Cloud
 * Once you have installed ulapphctl, run it by pointing to the configuration yaml file
 ```
 	ulapphctl --config "../ULAPPH-Cloud-Desktop-Configs/ulapph-demo.yaml" install
