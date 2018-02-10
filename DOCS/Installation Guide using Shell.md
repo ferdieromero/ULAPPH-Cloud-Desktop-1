@@ -14,7 +14,7 @@ ULAPPH Cloud Desktop installation has two phases:
 		* http://edwin-daen-vinas.appspot.com
 * After the project ID is created in Google Cloud, you should be redirected to this page.
 * You may also check the Google Cloud Console to see if your project ID is created
-	* https://console.cloud.google.com/home/dashboard?project=<project-id>&pli=1
+	* https://console.cloud.google.com/cloud-resource-manager
 
 ### STEP 2: Download the needed source codes
 * Note that the ULAPPH Cloud Desktop source codes which contain Golang, HTML, CSS, JS, etc are found below
