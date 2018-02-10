@@ -89,7 +89,11 @@ ULAPPH Cloud Desktop installation has two phases:
 * This will finally install the ULAPPH Cloud Desktop (with modified main.go) to Google Appengine
 ```
 	cd ULAPPH-Cloud-Desktop
-	gcloud --project=deathlake-fly --account=demo.ulapph@gmail.com --verbosity=info --quiet app deploy ULAPPH-Cloud-Desktop/app.yaml
+	gcloud --project=deathlake-fly \
+		--account=demo.ulapph@gmail.com \
+		--verbosity=info --quiet \
+		app deploy \
+		ULAPPH-Cloud-Desktop/app.yaml
 ```
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
