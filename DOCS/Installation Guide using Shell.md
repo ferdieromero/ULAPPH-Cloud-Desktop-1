@@ -70,18 +70,13 @@ ULAPPH Cloud Desktop installation has two phases:
 * Go to the repository below and download the sample YAML file
 	* https://github.com/ulapph/ULAPPH-Cloud-Desktop-Shell-Installer
 * Edit the YAML file to suit for your project
-
 ```
-./gogetall.sh
+	cp ulapph-demo.yaml  deathlake-fly.yaml
+	vim deathlake-fly.yaml
 ```
 
-### STEP 4: For existing installer, add row in the installer for new servers
-* If the ULAPPH server is new, we need to add a row in the installer
-* Update the row to contain the details of the new server
-* Make sure you update the columns appropriately
-* Press F5 to install which calls appcfg.py or you can right click to access the installer menu
-* Login if prompted by Ouath2 login and follow the screen instructions
-* After a couple of minutes, your cloud desktop will be installed to your Google Project ID
+### STEP 4: For existing installer, no need to update the YAML
+* Proceed with the ULAPPH installation steps
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
 
