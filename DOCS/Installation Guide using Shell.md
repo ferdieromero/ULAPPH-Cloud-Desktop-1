@@ -112,22 +112,44 @@ app deploy app.yaml
 ```
 * You may ignore the errors during gogetall.sh especially about appengine and sprig
 * Re-execute gcloud command above and see if it proceeded with the installation
+* You will see below sample output which indicates successful deployment
+```
+	Updating service [default]...done.
+	Waiting for operation [apps/deathlake-fly/operations/3ac4dd4f-67ba-4380-bbec-be7c28dffdbb] to complete...done.
+	Updating service [default]...done.
+	Deployed service [default] to [https://deathlake-fly.appspot.com]
+
+	You can stream logs from the command line by running:
+	  $ gcloud app logs tail -s default
+
+	To view your application in the web browser run:
+	  $ gcloud app browse --project=deathlake-fly
+	INFO: Display format "none".
+```
+- Take note of the URL such as in the example above
+	* https://deathlake-fly.appspot.com
 
 ### STEP 5: Setup the cloud desktop start menu, sites server etc
 
 #### Step 5a
 * After installation is complete, please proceed with initial setup.
 	* To setup a freshly installed desktop, you can access:
-		* http://edwin-daen-vinas.appspot.com/admin-setup
+		* https://deathlake-fly.appspot.com/admin-setup
 	* Press the green power button to start setup. This will configure your fresh ULAPPH Cloud Desktop installation. Do this only once.
 	* If you received the error "ERROR: SYSTEM_SEARCH_SETTINGS does not exist yet. Go to Admin Setup to Set Search Settings.~, please access the Admin Setup and set search settings.
-		* https://your-server-name.appspot.com/admin-setup
+		* https://deathlake-fly.appspot.com/admin-setup
 		* Click "Set Search Settings"
 		* STEP 1 must be left as is (set as N).
 		* Enter below URL in STEP 2
 			* https://ulapph-sites.appspot.com
 		* Click Save
 		* This now means that your desktop is connected to the central search server.
+	* If you received an error that "ONLY ADMIN ACCESS THIS FUNCTION", this means your account is not yet as admin of the Google project
+```
+	[U00018]ERROR: ONLY ADMIN CAN ACCESS THIS FUNCTION
+```
+		* Edit the main.go and replace ulapph@gmail.com with your Gmail account
+		* Re-execute the gcloud installation
 		
 #### Step 5b
 * If you have no Start Menu yet, you may configure your desktop to connect to the central menu
