@@ -91,7 +91,10 @@ ULAPPH Cloud Desktop installation has two phases:
 	cp main3.go main.go
 ```
 * Now, install the ULAPPH Cloud Desktop (with modified main.go) to Google Appengine
-* Copy the command below and press enter
+```
+	ulapphctl --project deathlake-fly --account demo.ulapph@gmail.com --yaml app.yaml deploy
+```
+* If you want to use gcloud instead, copy the command below and press enter
 ```
 gcloud --project=deathlake-fly \
 --account=demo.ulapph@gmail.com \
@@ -177,35 +180,37 @@ app deploy app.yaml
 		* Go to Admin Setup (/admin-setup)
 		* Click "Edit Categories List"
 		* Enter the below sample categories
-			#<Basic Desktops>
-				  <option value="desktop0">0:My Ulap</option>
-				  <option value="desktop1">1:Life</option>
-				  <option value="desktop2">2:Education</option>
-				  <option value="desktop3">3:Career</option>
-				  <option value="desktop4">4:Personal</option>
-				  <option value="desktop5">5:Ancestry</option>
-				  <option value="desktop6">6:Awards</option>
-				  <option value="desktop7">7:Inventions</option>
-				  <option value="desktop8">8:Research</option>
-				  <option value="desktop9">9:Toastmasters</option>
-				  <option value="desktop10">10:Teaching</option>
-				  <option value="desktop11">11:Companies</option>
-				  <option value="desktop12">12:Travels</option>
-				  <option value="desktop13">13:Books</option>
-				  <option value="desktop14">14:Government</option>
-				  <option value="desktop15">15:Citizenship</option>
-				  <option value="desktop16">16:Certifications</option>
-				  <option value="desktop17">17:Societies</option>
-				  <option value="desktop18">18:Mentors</option>
-				  <option value="desktop19">19:Tips&Tricks></option>
-				  <option value="desktop20">20:Legacy</option>
-				  <option value="desktop21">21:Golang-Programming</option>
-			#</Basic Desktops>
-			#
-			#<Anything>
-				  <option value="desktop500">500:My-Hobbies</option>
-				  <option value="desktop1000">1000:Anything Under the Sun</option>
-			#</Anything>
+```
+#<Basic Desktops>
+	  <option value="desktop0">0:My Ulap</option>
+	  <option value="desktop1">1:Life</option>
+	  <option value="desktop2">2:Education</option>
+	  <option value="desktop3">3:Career</option>
+	  <option value="desktop4">4:Personal</option>
+	  <option value="desktop5">5:Ancestry</option>
+	  <option value="desktop6">6:Awards</option>
+	  <option value="desktop7">7:Inventions</option>
+	  <option value="desktop8">8:Research</option>
+	  <option value="desktop9">9:Toastmasters</option>
+	  <option value="desktop10">10:Teaching</option>
+	  <option value="desktop11">11:Companies</option>
+	  <option value="desktop12">12:Travels</option>
+	  <option value="desktop13">13:Books</option>
+	  <option value="desktop14">14:Government</option>
+	  <option value="desktop15">15:Citizenship</option>
+	  <option value="desktop16">16:Certifications</option>
+	  <option value="desktop17">17:Societies</option>
+	  <option value="desktop18">18:Mentors</option>
+	  <option value="desktop19">19:Tips&Tricks></option>
+	  <option value="desktop20">20:Legacy</option>
+	  <option value="desktop21">21:Golang-Programming</option>
+#</Basic Desktops>
+#
+#<Anything>
+	  <option value="desktop500">500:My-Hobbies</option>
+	  <option value="desktop1000">1000:Anything Under the Sun</option>
+#</Anything>
+```
 		* If you can't edit, make sure to check that the Read Only option is unchecked
 		* If you just copied the above, make sure to outdent to make the first column of texts starts at the first column of editor
 			* You may highlight all and press Shift + Tab
@@ -219,8 +224,8 @@ app deploy app.yaml
 		* Close the window
 		* Click the reload icon in the main desktop toolbar
 
-### STEP 6: Access your cloud desktop links
-* Install browser extensions
+### STEP 6a: Install the browser extensions
+* Install browser extensions for Chrome, Firefox and Opera
 	* For Chrome, here are the two extenstions that you need to install:
 		* Allow-Control-Allow-Origin (https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-launcher-info-dialog)
 		* Ignore X-Frame headers (https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe?utm_source=chrome-app-launcher-info-dialog)
@@ -232,6 +237,7 @@ app deploy app.yaml
 		* Force Embed (https://github.com/edwindvinas/force-embed)
 	* For Edge/IE/Safari - no extensions available!
 
+### STEP 6b: Access your cloud desktop links
 * After successful setup, you can now access:
 	* **http://your-server-name.appspot.com/uwm** - The main desktop
 	* **http://your-server-name.appspot.com/webapp** - The mobile webapp
@@ -245,8 +251,7 @@ app deploy app.yaml
 ### STEP 7: Upgrading your desktop
 * Download the latest source codes
 	* https://github.com/ulapph/ULAPPH-Cloud-Desktop
-* Open the local installer & press F5 to install/upgrade
-	* https://github.com/ulapph/ULAPPH-Cloud-Desktop-VBA-Installer
+* Follow the same commands above for configure and deploy
 
 ### STEP 8: Customizing the source codes
 * You may customize the cloud desktop and test your change in your own cloud desktop
