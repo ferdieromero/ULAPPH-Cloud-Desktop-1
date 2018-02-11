@@ -80,7 +80,7 @@ ULAPPH Cloud Desktop installation has two phases:
 * Once you have installed ulapphctl, run it by pointing to the configuration yaml file
 ```
 	cd ULAPPH-Cloud-Desktop-Configs
-	ulapphctl --config deathlake-fly.yaml install
+	ulapphctl --config deathlake-fly.yaml configure
 ```
 * The above command will actually create a modified main.go file called "main3.go"
 
