@@ -167,7 +167,8 @@ app deploy app.yaml
 			* File desc: System Top List Menu
 		* Click the link "Set as SYSTEM Top List Menu"
 		* Close the window
-		* Click the reload icon in the main desktop toolbar
+		* Access the main desktop 
+			* https://deathlake-fly.appspot.com/uwm
 		
 #### Step 5c
 * Setup the desktop categories
