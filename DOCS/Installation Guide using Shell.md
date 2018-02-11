@@ -156,6 +156,7 @@ app deploy app.yaml
 	* By default, your desktop will connect to the common start menu
 	* To personalize it, perform the following steps:
 		* Go to Admin Setup (/admin-setup)
+			* https://deathlake-fly.appspot.com/admin-setup
 		* Click "Edit System Top List Menu"
 		* Enter the following text in the editor
 			* #GET_REMOTE_DATA: http://ulapph-sites.appspot.com/media?FUNC_CODE=PLAY&MEDIA_ID=7&SID=TDSMEDIA-7
