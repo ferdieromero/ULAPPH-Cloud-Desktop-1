@@ -8,6 +8,7 @@ ULAPPH Cloud Desktop installation has two phases:
 
 ### STEP 1: Automatically create your server name or project ID in Google Cloud
 * Visit https://ulapph-installer.appspot.com/compile?COM_FUN=INSTALL
+	* Login using your Google or G-Suite account
 	* Create your Google Project ID which can be the name of your business, your name or your pets name or accept the suggested name
 	* Example: If I created "edwin-daen-vinas" as my project ID, the URL of my webtop will be: 
 		* http://edwin-daen-vinas.appspot.com
